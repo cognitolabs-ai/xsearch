@@ -55,7 +55,7 @@ jobs:
       - name: Build documentation
         run: make V=1 docs.clean docs.html
 
-      - if: github.ref_name == 'master'
+      - if: github.ref_name == 'master' && github.repository_owner == 'searxng'
         name: Release
         uses: JamesIves/github-pages-deploy-action@6c2d9db40f9296374acc17b90404b6e8864128c8  # v4.7.3
         with:

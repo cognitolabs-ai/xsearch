@@ -19,7 +19,7 @@ env:
 
 jobs:
   data:
-    if: github.repository_owner == 'searxng'
+    if: github.repository_owner == 'searxng' || github.event_name == 'workflow_dispatch'
     name: ${{ matrix.fetch }}
     runs-on: ubuntu-24.04-arm
     strategy:
@@ -62,7 +62,8 @@ jobs:
       - name: Fetch data
         run: V=1 ./manage pyenv.cmd python "./searxng_extra/update/${{ matrix.fetch }}"
 
-      - name: Create PR
+      - if: github.repository_owner == 'searxng'
+        name: Create PR
         id: cpr
         uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e  # v7.0.8
         with:
@@ -79,7 +80,8 @@ jobs:
           labels: |
             data
 
-      - name: Display information
+      - if: github.repository_owner == 'searxng'
+        name: Display information
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
