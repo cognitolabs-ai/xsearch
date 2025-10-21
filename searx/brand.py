@@ -35,7 +35,7 @@ class SettingsBrand(msgspec.Struct, kw_only=True, forbid_unknown_fields=True):
              About: https://example.org/user/about.html
     """
 
-    issue_url: str = "https://github.com/searxng/searxng/issues"
+    issue_url: str = "https://github.com/cognitolabs-ai/xsearch/issues"
     """If you host your own issue tracker change this URL."""
 
     docs_url: str = "https://docs.searxng.org"
@@ -44,7 +44,7 @@ class SettingsBrand(msgspec.Struct, kw_only=True, forbid_unknown_fields=True):
     public_instances: str = "https://searx.space"
     """If you host your own https://searx.space change this URL."""
 
-    wiki_url: str = "https://github.com/searxng/searxng/wiki"
+    wiki_url: str = "https://github.com/cognitolabs-ai/xsearch/wiki"
     """Link to your wiki (or ``false``)"""
 
     custom: BrandCustom = msgspec.field(default_factory=BrandCustom)
@@ -58,7 +58,7 @@ class SettingsBrand(msgspec.Struct, kw_only=True, forbid_unknown_fields=True):
     # long as we don't have a more general solution, we should support it in the
     # given function, but it should not be expanded further.
 
-    new_issue_url: str = "https://github.com/searxng/searxng/issues/new"
+    new_issue_url: str = "https://github.com/cognitolabs-ai/xsearch/issues/new"
     """If you host your own issue tracker not on GitHub, then unset this URL.
 
     Note: This URL will create a pre-filled GitHub bug report form for an

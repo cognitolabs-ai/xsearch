@@ -1,4 +1,4 @@
-ARG CONTAINER_IMAGE_ORGANIZATION="xsearch"
+ARG CONTAINER_IMAGE_ORGANIZATION="cognitolabs-ai"
 ARG CONTAINER_IMAGE_NAME="xsearch"
 
 FROM localhost/$CONTAINER_IMAGE_ORGANIZATION/$CONTAINER_IMAGE_NAME:builder AS builder
@@ -15,13 +15,14 @@ ARG VCS_URL="unknown"
 ARG VCS_REVISION="unknown"
 
 LABEL org.opencontainers.image.created="$CREATED" \
-      org.opencontainers.image.description="XSearch is a metasearch engine. Users are neither tracked nor profiled." \
+      org.opencontainers.image.description="XSearch by Cognitolabs AI - A privacy-focused metasearch engine. Users are neither tracked nor profiled." \
       org.opencontainers.image.documentation="https://docs.searxng.org/admin/installation-docker" \
       org.opencontainers.image.licenses="AGPL-3.0-or-later" \
       org.opencontainers.image.revision="$VCS_REVISION" \
       org.opencontainers.image.source="$VCS_URL" \
-      org.opencontainers.image.title="XSearch" \
-      org.opencontainers.image.url="https://searxng.org" \
+      org.opencontainers.image.title="XSearch by Cognitolabs AI" \
+      org.opencontainers.image.url="https://ognitolabs-ai.eu" \
+      org.opencontainers.image.vendor="Cognitolabs AI" \
       org.opencontainers.image.version="$VERSION"
 
 ENV XSEARCH_VERSION="$VERSION" \
