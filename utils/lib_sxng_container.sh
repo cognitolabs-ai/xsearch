@@ -8,8 +8,8 @@ container.:
 EOF
 }
 
-CONTAINER_IMAGE_ORGANIZATION=${GITHUB_REPOSITORY_OWNER:-"searxng"}
-CONTAINER_IMAGE_NAME="searxng"
+CONTAINER_IMAGE_ORGANIZATION=${GITHUB_REPOSITORY_OWNER:-"xsearch"}
+CONTAINER_IMAGE_NAME="xsearch"
 
 container.build() {
     local parch=${OVERRIDE_ARCH:-$(uname -m)}
