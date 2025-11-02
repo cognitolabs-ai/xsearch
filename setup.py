@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
-"""Installer for SearXNG package."""
+"""Installer for XSearch package."""
 
 from setuptools import setup, find_packages
 
@@ -16,12 +16,12 @@ with open('requirements-dev.txt') as f:
     dev_requirements = [l.strip() for l in f.readlines()]
 
 setup(
-    name='searxng',
-    description="SearXNG is a metasearch engine. Users are neither tracked nor profiled.",
+    name='xsearch',
+    description="XSearch by Cognitolabs AI - A privacy-focused metasearch engine. Users are neither tracked nor profiled.",
     long_description=long_description,
     license="AGPL-3.0-or-later",
-    author='SearXNG',
-    author_email='contact@searxng.org',
+    author='Cognitolabs AI',
+    author_email='contact@cognitolabs.eu',
     python_requires=">=3.10",
     version=VERSION_TAG,
     keywords='metasearch searchengine search web http',
@@ -39,7 +39,7 @@ setup(
     ],
     project_urls={"Code": GIT_URL, "Issue tracker": get_setting('brand.issue_url')},
     entry_points={
-        'console_scripts': ['searxng-run = searx.webapp:run', 'searxng-checker = searx.search.checker.__main__:main']
+        'console_scripts': ['xsearch-run = searx.webapp:run', 'xsearch-checker = searx.search.checker.__main__:main']
     },
     packages=find_packages(
         include=[

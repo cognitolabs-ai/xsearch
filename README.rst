@@ -7,7 +7,7 @@
 .. _LICENSE: https://github.com/cognitolabs-ai/xsearch/blob/master/LICENSE
 
 .. figure:: https://raw.githubusercontent.com/cognitolabs-ai/xsearch/master/client/simple/src/brand/searxng.svg
-   :target: https://ognitolabs-ai.eu
+   :target: https://cognitolabs.eu
    :alt: XSearch by Cognitolabs AI
    :width: 512px
 
@@ -37,9 +37,9 @@ XSearch by Cognitolabs AI is a `metasearch engine`_. Users are neither tracked n
 Setup
 =====
 
-To install SearXNG, see `Installation guide`_.
+To install XSearch, see `Installation guide`_.
 
-To fine-tune SearXNG, see `Configuration guide`_.
+To fine-tune XSearch, see `Configuration guide`_.
 
 Further information on *how-to* can be found `here <https://docs.searxng.org/admin/index.html>`_.
 

@@ -41,10 +41,10 @@ clean: py.clean docs.clean node.clean nvm.clean go.clean test.clean
 
 PHONY += search.checker search.checker.%
 search.checker: install
-	$(Q)./manage pyenv.cmd searxng-checker -v
+	$(Q)./manage pyenv.cmd xsearch-checker -v
 
 search.checker.%: install
-	$(Q)./manage pyenv.cmd searxng-checker -v "$(subst _, ,$(patsubst search.checker.%,%,$@))"
+	$(Q)./manage pyenv.cmd xsearch-checker -v "$(subst _, ,$(patsubst search.checker.%,%,$@))"
 
 PHONY += test ci.test test.shell
 test:    test.yamllint test.black test.pyright_modified test.pylint test.unit test.robot test.rst test.shell test.shfmt

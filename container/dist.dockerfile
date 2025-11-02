@@ -21,7 +21,7 @@ LABEL org.opencontainers.image.created="$CREATED" \
       org.opencontainers.image.revision="$VCS_REVISION" \
       org.opencontainers.image.source="$VCS_URL" \
       org.opencontainers.image.title="XSearch by Cognitolabs AI" \
-      org.opencontainers.image.url="https://ognitolabs-ai.eu" \
+      org.opencontainers.image.url="https://cognitolabs.eu" \
       org.opencontainers.image.vendor="Cognitolabs AI" \
       org.opencontainers.image.version="$VERSION"
 

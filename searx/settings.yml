@@ -2,7 +2,7 @@ general:
   # Debug mode, only for development. Is overwritten by ${SEARXNG_DEBUG}
   debug: false
   # displayed name
-  instance_name: "SearXNG"
+  instance_name: "XSearch"
   # For example: https://example.com/privacy
   privacypolicy_url: false
   # use true to use your own donation page written in searx/info/en/donate.md
@@ -18,11 +18,11 @@ general:
   open_metrics: ''
 
 brand:
-  new_issue_url: https://github.com/searxng/searxng/issues/new
+  new_issue_url: https://github.com/cognitolabs-ai/xsearch/issues/new
   docs_url: https://docs.searxng.org/
   public_instances: https://searx.space
-  wiki_url: https://github.com/searxng/searxng/wiki
-  issue_url: https://github.com/searxng/searxng/issues
+  wiki_url: https://github.com/cognitolabs-ai/xsearch/wiki
+  issue_url: https://github.com/cognitolabs-ai/xsearch/issues
   # custom:
   #   # Custom entries in the footer: [title]: [link]
   #   links:

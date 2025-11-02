@@ -23,7 +23,7 @@ env:
 
 jobs:
   release:
-    if: github.repository_owner == 'searxng' || github.event_name == 'workflow_dispatch'
+    if: github.repository_owner == 'cognitolabs-ai' || github.event_name == 'workflow_dispatch'
     name: Release
     runs-on: ubuntu-24.04-arm
     permissions:
@@ -55,7 +55,7 @@ jobs:
       - name: Build documentation
         run: make V=1 docs.clean docs.html
 
-      - if: github.ref_name == 'master' && github.repository_owner == 'searxng'
+      - if: github.ref_name == 'master' && github.repository_owner == 'cognitolabs-ai'
         name: Release
         uses: JamesIves/github-pages-deploy-action@6c2d9db40f9296374acc17b90404b6e8864128c8  # v4.7.3
         with:
