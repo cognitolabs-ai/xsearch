@@ -1,0 +1,63 @@
+---
+version: '3.8'
+
+services:
+  xsearch:
+    image: ghcr.io/cognitolabs-ai/xsearch:latest
+    container_name: xsearch
+    restart: unless-stopped
+    ports:
+      - "${XSEARCH_PORT:-8080}:8080"
+    volumes:
+      - ./xsearch-config:/etc/xsearch:rw
+      - ./xsearch-data:/var/lib/xsearch:rw
+    environment:
+      - XSEARCH_BASE_URL=${XSEARCH_BASE_URL:-http://localhost:8080}
+      - XSEARCH_SECRET=${XSEARCH_SECRET}
+      - XSEARCH_BIND_ADDRESS=0.0.0.0
+      - XSEARCH_PORT=8080
+      - XSEARCH_IMAGE_PROXY=${XSEARCH_IMAGE_PROXY:-true}
+      - XSEARCH_LIMITER=${XSEARCH_LIMITER:-false}
+      - XSEARCH_PUBLIC_INSTANCE=${XSEARCH_PUBLIC_INSTANCE:-false}
+      - GRANIAN_WORKERS=${GRANIAN_WORKERS:-4}
+      - GRANIAN_THREADS=${GRANIAN_THREADS:-4}
+    networks:
+      - xsearch-network
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Optional: Valkey (Redis fork) for caching
+  valkey:
+    image: valkey/valkey:latest
+    container_name: xsearch-valkey
+    restart: unless-stopped
+    command: valkey-server --save 60 1 --loglevel warning
+    volumes:
+      - ./xsearch-valkey:/data:rw
+    networks:
+      - xsearch-network
+    cap_drop:
+      - ALL
+    cap_add:
+      - SETGID
+      - SETUID
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "2"
+    profiles:
+      - with-cache
+
+networks:
+  xsearch-network:
+    driver: bridge

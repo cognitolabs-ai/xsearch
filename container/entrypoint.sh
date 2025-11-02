@@ -59,7 +59,7 @@ EOF
 !!!
 !!! WARNING
 !!! "$target" $type is not owned by "searxng:searxng"
-!!! This may cause issues when running SearXNG
+!!! This may cause issues when running XSearch
 !!!
 !!! Expected "searxng:searxng"
 !!! Got "$target_ownership"
@@ -117,7 +117,7 @@ EOF
 }
 
 cat <<EOF
-SearXNG $SEARXNG_VERSION
+XSearch $XSEARCH_VERSION
 EOF
 
 # Check for volume mounts
@@ -125,7 +125,7 @@ volume_handler "$CONFIG_PATH"
 volume_handler "$DATA_PATH"
 
 # Check for files
-config_handler "$SEARXNG_SETTINGS_PATH" "/usr/local/searxng/searx/settings.yml"
+config_handler "$XSEARCH_SETTINGS_PATH" "/usr/local/searxng/searx/settings.yml"
 
 update-ca-certificates
 

@@ -34,6 +34,27 @@ XSearch by Cognitolabs AI is a `metasearch engine`_. Users are neither tracked n
    :target: https://translate.codeberg.org/projects/searxng/
    :alt: Translated
 
+Quick Start
+===========
+
+Deploy XSearch with Docker Compose:
+
+.. code:: bash
+
+   ./deploy.sh
+
+Or manually:
+
+.. code:: bash
+
+   cp .env.example .env
+   # Edit .env and set XSEARCH_BASE_URL and XSEARCH_SECRET
+   docker compose up -d
+
+Access XSearch at http://localhost:8080
+
+For detailed deployment instructions, see `DEPLOYMENT.md <DEPLOYMENT.md>`_.
+
 Setup
 =====
 
