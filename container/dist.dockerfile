@@ -42,4 +42,4 @@ VOLUME $DATA_PATH
 
 EXPOSE 8080
 
-ENTRYPOINT ["/usr/local/xsearch/entrypoint.sh"]
+ENTRYPOINT ["/usr/local/searxng/entrypoint.sh"]
