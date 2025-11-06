@@ -2,12 +2,13 @@
 
 /* Index page logo */
 .index-logo {
-    max-width: 300px;
-    max-height: 150px;
+    max-width: 350px;
+    max-height: 120px;
     height: auto;
     width: auto;
     display: block;
     margin: 0 auto;
+    transition: opacity 0.3s ease-in-out;
 }
 
 /* Responsive adjustments */
