@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="endpoint" content="{{ endpoint }}">
-  <meta name="description" content="SearXNG — a privacy-respecting, open metasearch engine">
-  <meta name="keywords" content="SearXNG, search, search engine, metasearch, meta search">
+  <meta name="description" content="XSearch by Cognitolabs AI — a privacy-respecting, open metasearch engine">
+  <meta name="keywords" content="XSearch, search, search engine, metasearch, meta search, Cognitolabs AI">
   <meta name="generator" content="searxng/{{ searx_version }}">
   <meta name="referrer" content="no-referrer">
   <meta name="robots" content="noarchive">
@@ -20,6 +20,7 @@
   {% if get_setting('server.limiter') or get_setting('server.public_instance') %}
   <link rel="stylesheet" href="{{ url_for('client_token', token=link_token) }}" type="text/css">
   {% endif %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/xsearch-custom.css') }}" type="text/css" media="screen">
   {% block head %}
   <link title="{{ instance_name }}" type="application/opensearchdescription+xml" rel="search" href="{{ opensearch_url }}">
   {% endblock %}

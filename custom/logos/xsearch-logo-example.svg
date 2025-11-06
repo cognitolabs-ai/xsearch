@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <!-- Simple XSearch logo example -->
+  <!-- Replace this with your actual logo -->
+
+  <!-- Background (optional) -->
+  <rect width="400" height="100" fill="transparent"/>
+
+  <!-- Text Logo Example -->
+  <text x="200" y="60"
+        font-family="Arial, sans-serif"
+        font-size="48"
+        font-weight="bold"
+        fill="#3050ff"
+        text-anchor="middle">
+    XSearch
+  </text>
+
+  <!-- Subtitle (optional) -->
+  <text x="200" y="85"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#666"
+        text-anchor="middle">
+    by Cognitolabs AI
+  </text>
+</svg>

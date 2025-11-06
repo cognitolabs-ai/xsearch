@@ -2,7 +2,13 @@
 {% from 'simple/icons.html' import icon_big %}
 {% block content %}
 <div class="index">
-    <div class="title"><h1>SearXNG</h1></div>
+    <div class="title">
+        <img src="{{ url_for('static', filename='themes/simple/img/xsearch-logo.svg') }}"
+             alt="XSearch"
+             class="index-logo"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <h1 style="display:none;">XSearch</h1>
+    </div>
     {% include 'simple/simple_search.html' %}
 </div>
 {% endblock %}

@@ -1,0 +1,34 @@
+/* XSearch Custom Styles */
+
+/* Index page logo */
+.index-logo {
+    max-width: 300px;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .index-logo {
+        max-width: 200px;
+        max-height: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .index-logo {
+        max-width: 150px;
+        max-height: 75px;
+    }
+}
+
+/* Dark mode support - filter logotip če je dark theme */
+@media (prefers-color-scheme: dark) {
+    .index-logo {
+        /* Opcijsko: dodaj filter za dark mode */
+        /* filter: brightness(0.9); */
+    }
+}
