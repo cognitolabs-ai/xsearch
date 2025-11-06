@@ -8,9 +8,10 @@ COPY --chown=977:977 --from=builder /usr/local/searxng/.venv/ ./.venv/
 COPY --chown=977:977 --from=builder /usr/local/searxng/searx/ ./searx/
 COPY --chown=977:977 ./container/ ./
 
-# Copy custom logos if they exist
-COPY --chown=977:977 ./custom/logos/xsearch-*.svg ./searx/static/themes/simple/img/ 2>/dev/null || true
-COPY --chown=977:977 ./custom/logos/xs.png ./custom/logos/xg.svg ./searx/static/themes/simple/img/ 2>/dev/null || true
+# Copy custom logos
+COPY --chown=977:977 ./custom/logos/xsearch-*.svg ./searx/static/themes/simple/img/
+COPY --chown=977:977 ./custom/logos/xs.png ./searx/static/themes/simple/img/
+COPY --chown=977:977 ./custom/logos/xg.svg ./searx/static/themes/simple/img/
 
 #COPY --chown=977:977 ./searx/version_frozen.py ./searx/
 
