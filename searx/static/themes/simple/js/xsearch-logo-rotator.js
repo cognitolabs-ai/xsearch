@@ -34,6 +34,7 @@
         }
 
         const selectedLogo = getRandomLogo();
+        // Use url_for-style path that Flask will serve correctly
         const logoPath = `/static/themes/simple/img/${selectedLogo}.svg`;
 
         // Set the logo
