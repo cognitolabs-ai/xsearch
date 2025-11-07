@@ -1,5 +1,6 @@
 *
 
-!container/entrypoint.sh
+!container/**
 !searx/**
 !requirements*.txt
+!custom/logos/**
