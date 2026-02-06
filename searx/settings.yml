@@ -124,8 +124,6 @@ ui:
   # query_in_title: When true, the result page's titles contains the query
   # it decreases the privacy, since the browser can records the page titles.
   query_in_title: false
-  # infinite_scroll: When true, automatically loads the next page when scrolling to bottom of the current page.
-  infinite_scroll: false
   # ui theme
   default_theme: simple
   # center the results ?
@@ -162,7 +160,6 @@ ui:
 #     - locale
 #     - theme
 #     - results_on_new_tab
-#     - infinite_scroll
 #     - search_on_category_select
 #     - method
 #     - image_proxy
@@ -214,6 +211,7 @@ outgoing:
   #    - 1.1.1.2
   #    - fe80::/126
 
+
 # Plugin configuration, for more details see
 #   https://docs.searxng.org/admin/settings/settings_plugins.html
 #
@@ -221,6 +219,9 @@ plugins:
 
   searx.plugins.calculator.SXNGPlugin:
     active: true
+
+  searx.plugins.infinite_scroll.SXNGPlugin:
+    active: false
 
   searx.plugins.hash_plugin.SXNGPlugin:
     active: true
@@ -340,6 +341,7 @@ engines:
   - name: 360search
     engine: 360search
     shortcut: 360so
+    timeout: 10.0
     disabled: true
 
   - name: 360search videos
@@ -387,25 +389,6 @@ engines:
     timeout: 6
     disabled: true
 
-  - name: alexandria
-    engine: json_engine
-    shortcut: alx
-    categories: general
-    paging: true
-    search_url: https://api.alexandria.org/?a=1&q={query}&p={pageno}
-    results_query: results
-    title_query: title
-    url_query: url
-    content_query: snippet
-    timeout: 1.5
-    disabled: true
-    about:
-      website: https://alexandria.org/
-      official_api_documentation: https://github.com/alexandria-org/alexandria-api/raw/master/README.md
-      use_official_api: true
-      require_api_key: false
-      results: JSON
-
   - name: astrophysics data system
     engine: astrophysics_data_system
     shortcut: ads
@@ -420,6 +403,9 @@ engines:
 
   - name: annas archive
     engine: annas_archive
+    base_url:
+      - https://annas-archive.li
+      - https://annas-archive.pm
     disabled: true
     shortcut: aa
     timeout: 5
@@ -451,6 +437,9 @@ engines:
   # Requires Tor
   - name: ahmia
     engine: ahmia
+    # Might do up to two requests to perform a search.
+    # Since Tor is already slow by nature, the timeout is set very high.
+    timeout: 20.0
     categories: onions
     enable_http: true
     shortcut: ah
@@ -486,6 +475,12 @@ engines:
     shortcut: arc
     timeout: 4.0
 
+  - name: artstation
+    engine: artstation
+    shortcut: as
+    categories: images
+    disabled: true
+
   - name: arxiv
     engine: arxiv
     shortcut: arx
@@ -495,14 +490,14 @@ engines:
     shortcut: ask
     disabled: true
 
-  # - name: azure
-  #   engine: azure
-  #   shortcut: az
-  #   categories: [it, cloud]
-  #   azure_tenant_id: "your_tenant_id"
-  #   azure_client_id: "your_client_id"
-  #   azure_client_secret: "your_client_secret"
-  #   disabled: true
+  - name: azure
+    engine: azure
+    shortcut: az
+    categories: [it, cloud]
+    # azure_tenant_id: "your_tenant_id"
+    # azure_client_id: "your_client_id"
+    # azure_client_secret: "your_client_secret"
+    inactive: true
 
   # tmp suspended:  dh key too small
   # - name: base
@@ -611,6 +606,11 @@ engines:
     # German videos have English subtitles.
     disabled: true
 
+  - name: cachy os packages
+    engine: cachy_os
+    shortcut: cos
+    disabled: true
+
   - name: chefkoch
     engine: chefkoch
     shortcut: chef
@@ -664,7 +664,7 @@ engines:
     # cf_ai_model_assistant: 'prompts_for_assistant_role'
     # cf_ai_model_system: 'prompts_for_system_role'
     timeout: 30
-    disabled: true
+    inactive: true
 
   - name: core.ac.uk
     engine: core
@@ -700,7 +700,7 @@ engines:
     shortcut: yep
     categories: general
     search_type: web
-    timeout: 5
+    timeout: 15
     disabled: true
 
   - name: yep images
@@ -734,6 +734,11 @@ engines:
   - name: deviantart
     engine: deviantart
     shortcut: da
+    timeout: 3.0
+
+  - name: devicons
+    engine: devicons
+    shortcut: di
     timeout: 3.0
 
   - name: ddg definitions
@@ -793,20 +798,20 @@ engines:
       require_api_key: false
       results: HTML
 
-  # - name: elasticsearch
-  #   shortcut: els
-  #   engine: elasticsearch
-  #   base_url: http://localhost:9200
-  #   username: elastic
-  #   password: changeme
-  #   index: my-index
-  #   enable_http: true
-  #   # available options: match, simple_query_string, term, terms, custom
-  #   query_type: match
-  #   # if query_type is set to custom, provide your query here
-  #   # custom_query_json: {"query":{"match_all": {}}}
-  #   # show_metadata: false
-  #   disabled: true
+  - name: elasticsearch
+    shortcut: els
+    engine: elasticsearch
+    # base_url: http://localhost:9200
+    # username: elastic
+    # password: changeme
+    # index: my-index
+    # enable_http: true
+    # available options: match, simple_query_string, term, terms, custom
+    query_type: match
+    # if query_type is set to custom, provide your query here
+    # custom_query_json: {"query":{"match_all": {}}}
+    # show_metadata: false
+    inactive: true
 
   - name: wikidata
     engine: wikidata
@@ -884,12 +889,12 @@ engines:
       require_api_key: false
       results: HTML
 
-  # - name: ebay
-  #   engine: ebay
-  #   shortcut: eb
-  #   base_url: 'https://www.ebay.com'
-  #   disabled: true
-  #   timeout: 5
+  - name: ebay
+    engine: ebay
+    shortcut: eb
+    base_url: 'https://www.ebay.com'
+    inactive: true
+    timeout: 5
 
   - name: 1x
     engine: www1x
@@ -910,12 +915,16 @@ engines:
   - name: flickr
     categories: images
     shortcut: fl
+    engine: flickr_noapi
+
+  - name: flickr_api
     # You can use the engine using the official stable API, but you need an API
     # key, see: https://www.flickr.com/services/apps/create/
-    # engine: flickr
+    engine: flickr
+    categories: images
+    shortcut: fla
     # api_key: 'apikey' # required!
-    # Or you can use the html non-stable engine, activated by default
-    engine: flickr_noapi
+    inactive: true
 
   - name: free software directory
     engine: mediawiki
@@ -929,18 +938,38 @@ engines:
       website: https://directory.fsf.org/
       wikidata_id: Q2470288
 
-  # - name: freesound
-  #   engine: freesound
-  #   shortcut: fnd
-  #   disabled: true
-  #   timeout: 15.0
-  # API key required, see: https://freesound.org/docs/api/overview.html
-  #   api_key: MyAPIkey
+  - name: freesound
+    engine: freesound
+    shortcut: fnd
+    timeout: 15.0
+    # API key required, see: https://freesound.org/docs/api/overview.html
+    # api_key: MyAPIkey
+    inactive: true
 
   - name: frinkiac
     engine: frinkiac
     shortcut: frk
     disabled: true
+
+  - name: fynd
+    engine: xpath
+    search_url: https://fynd.bot/?search={query}&offset={pageno}
+    results_xpath: //div[contains(@class, "result-item")]
+    url_xpath: .//a/@href
+    title_xpath: .//div[contains(@class, "title-line")]
+    content_xpath: .//div[contains(@class, "description")]
+    thumbnail_xpath: .//img[contains(@class, "preview-img")]/@src
+    paging: true
+    first_page_num: 0
+    page_size: 10
+    categories: general
+    disabled: true
+    shortcut: fynd
+    about:
+      website: https://fynd.bot
+      use_official_api: false
+      require_api_key: false
+      results: HTML
 
   - name: fyyd
     engine: fyyd
@@ -990,7 +1019,7 @@ engines:
   - name: github code
     engine: github_code
     shortcut: ghc
-    disabled: true
+    inactive: true
     ghc_auth:
       # type is one of:
       # * none
@@ -1071,6 +1100,12 @@ engines:
     shortcut: gpm
     play_categ: movies
     disabled: true
+
+  - name: grokipedia
+    engine: grokipedia
+    shortcut: gp
+    disabled: true
+    inactive: true
 
   - name: material icons
     engine: material_icons
@@ -1271,9 +1306,9 @@ engines:
     # https://github.com/LibreTranslate/LibreTranslate?tab=readme-ov-file#mirrors
     base_url:
       - https://libretranslate.com/translate
-    # api_key: abc123
+    # api_key: ''
     shortcut: lt
-    disabled: true
+    inactive: true
 
   - name: lingva
     engine: lingva
@@ -1300,12 +1335,17 @@ engines:
       require_api_key: false
       results: HTML
 
+  - name: lucide
+    engine: lucide
+    shortcut: luc
+    timeout: 3.0
+
   - name: marginalia
     engine: marginalia
     shortcut: mar
     # To get an API key, please follow the instructions at
     # - https://about.marginalia-search.com/article/api/
-    # api_key: ...
+    # api_key: ''
     disabled: true
     inactive: true
 
@@ -1433,22 +1473,6 @@ engines:
       use_official_api: true
       require_api_key: false
       results: JSON
-
-  # https://docs.searxng.org/dev/engines/online/mullvad_leta.html
-  - name: mullvadleta
-    engine: mullvad_leta
-    disabled: true
-    leta_engine: google
-    categories: [general, web]
-    shortcut: ml
-
-  - name: mullvadleta brave
-    engine: mullvad_leta
-    network: mullvadleta
-    disabled: true
-    leta_engine: brave
-    categories: [general, web]
-    shortcut: mlb
 
   - name: odysee
     engine: odysee
@@ -1640,11 +1664,12 @@ engines:
     engine: pixiv
     disabled: true
     inactive: true
+    remove_ai_images: false
     pixiv_image_proxies:
       - https://pximg.example.org
       # A proxy is required to load the images. Hosting an image proxy server
       # for Pixiv:
-      #    --> https://pixivfe.pages.dev/hosting-image-proxy-server/
+      #    --> https://pixivfe-docs.pages.dev/hosting/image-proxy-server/
       # Proxies from public instances.  Ask the public instances owners if they
       # agree to receive traffic from SearXNG!
       #    --> https://codeberg.org/VnPower/PixivFE#instances
@@ -2101,19 +2126,19 @@ engines:
   # engine in combination with Jackett opens the possibility to query a lot of
   # public and private indexers directly from SearXNG. More details at:
   # https://docs.searxng.org/dev/engines/online/torznab.html
-  #
-  # - name: Torznab EZTV
-  #   engine: torznab
-  #   shortcut: eztv
-  #   base_url: http://localhost:9117/api/v2.0/indexers/eztv/results/torznab
-  #   enable_http: true  # if using localhost
-  #   api_key: xxxxxxxxxxxxxxx
-  #   show_magnet_links: true
-  #   show_torrent_files: false
-  #   # https://github.com/Jackett/Jackett/wiki/Jackett-Categories
-  #   torznab_categories:  # optional
-  #     - 2000
-  #     - 5000
+  - name: Torznab EZTV
+    engine: torznab
+    shortcut: eztv
+    # base_url: http://localhost:9117/api/v2.0/indexers/eztv/results/torznab
+    # enable_http: true  # if using localhost
+    # api_key: xxxxxxxxxxxxxxx
+    show_magnet_links: true
+    show_torrent_files: false
+    # https://github.com/Jackett/Jackett/wiki/Jackett-Categories
+    torznab_categories:  # optional
+      - 2000
+      - 5000
+    inactive: true
 
   # tmp suspended - too slow, too many errors
   #  - name: urbandictionary
@@ -2134,22 +2159,21 @@ engines:
     search_type: web
     shortcut: yd
     disabled: true
-    inactive: true
 
   - name: yandex images
     engine: yandex
+    network: yandex
     categories: images
     search_type: images
     shortcut: ydi
     disabled: true
-    inactive: true
 
   - name: yandex music
     engine: yandex_music
+    network: yandex
     shortcut: ydm
     disabled: true
     # https://yandex.com/support/music/access.html
-    inactive: true
 
   - name: yahoo
     engine: yahoo
@@ -2162,14 +2186,15 @@ engines:
 
   - name: youtube
     shortcut: yt
+    engine: youtube_noapi
+
+  - name: youtube_api
     # You can use the engine using the official stable API, but you need an API
     # key See: https://console.developers.google.com/project
-    #
-    # engine: youtube_api
-    # api_key: 'apikey' # required!
-    #
-    # Or you can use the html non-stable engine, activated by default
-    engine: youtube_noapi
+    engine: youtube_api
+    # api_key: ''  # required!
+    shortcut: yta
+    inactive: true
 
   - name: dailymotion
     engine: dailymotion
@@ -2322,17 +2347,20 @@ engines:
 
   - name: wolframalpha
     shortcut: wa
-    # You can use the engine using the official stable API, but you need an API
-    # key.  See: https://products.wolframalpha.com/api/
-    #
-    # engine: wolframalpha_api
-    # api_key: ''
-    #
-    # Or you can use the html non-stable engine, activated by default
     engine: wolframalpha_noapi
     timeout: 6.0
     categories: general
     disabled: true
+
+  - name: wolframalpha_api
+    # You can use the engine using the official stable API, but you need an API
+    # key.  See: https://products.wolframalpha.com/api/
+    engine: wolframalpha_api
+    # api_key: ''  # required!
+    shortcut: waa
+    timeout: 6.0
+    categories: general
+    inactive: true
 
   - name: dictzone
     engine: dictzone
@@ -2381,14 +2409,14 @@ engines:
     engine: seznam
     disabled: true
 
-  # - name: deepl
-  #   engine: deepl
-  #   shortcut: dpl
-  #   # You can use the engine using the official stable API, but you need an API key
-  #   # See: https://www.deepl.com/pro-api?cta=header-pro-api
-  #   api_key: ''  # required!
-  #   timeout: 5.0
-  #   disabled: true
+  - name: deepl
+    engine: deepl
+    shortcut: dpl
+    # You can use the engine using the official stable API, but you need an API key
+    # See: https://www.deepl.com/pro-api?cta=header-pro-api
+    # api_key: ''  # required!
+    timeout: 5.0
+    inactive: true
 
   - name: mojeek
     shortcut: mjk
@@ -2603,7 +2631,7 @@ engines:
     engine: wallhaven
     # api_key: abcdefghijklmnopqrstuvwxyz
     shortcut: wh
-    disabled: true
+    inactive: true
 
     # wikimini: online encyclopedia for children
     # The fulltext and title parameter is necessary for Wikimini because
@@ -2677,43 +2705,10 @@ engines:
 
   - name: sourcehut
     shortcut: srht
-    engine: xpath
-    paging: true
-    search_url: https://sr.ht/projects?page={pageno}&search={query}
-    results_xpath: (//div[@class="event-list"])[1]/div[@class="event"]
-    url_xpath: ./h4/a[2]/@href
-    title_xpath: ./h4/a[2]
-    content_xpath: ./p
-    first_page_num: 1
-    categories: [it, repos]
+    engine: sourcehut
+    # https://docs.searxng.org/dev/engines/online/sourcehut.html
+    # sourcehut_sort_order: longest-active
     disabled: true
-    about:
-      website: https://sr.ht
-      wikidata_id: Q78514485
-      official_api_documentation: https://man.sr.ht/
-      use_official_api: false
-      require_api_key: false
-      results: HTML
-
-  - name: goo
-    shortcut: goo
-    engine: xpath
-    paging: true
-    search_url: https://search.goo.ne.jp/web.jsp?MT={query}&FR={pageno}0
-    url_xpath: //div[@class="result"]/p[@class='title fsL1']/a/@href
-    title_xpath: //div[@class="result"]/p[@class='title fsL1']/a
-    content_xpath: //p[contains(@class,'url fsM')]/following-sibling::p
-    first_page_num: 0
-    categories: [general, web]
-    disabled: true
-    timeout: 4.0
-    about:
-      website: https://search.goo.ne.jp
-      wikidata_id: Q249044
-      use_official_api: false
-      require_api_key: false
-      results: HTML
-      language: ja
 
   - name: bt4g
     engine: bt4g

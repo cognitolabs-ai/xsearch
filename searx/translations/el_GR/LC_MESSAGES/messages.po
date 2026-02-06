@@ -25,8 +25,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  searx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-10 16:16+0000\n"
-"PO-Revision-Date: 2025-09-02 04:50+0000\n"
+"POT-Creation-Date: 2025-12-05 10:19+0000\n"
+"PO-Revision-Date: 2025-10-22 02:09+0000\n"
 "Last-Translator: return42 <return42@noreply.codeberg.org>\n"
 "Language: el_GR\n"
 "Language-Team: Greek "
@@ -503,7 +503,7 @@ msgid "active users"
 msgstr "ενεργούς χρήστες"
 
 #. SOCIAL_MEDIA_TERMS['COMMENTS']
-#: searx/engines/discourse.py:157 searx/engines/hackernews.py:81
+#: searx/engines/discourse.py:157 searx/engines/hackernews.py:83
 #: searx/engines/lemmy.py:130 searx/searxng.msg
 msgid "comments"
 msgstr "σχόλια"
@@ -519,7 +519,7 @@ msgid "community"
 msgstr "κοινότητα"
 
 #. SOCIAL_MEDIA_TERMS['POINTS']
-#: searx/engines/hackernews.py:81 searx/searxng.msg
+#: searx/engines/hackernews.py:83 searx/searxng.msg
 msgid "points"
 msgstr "σημεία"
 
@@ -529,7 +529,7 @@ msgid "title"
 msgstr "τίτλος"
 
 #. SOCIAL_MEDIA_TERMS['AUTHOR']
-#: searx/engines/hackernews.py:84 searx/searxng.msg
+#: searx/engines/hackernews.py:86 searx/searxng.msg
 msgid "author"
 msgstr "συγγραφέας"
 
@@ -552,7 +552,7 @@ msgstr "απάντησε"
 msgid "No item found"
 msgstr "Δεν βρέθηκαν αντικείμενα"
 
-#: searx/engines/qwant.py:289
+#: searx/engines/qwant.py:299
 #: searx/templates/simple/result_templates/images.html:23 searx/webapp.py:330
 msgid "Source"
 msgstr "Πηγή"
@@ -561,15 +561,15 @@ msgstr "Πηγή"
 msgid "Error loading the next page"
 msgstr "Σφάλμα φόρτωσης της επόμενης σελίδας"
 
-#: searx/webapp.py:475 searx/webapp.py:876
+#: searx/webapp.py:481 searx/webapp.py:882
 msgid "Invalid settings, please edit your preferences"
 msgstr "Μη έγκυρες ρυθμίσεις, παρακαλούμε ελέγξτε τις προτιμήσεις σας"
 
-#: searx/webapp.py:491
+#: searx/webapp.py:497
 msgid "Invalid settings"
 msgstr "Μη έγκυρες ρυθμίσεις"
 
-#: searx/webapp.py:568 searx/webapp.py:658
+#: searx/webapp.py:574 searx/webapp.py:664
 msgid "search error"
 msgstr "σφάλμα αναζήτησης"
 
@@ -661,7 +661,7 @@ msgstr "{title} (ΠΑΡΩΧΗΜΕΝΟΣ)"
 msgid "This entry has been superseded by"
 msgstr "Αυτή η καταχώριση έχει αντικατασταθεί από"
 
-#: searx/engines/qwant.py:291
+#: searx/engines/qwant.py:301
 msgid "Channel"
 msgstr "Κανάλι"
 
@@ -731,13 +731,13 @@ msgstr ""
 "Φιλτράρισμα των αποτελεσμάτων onion που εμφανίζονται στη μάυρη λίστα της "
 "Ahmia."
 
-#: searx/plugins/calculator.py:37
-msgid "Basic Calculator"
-msgstr "Βασική Αριθμομηχανή"
+#: searx/plugins/calculator.py:25
+msgid "Calculator"
+msgstr ""
 
-#: searx/plugins/calculator.py:38
-msgid "Calculate mathematical expressions via the search bar"
-msgstr "Υπολογίστε μαθηματικές εκφράσεις μέσω της γραμμής αναζήτησης"
+#: searx/plugins/calculator.py:26
+msgid "Parses and solves mathematical expressions."
+msgstr ""
 
 #: searx/plugins/hash_plugin.py:33
 msgid "Hash plugin"
@@ -764,6 +764,16 @@ msgid "Rewrite hostnames and remove or prioritize results based on the hostname"
 msgstr ""
 "Ξαναγράψτε τα ονόματα κεντρικών υπολογιστών και καταργήστε ή ιεραρχήστε "
 "τα αποτελέσματα με βάση το όνομα κεντρικού υπολογιστή"
+
+#: searx/plugins/infinite_scroll.py:25
+msgid "Infinite scroll"
+msgstr "Άπειρη κύλιση"
+
+#: searx/plugins/infinite_scroll.py:26
+msgid ""
+"Automatically loads the next page when scrolling to bottom of the current"
+" page"
+msgstr ""
 
 #: searx/plugins/oa_doi_rewrite.py:54
 msgid "Open Access DOI rewrite"
@@ -838,15 +848,15 @@ msgstr "Αφαίρεση ιχνηλατών από συνδέσμους"
 msgid "Remove trackers arguments from the returned URL"
 msgstr "Αφαίρεση ιχνηλατών από τους επιστρεφόμενους συνδέσμους"
 
-#: searx/plugins/unit_converter.py:48
+#: searx/plugins/unit_converter.py:42
 msgid "Unit converter plugin"
 msgstr "Πρόσθετο μετατροπέας μονάδων"
 
-#: searx/plugins/unit_converter.py:49
+#: searx/plugins/unit_converter.py:43
 msgid "Convert between units"
 msgstr "Μετατροπή μεταξύ μονάδων"
 
-#: searx/result_types/answer.py:226
+#: searx/result_types/answer.py:223
 #, python-brace-format
 msgid "{location}: {temperature}, {condition}"
 msgstr "{location}: {temperature}, {condition}"
@@ -910,23 +920,23 @@ msgstr "Επικοινωνήστε με τον συντηρητή αυτής τ�
 msgid "Click on the magnifier to perform search"
 msgstr "Κάντε κλικ στο μεγεθυντικό φακό για να πραγματοποιήσετε αναζήτηση"
 
-#: searx/templates/simple/macros.html:40
+#: searx/templates/simple/macros.html:41
 msgid "Length"
 msgstr "Μήκος"
 
-#: searx/templates/simple/macros.html:41
+#: searx/templates/simple/macros.html:42
 #: searx/templates/simple/result_templates/paper.html:74
 msgid "Views"
 msgstr "Προβολές"
 
-#: searx/templates/simple/macros.html:42
-#: searx/templates/simple/result_templates/files.html:34
+#: searx/templates/simple/macros.html:43
+#: searx/templates/simple/result_templates/file.html:18
 #: searx/templates/simple/result_templates/images.html:19
 #: searx/templates/simple/result_templates/paper.html:14
 msgid "Author"
 msgstr "Συγγραφέας"
 
-#: searx/templates/simple/macros.html:50
+#: searx/templates/simple/macros.html:51
 msgid "cached"
 msgstr "προσωρινά αποθηκευμένο"
 
@@ -1023,23 +1033,23 @@ msgstr "Προεπιλεγμένες κατηγορίες"
 msgid "User interface"
 msgstr "Διεπαφή χρήστη"
 
-#: searx/templates/simple/preferences.html:227
+#: searx/templates/simple/preferences.html:224
 msgid "Privacy"
 msgstr "Ιδιωτικότητα"
 
-#: searx/templates/simple/preferences.html:242
+#: searx/templates/simple/preferences.html:239
 msgid "Engines"
 msgstr "Μηχανές"
 
-#: searx/templates/simple/preferences.html:244
+#: searx/templates/simple/preferences.html:241
 msgid "Currently used search engines"
 msgstr "Μηχανές αναζήτησης που χρησιμοποιούνται"
 
-#: searx/templates/simple/preferences.html:253
+#: searx/templates/simple/preferences.html:250
 msgid "Special Queries"
 msgstr "Ειδικά Ερωτήματα"
 
-#: searx/templates/simple/preferences.html:261
+#: searx/templates/simple/preferences.html:258
 msgid "Cookies"
 msgstr "Cookies"
 
@@ -1147,7 +1157,7 @@ msgid "Parameter"
 msgstr "Παράμετρος"
 
 #: searx/templates/simple/result_templates/code.html:29
-#: searx/templates/simple/result_templates/files.html:36
+#: searx/templates/simple/result_templates/file.html:24
 #: searx/templates/simple/stats.html:119
 msgid "Filename"
 msgstr "Όνομα αρχείου"
@@ -1542,18 +1552,6 @@ msgstr "Διακομιστής μεσολάβησης εικόνων"
 msgid "Proxy image results through SearXNG"
 msgstr "Αποτελέσματα εικόνας proxy μέσω του SearXNG"
 
-#: searx/templates/simple/preferences/infinite_scroll.html:2
-msgid "Infinite scroll"
-msgstr "Άπειρη κύλιση"
-
-#: searx/templates/simple/preferences/infinite_scroll.html:14
-msgid ""
-"Automatically load the next page when scrolling to the bottom of the "
-"current page"
-msgstr ""
-"Αυτόματη φόρτωση της επόμενης σελίδας κατά την κύλιση στο κάτω μέρος της "
-"τρέχουσας σελίδας"
-
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "Τι γλώσσα προτιμάτε για αναζήτηση;"
@@ -1667,13 +1665,13 @@ msgid "Repository"
 msgstr "Repository"
 
 #: searx/templates/simple/result_templates/default.html:6
-#: searx/templates/simple/result_templates/files.html:8
-#: searx/templates/simple/result_templates/files.html:11
+#: searx/templates/simple/result_templates/file.html:53
+#: searx/templates/simple/result_templates/file.html:56
 msgid "show media"
 msgstr "προβολή πολυμέσων"
 
 #: searx/templates/simple/result_templates/default.html:6
-#: searx/templates/simple/result_templates/files.html:8
+#: searx/templates/simple/result_templates/file.html:54
 msgid "hide media"
 msgstr "απόκρυψη πολυμέσων"
 
@@ -1682,20 +1680,24 @@ msgstr "απόκρυψη πολυμέσων"
 msgid "This site did not provide any description."
 msgstr "Αυτός ο ιστότοπος δεν παρείχε καμία περιγραφή."
 
-#: searx/templates/simple/result_templates/files.html:38
+#: searx/templates/simple/result_templates/file.html:30
 #: searx/templates/simple/result_templates/images.html:22
 #: searx/templates/simple/result_templates/torrent.html:18
 msgid "Filesize"
 msgstr "Μέγεθος αρχείου"
 
-#: searx/templates/simple/result_templates/files.html:40
+#: searx/templates/simple/result_templates/file.html:36
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: searx/templates/simple/result_templates/files.html:42
+#: searx/templates/simple/result_templates/file.html:42
 #: searx/templates/simple/result_templates/paper.html:44
 msgid "Type"
 msgstr "Τύπος"
+
+#: searx/templates/simple/result_templates/file.html:67
+msgid "Download"
+msgstr "Λήψη"
 
 #: searx/templates/simple/result_templates/images.html:20
 msgid "Resolution"
@@ -2415,4 +2417,19 @@ msgstr "απόκρυψη βίντεο"
 
 #~ msgid "repo"
 #~ msgstr "αποθετήρια"
+
+#~ msgid "Basic Calculator"
+#~ msgstr "Βασική Αριθμομηχανή"
+
+#~ msgid "Calculate mathematical expressions via the search bar"
+#~ msgstr "Υπολογίστε μαθηματικές εκφράσεις μέσω της γραμμής αναζήτησης"
+
+#~ msgid ""
+#~ "Automatically load the next page when"
+#~ " scrolling to the bottom of the "
+#~ "current page"
+#~ msgstr ""
+#~ "Αυτόματη φόρτωση της επόμενης σελίδας "
+#~ "κατά την κύλιση στο κάτω μέρος της"
+#~ " τρέχουσας σελίδας"
 

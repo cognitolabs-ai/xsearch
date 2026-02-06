@@ -13,7 +13,7 @@ COPY --chown=977:977 ./custom/logos/xsearch-*.svg ./searx/static/themes/simple/i
 COPY --chown=977:977 ./custom/logos/xs.png ./searx/static/themes/simple/img/
 COPY --chown=977:977 ./custom/logos/xg.svg ./searx/static/themes/simple/img/
 
-#COPY --chown=977:977 ./searx/version_frozen.py ./searx/
+COPY --chown=977:977 ./searx/version_frozen.py ./searx/
 
 ARG CREATED="0001-01-01T00:00:00Z"
 ARG VERSION="unknown"
