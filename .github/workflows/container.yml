@@ -17,8 +17,8 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write
-  packages: read
+  contents: read
+  packages: write
 
 env:
   PYTHON_VERSION: "3.14"
@@ -44,9 +44,6 @@ jobs:
             march: arm64
             os: ubuntu-24.04-arm
             emulation: true
-
-    permissions:
-      packages: write
 
     outputs:
       docker_tag: ${{ steps.build.outputs.docker_tag }}
@@ -168,9 +165,6 @@ jobs:
     needs:
       - build
       - test
-
-    permissions:
-      packages: write
 
     steps:
       - name: Checkout
