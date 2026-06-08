@@ -19,6 +19,7 @@ variables:
 sync-upstream:
   stage: sync
   image: alpine:latest
+  tags: [fast]
   rules:
     - if: $CI_PIPELINE_SOURCE == "schedule"
   before_script:
@@ -45,6 +46,7 @@ sync-upstream:
 build-image:
   stage: build
   image: docker:27
+  tags: [fast]
   services:
     - name: docker:27-dind
       alias: docker
@@ -92,6 +94,7 @@ build-image:
 deploy:
   stage: deploy
   image: curlimages/curl:latest
+  tags: [fast]
   rules:
     - if: $CI_COMMIT_BRANCH == "master" && $CI_PIPELINE_SOURCE != "schedule"
   needs:
