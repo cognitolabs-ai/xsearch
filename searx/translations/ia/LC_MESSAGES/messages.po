@@ -7,13 +7,13 @@
 # return42 <markus.heiser@darmarit.de>, 2023.
 # Anonymous <anonymous@users.noreply.translate.codeberg.org>, 2025.
 # return42 <return42@users.noreply.translate.codeberg.org>, 2025.
-# return42 <return42@noreply.codeberg.org>, 2025.
+# return42 <return42@noreply.codeberg.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version:  searx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-05 10:19+0000\n"
-"PO-Revision-Date: 2025-06-22 17:06+0000\n"
+"POT-Creation-Date: 2026-05-25 10:44+0000\n"
+"PO-Revision-Date: 2026-05-19 12:07+0000\n"
 "Last-Translator: return42 <return42@noreply.codeberg.org>\n"
 "Language: ia\n"
 "Language-Team: Interlingua "
@@ -22,7 +22,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #. CONSTANT_NAMES['NO_SUBGROUPING']
 #: searx/searxng.msg
@@ -65,7 +65,7 @@ msgid "videos"
 msgstr "videos"
 
 #. CATEGORY_NAMES['RADIO']
-#: searx/engines/radio_browser.py:142 searx/searxng.msg
+#: searx/engines/radio_browser.py:146 searx/searxng.msg
 msgid "radio"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgid "Uptime"
 msgstr ""
 
 #. BRAND_CUSTOM_LINKS['ABOUT']
-#: searx/searxng.msg searx/templates/simple/base.html:46
+#: searx/searxng.msg searx/templates/simple/base.html:47
 msgid "About"
 msgstr ""
 
@@ -535,28 +535,28 @@ msgstr ""
 msgid "answered"
 msgstr ""
 
-#: searx/webapp.py:328
+#: searx/webapp.py:326
 msgid "No item found"
 msgstr "Nulle item trovate"
 
-#: searx/engines/qwant.py:299
-#: searx/templates/simple/result_templates/images.html:23 searx/webapp.py:330
+#: searx/engines/qwant.py:291
+#: searx/templates/simple/result_templates/images.html:23 searx/webapp.py:328
 msgid "Source"
 msgstr ""
 
-#: searx/webapp.py:332
+#: searx/webapp.py:330
 msgid "Error loading the next page"
 msgstr ""
 
-#: searx/webapp.py:481 searx/webapp.py:882
+#: searx/webapp.py:479 searx/webapp.py:877
 msgid "Invalid settings, please edit your preferences"
 msgstr "Configurationes non valide, per favor, modifica tu preferentias"
 
-#: searx/webapp.py:497
+#: searx/webapp.py:495
 msgid "Invalid settings"
 msgstr "Configurationes invalide"
 
-#: searx/webapp.py:574 searx/webapp.py:664
+#: searx/webapp.py:571 searx/webapp.py:661
 msgid "search error"
 msgstr "error in recerca"
 
@@ -616,12 +616,12 @@ msgstr ""
 msgid "Suspended"
 msgstr ""
 
-#: searx/webutils.py:308
+#: searx/webutils.py:307
 #, python-brace-format
 msgid "{minutes} minute(s) ago"
 msgstr "{minutes} minuta(s) retro"
 
-#: searx/webutils.py:309
+#: searx/webutils.py:308
 #, python-brace-format
 msgid "{hours} hour(s), {minutes} minute(s) ago"
 msgstr "{hours} hora(s), {minutes} minuta(s) retro"
@@ -635,7 +635,12 @@ msgstr "Generar differente valores aleatori"
 msgid "Compute {func} of the arguments"
 msgstr ""
 
-#: searx/engines/openstreetmap.py:156
+#: searx/engines/boardreader.py:107
+#, python-brace-format
+msgid "Posted by {author}"
+msgstr ""
+
+#: searx/engines/openstreetmap.py:155
 msgid "Show route in map .."
 msgstr ""
 
@@ -648,24 +653,20 @@ msgstr ""
 msgid "This entry has been superseded by"
 msgstr "Iste entrata esseva substituite per"
 
-#: searx/engines/qwant.py:301
+#: searx/engines/qwant.py:293
 msgid "Channel"
 msgstr ""
 
-#: searx/engines/radio_browser.py:144
+#: searx/engines/radio_browser.py:148
 msgid "bitrate"
 msgstr ""
 
-#: searx/engines/radio_browser.py:145
+#: searx/engines/radio_browser.py:149
 msgid "votes"
 msgstr ""
 
-#: searx/engines/radio_browser.py:146
+#: searx/engines/radio_browser.py:150
 msgid "clicks"
-msgstr ""
-
-#: searx/engines/seekr.py:193 searx/engines/zlibrary.py:78
-msgid "Language"
 msgstr ""
 
 #: searx/engines/semantic_scholar.py:141
@@ -693,10 +694,14 @@ msgid "The image could not be downloaded."
 msgstr ""
 
 #: searx/engines/zlibrary.py:79
-msgid "Book rating"
+msgid "Language"
 msgstr ""
 
 #: searx/engines/zlibrary.py:80
+msgid "Book rating"
+msgstr ""
+
+#: searx/engines/zlibrary.py:81
 msgid "File quality"
 msgstr ""
 
@@ -747,6 +752,8 @@ msgid ""
 "Automatically loads the next page when scrolling to bottom of the current"
 " page"
 msgstr ""
+"Automaticamente cargar le proxime pagina quando arrivar al fundo del "
+"pagina actual"
 
 #: searx/plugins/oa_doi_rewrite.py:54
 msgid "Open Access DOI rewrite"
@@ -842,45 +849,45 @@ msgstr "Ir al %(search_page)s."
 msgid "search page"
 msgstr "pagina de recerca"
 
-#: searx/templates/simple/base.html:50
+#: searx/templates/simple/base.html:51
 msgid "Donate"
 msgstr ""
 
-#: searx/templates/simple/base.html:55 searx/templates/simple/base.html:57
-#: searx/templates/simple/preferences.html:156
+#: searx/templates/simple/base.html:56 searx/templates/simple/base.html:58
+#: searx/templates/simple/preferences.html:152
 msgid "Preferences"
 msgstr "Preferentias"
 
-#: searx/templates/simple/base.html:68
+#: searx/templates/simple/base.html:69
 msgid "Powered by"
 msgstr "Actionate per"
 
-#: searx/templates/simple/base.html:68
+#: searx/templates/simple/base.html:69
 msgid "a privacy-respecting, open metasearch engine"
 msgstr ""
 
-#: searx/templates/simple/base.html:69
+#: searx/templates/simple/base.html:70
 #: searx/templates/simple/result_templates/packages.html:59
 msgid "Source code"
 msgstr ""
 
-#: searx/templates/simple/base.html:70
+#: searx/templates/simple/base.html:71
 msgid "Issue tracker"
 msgstr ""
 
-#: searx/templates/simple/base.html:71 searx/templates/simple/stats.html:18
+#: searx/templates/simple/base.html:72 searx/templates/simple/stats.html:17
 msgid "Engine stats"
 msgstr "Statisticas de motores"
 
-#: searx/templates/simple/base.html:73
+#: searx/templates/simple/base.html:74
 msgid "Public instances"
 msgstr ""
 
-#: searx/templates/simple/base.html:76
+#: searx/templates/simple/base.html:77
 msgid "Privacy policy"
 msgstr ""
 
-#: searx/templates/simple/base.html:79
+#: searx/templates/simple/base.html:80
 msgid "Contact instance maintainer"
 msgstr ""
 
@@ -908,26 +915,6 @@ msgstr ""
 msgid "cached"
 msgstr "in cache"
 
-#: searx/templates/simple/new_issue.html:64
-msgid "Start submitting a new issue on GitHub"
-msgstr ""
-
-#: searx/templates/simple/new_issue.html:66
-msgid "Please check for existing bugs about this engine on GitHub"
-msgstr ""
-
-#: searx/templates/simple/new_issue.html:69
-msgid "I confirm there is no existing bug about the issue I encounter"
-msgstr ""
-
-#: searx/templates/simple/new_issue.html:71
-msgid "If this is a public instance, please specify the URL in the bug report"
-msgstr ""
-
-#: searx/templates/simple/new_issue.html:72
-msgid "Submit a new issue on Github including the above information"
-msgstr ""
-
 #: searx/templates/simple/preferences.html:65
 msgid "No HTTPS"
 msgstr ""
@@ -947,91 +934,83 @@ msgid "!bang for its categories"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:102
-#: searx/templates/simple/stats.html:64
+#: searx/templates/simple/stats.html:63
 msgid "Median"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:103
-#: searx/templates/simple/stats.html:70
+#: searx/templates/simple/stats.html:69
 msgid "P80"
 msgstr "P80"
 
 #: searx/templates/simple/preferences.html:104
-#: searx/templates/simple/stats.html:76
+#: searx/templates/simple/stats.html:75
 msgid "P95"
 msgstr "P95"
 
-#: searx/templates/simple/preferences.html:136
-msgid "Failed checker test(s): "
-msgstr ""
-
-#: searx/templates/simple/preferences.html:138
+#: searx/templates/simple/preferences.html:134
 msgid "Errors:"
 msgstr ""
 
-#: searx/templates/simple/preferences.html:160
+#: searx/templates/simple/preferences.html:156
 msgid ""
 "This is a preview of the settings used by the 'Search URL' you used to "
 "get here."
 msgstr ""
 
-#: searx/templates/simple/preferences.html:162
+#: searx/templates/simple/preferences.html:158
 msgid "Press save to copy these preferences to your browser."
 msgstr ""
 
-#: searx/templates/simple/preferences.html:163
+#: searx/templates/simple/preferences.html:159
 msgid "Click here to view your browser preferences instead:"
 msgstr ""
 
-#: searx/templates/simple/preferences.html:173
+#: searx/templates/simple/preferences.html:169
 msgid "General"
 msgstr "General"
 
-#: searx/templates/simple/preferences.html:176
+#: searx/templates/simple/preferences.html:172
 msgid "Default categories"
 msgstr "categorias predefinite"
 
-#: searx/templates/simple/preferences.html:204
+#: searx/templates/simple/preferences.html:200
 msgid "User interface"
 msgstr "Interfacie del usator"
 
-#: searx/templates/simple/preferences.html:224
+#: searx/templates/simple/preferences.html:220
 msgid "Privacy"
 msgstr "Confidentialitate"
 
-#: searx/templates/simple/preferences.html:239
+#: searx/templates/simple/preferences.html:235
 msgid "Engines"
 msgstr "Motores"
 
-#: searx/templates/simple/preferences.html:241
+#: searx/templates/simple/preferences.html:237
 msgid "Currently used search engines"
 msgstr "Motores de recerca actualmente usate"
 
-#: searx/templates/simple/preferences.html:250
+#: searx/templates/simple/preferences.html:246
 msgid "Special Queries"
 msgstr ""
 
-#: searx/templates/simple/preferences.html:258
+#: searx/templates/simple/preferences.html:254
 msgid "Cookies"
 msgstr "Cookies"
 
-#: searx/templates/simple/results.html:30
-msgid "Number of results"
-msgstr "Numero de resultatos"
-
-#: searx/templates/simple/results.html:36
+#: searx/templates/simple/results.html:32
 msgid "Info"
 msgstr ""
 
-#: searx/templates/simple/results.html:77
+#: searx/templates/simple/results.html:73
 msgid "Back to top"
 msgstr ""
 
-#: searx/templates/simple/results.html:95
+#: searx/templates/simple/results.html:91
 msgid "Previous page"
 msgstr ""
 
-#: searx/templates/simple/results.html:113
+#: searx/templates/simple/results.html:109
 msgid "Next page"
 msgstr ""
 
@@ -1054,94 +1033,82 @@ msgstr ""
 msgid "search"
 msgstr ""
 
-#: searx/templates/simple/stats.html:21
+#: searx/templates/simple/stats.html:20
 msgid "There is currently no data available. "
 msgstr "Actualmente, il non ha datos disponibile."
 
 #: searx/templates/simple/preferences/engines.html:24
-#: searx/templates/simple/stats.html:25
+#: searx/templates/simple/stats.html:24
 msgid "Engine name"
 msgstr "Nomine del motor"
 
-#: searx/templates/simple/stats.html:26
+#: searx/templates/simple/stats.html:25
 msgid "Scores"
 msgstr "Punctos"
 
-#: searx/templates/simple/stats.html:27
+#: searx/templates/simple/stats.html:26
 msgid "Result count"
 msgstr ""
 
 #: searx/templates/simple/elements/engines_msg.html:7
-#: searx/templates/simple/preferences/engines.html:31
-#: searx/templates/simple/stats.html:28
+#: searx/templates/simple/preferences/engines.html:30
+#: searx/templates/simple/stats.html:27
 msgid "Response time"
 msgstr ""
 
-#: searx/templates/simple/preferences/engines.html:35
-#: searx/templates/simple/stats.html:29
+#: searx/templates/simple/preferences/engines.html:34
+#: searx/templates/simple/stats.html:28
 msgid "Reliability"
 msgstr ""
 
-#: searx/templates/simple/stats.html:59
+#: searx/templates/simple/stats.html:58
 msgid "Total"
 msgstr ""
 
-#: searx/templates/simple/stats.html:60
+#: searx/templates/simple/stats.html:59
 msgid "HTTP"
 msgstr "HTTP"
 
-#: searx/templates/simple/stats.html:61
+#: searx/templates/simple/stats.html:60
 msgid "Processing"
 msgstr ""
 
-#: searx/templates/simple/stats.html:99
+#: searx/templates/simple/stats.html:98
 msgid "Warnings"
 msgstr ""
 
-#: searx/templates/simple/stats.html:99
+#: searx/templates/simple/stats.html:98
 msgid "Errors and exceptions"
 msgstr ""
 
-#: searx/templates/simple/stats.html:105
+#: searx/templates/simple/stats.html:104
 msgid "Exception"
 msgstr ""
 
-#: searx/templates/simple/stats.html:107
+#: searx/templates/simple/stats.html:106
 msgid "Message"
 msgstr ""
 
-#: searx/templates/simple/stats.html:109
+#: searx/templates/simple/stats.html:108
 msgid "Percentage"
 msgstr ""
 
-#: searx/templates/simple/stats.html:111
+#: searx/templates/simple/stats.html:110
 msgid "Parameter"
 msgstr ""
 
 #: searx/templates/simple/result_templates/code.html:29
 #: searx/templates/simple/result_templates/file.html:24
-#: searx/templates/simple/stats.html:119
+#: searx/templates/simple/stats.html:118
 msgid "Filename"
 msgstr ""
 
-#: searx/templates/simple/stats.html:120
+#: searx/templates/simple/stats.html:119
 msgid "Function"
 msgstr ""
 
-#: searx/templates/simple/stats.html:121
+#: searx/templates/simple/stats.html:120
 msgid "Code"
-msgstr ""
-
-#: searx/templates/simple/stats.html:128
-msgid "Checker"
-msgstr ""
-
-#: searx/templates/simple/stats.html:131
-msgid "Failed test"
-msgstr ""
-
-#: searx/templates/simple/stats.html:132
-msgid "Comment(s)"
 msgstr ""
 
 #: searx/templates/simple/answer/translations.html:12
@@ -1218,7 +1185,7 @@ msgstr ""
 #: searx/templates/simple/filters/safesearch.html:2
 #: searx/templates/simple/filters/safesearch.html:3
 #: searx/templates/simple/filters/safesearch.html:4
-#: searx/templates/simple/preferences/engines.html:27
+#: searx/templates/simple/preferences/engines.html:26
 #: searx/templates/simple/preferences/safesearch.html:2
 msgid "SafeSearch"
 msgstr "Filtro de contento potentialmente offensive"
@@ -1239,7 +1206,7 @@ msgid "None"
 msgstr "Nulle"
 
 #: searx/templates/simple/filters/time_range.html:1
-#: searx/templates/simple/preferences/engines.html:28
+#: searx/templates/simple/preferences/engines.html:27
 msgid "Time range"
 msgstr "Intervallo de tempore"
 
@@ -1432,15 +1399,11 @@ msgstr ""
 msgid "!bang"
 msgstr ""
 
-#: searx/templates/simple/preferences/engines.html:26
-msgid "Supports selected language"
-msgstr "Supporta le lingua selectionate"
-
-#: searx/templates/simple/preferences/engines.html:29
+#: searx/templates/simple/preferences/engines.html:28
 msgid "Weight"
 msgstr ""
 
-#: searx/templates/simple/preferences/engines.html:33
+#: searx/templates/simple/preferences/engines.html:32
 msgid "Max time"
 msgstr "Tempore maxime"
 
@@ -1457,10 +1420,14 @@ msgid ""
 "These settings are stored in your cookies. This allows us not to store "
 "this data about you."
 msgstr ""
+"Iste preferentias es salvate in tu cookies, le qual permitte nos non "
+"salvar iste datos super vos."
 
 #: searx/templates/simple/preferences/footer.html:3
 msgid "These cookies serve your sole convenience; we don't use them to track you."
 msgstr ""
+"Iste cookies servi solmente a tu convenientia, nos non usa iste cookies "
+"pro traciar te."
 
 #: searx/templates/simple/preferences/footer.html:6
 msgid "Save"
@@ -1543,6 +1510,8 @@ msgid ""
 "Perform a search immediately if a category is selected. Disable to select"
 " multiple categories"
 msgstr ""
+"Exequer le recerca immediatemente si un categoria es selectionate. "
+"Disactiva lo pro selectionar multiple categorias"
 
 #: searx/templates/simple/preferences/theme.html:2
 msgid "Theme"
@@ -2330,4 +2299,37 @@ msgstr "occultar video"
 #~ " scrolling to the bottom of the "
 #~ "current page"
 #~ msgstr ""
+
+#~ msgid "Failed checker test(s): "
+#~ msgstr ""
+
+#~ msgid "Checker"
+#~ msgstr ""
+
+#~ msgid "Failed test"
+#~ msgstr ""
+
+#~ msgid "Comment(s)"
+#~ msgstr ""
+
+#~ msgid "Start submitting a new issue on GitHub"
+#~ msgstr ""
+
+#~ msgid "Please check for existing bugs about this engine on GitHub"
+#~ msgstr ""
+
+#~ msgid "I confirm there is no existing bug about the issue I encounter"
+#~ msgstr ""
+
+#~ msgid "If this is a public instance, please specify the URL in the bug report"
+#~ msgstr ""
+
+#~ msgid "Submit a new issue on Github including the above information"
+#~ msgstr ""
+
+#~ msgid "Supports selected language"
+#~ msgstr "Supporta le lingua selectionate"
+
+#~ msgid "Number of results"
+#~ msgstr "Numero de resultatos"
 

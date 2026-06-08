@@ -54,7 +54,6 @@ setup(
             'settings.yml',
             '*.toml',
             '*.msg',
-            'search/checker/scheduler.lua',
             'data/*.json',
             'data/*.txt',
             'data/*.ftz',

@@ -43,7 +43,6 @@ from flask.json import jsonify
 from flask_babel import (
     Babel,
     gettext,
-    format_decimal,
 )
 
 import searx
@@ -118,7 +117,6 @@ from searx.valkeydb import initialize as valkey_initialize
 from searx.sxng_locales import sxng_locales
 import searx.search
 from searx.network import stream as http_stream, set_context_network_name
-from searx.search.checker import get_result as checker_get_result
 
 
 logger = logger.getChild('webapp')
@@ -379,7 +377,6 @@ def get_client_settings():
         'theme_static_path': custom_url_for('static', filename='themes/simple'),
         'results_on_new_tab': req_pref.get_value('results_on_new_tab'),
         'favicon_resolver': req_pref.get_value('favicon_resolver'),
-        'advanced_search': req_pref.get_value('advanced_search'),
         'query_in_title': req_pref.get_value('query_in_title'),
         'safesearch': req_pref.get_value('safesearch'),
         'theme': req_pref.get_value('theme'),
@@ -420,8 +417,8 @@ def render(template_name: str, **kwargs):
     # values from settings
     kwargs['search_formats'] = [x for x in settings['search']['formats'] if x != 'html']
     kwargs['instance_name'] = get_setting('general.instance_name')
-    kwargs['searx_version'] = VERSION_STRING
-    kwargs['searx_git_url'] = GIT_URL
+    kwargs['searxng_version'] = VERSION_STRING
+    kwargs['searxng_git_url'] = GIT_URL
     kwargs['enable_metrics'] = get_setting('general.enable_metrics')
     kwargs['get_setting'] = get_setting
     kwargs['get_pretty_url'] = get_pretty_url
@@ -565,7 +562,6 @@ def index_error(output_format: str, error_message: str):
             'opensearch_response_rss.xml',
             results=[],
             q=sxng_request.form['q'] if 'q' in sxng_request.form else '',
-            number_of_results=0,
             error_message=error_message,
         )
         return Response(response_rss, mimetype='text/xml')
@@ -725,7 +721,6 @@ def search():
             'opensearch_response_rss.xml',
             results=results,
             q=sxng_request.form['q'],
-            number_of_results=result_container.number_of_results,
         )
         return Response(response_rss, mimetype='text/xml')
 
@@ -762,7 +757,6 @@ def search():
         selected_categories = search_query.categories,
         pageno = search_query.pageno,
         time_range = search_query.time_range or '',
-        number_of_results = format_decimal(result_container.number_of_results),
         suggestions = suggestion_urls,
         answers = result_container.answers,
         corrections = correction_urls,
@@ -919,9 +913,6 @@ def preferences():
             'rate80': rate80,
             'rate95': rate95,
             'warn_timeout': e.timeout > settings['outgoing']['request_timeout'],
-            'supports_selected_language': e.traits.is_locale_supported(
-                str(sxng_request.preferences.get_value('language') or 'all')
-            ),
             'result_count': result_count,
         }
     # end of stats
@@ -929,23 +920,11 @@ def preferences():
     # reliabilities
     reliabilities = {}
     engine_errors = get_engine_errors(filtered_engines)
-    checker_results = checker_get_result()
-    checker_results = (
-        checker_results['engines'] if checker_results['status'] == 'ok' and 'engines' in checker_results else {}
-    )
     for _, e in filtered_engines.items():
-        checker_result = checker_results.get(e.name, {})
-        checker_success = checker_result.get('success', True)
         errors = engine_errors.get(e.name) or []
         if counter('engine', e.name, 'search', 'count', 'sent') == 0:
             # no request
             reliability = None
-        elif checker_success and not errors:
-            reliability = 100
-        elif 'simple' in checker_result.get('errors', {}):
-            # the basic (simple) test doesn't work: the engine is broken according to the checker
-            # even if there is no exception
-            reliability = 0
         else:
             # pylint: disable=consider-using-generator
             reliability = 100 - sum([error['percentage'] for error in errors if not error.get('secondary')])
@@ -953,10 +932,7 @@ def preferences():
         reliabilities[e.name] = {
             'reliability': reliability,
             'errors': [],
-            'checker': checker_results.get(e.name, {}).get('errors', {}).keys(),
         }
-        # keep the order of the list checker_results[e.name]['errors'] and deduplicate.
-        # the first element has the highest percentage rate.
         reliabilities_errors = []
         for error in errors:
             error_user_text = None
@@ -972,22 +948,9 @@ def preferences():
     # supports
     supports = {}
     for _, e in filtered_engines.items():
-        supports_selected_language = e.traits.is_locale_supported(
-            str(sxng_request.preferences.get_value('language') or 'all')
-        )
-        safesearch = e.safesearch
-        time_range_support = e.time_range_support
-        for checker_test_name in checker_results.get(e.name, {}).get('errors', {}):
-            if supports_selected_language and checker_test_name.startswith('lang_'):
-                supports_selected_language = '?'
-            elif safesearch and checker_test_name == 'safesearch':
-                safesearch = '?'
-            elif time_range_support and checker_test_name == 'time_range':
-                time_range_support = '?'
         supports[e.name] = {
-            'supports_selected_language': supports_selected_language,
-            'safesearch': safesearch,
-            'time_range_support': time_range_support,
+            'safesearch': e.safesearch,
+            'time_range_support': e.time_range_support,
         }
 
     return render(
@@ -1013,7 +976,7 @@ def preferences():
         current_doi_resolver = get_doi_resolver(),
         allowed_plugins = allowed_plugins,
         preferences_url_params = sxng_request.preferences.get_as_url_params(),
-        locked_preferences = get_setting("preferences.lock", []),
+        locked_preferences = get_setting("preferences").lock,
         doi_resolvers = get_setting("doi_resolvers", {}),
         # fmt: on
     )
@@ -1133,13 +1096,8 @@ def stats():
         else:
             filtered_engines = [selected_engine_name]
 
-    checker_results = checker_get_result()
-    checker_results = (
-        checker_results['engines'] if checker_results['status'] == 'ok' and 'engines' in checker_results else {}
-    )
-
     engine_stats = get_engines_stats(filtered_engines)
-    engine_reliabilities = get_reliabilities(filtered_engines, checker_results)
+    engine_reliabilities = get_reliabilities(filtered_engines)
 
     if sort_order not in STATS_SORT_PARAMETERS:
         sort_order = 'name'
@@ -1181,7 +1139,6 @@ def stats():
         engine_stats = engine_stats,
         engine_reliabilities = engine_reliabilities,
         selected_engine_name = selected_engine_name,
-        searx_git_branch = GIT_BRANCH,
         technical_report = technical_report,
         # fmt: on
     )
@@ -1191,12 +1148,6 @@ def stats():
 def stats_errors():
     filtered_engines = dict(filter(lambda kv: sxng_request.preferences.validate_token(kv[1]), engines.items()))
     result = get_engine_errors(filtered_engines)
-    return jsonify(result)
-
-
-@app.route('/stats/checker', methods=['GET'])
-def stats_checker():
-    result = checker_get_result()
     return jsonify(result)
 
 
@@ -1212,13 +1163,8 @@ def stats_open_metrics():
 
     filtered_engines = dict(filter(lambda kv: sxng_request.preferences.validate_token(kv[1]), engines.items()))
 
-    checker_results = checker_get_result()
-    checker_results = (
-        checker_results['engines'] if checker_results['status'] == 'ok' and 'engines' in checker_results else {}
-    )
-
     engine_stats = get_engines_stats(filtered_engines)
-    engine_reliabilities = get_reliabilities(filtered_engines, checker_results)
+    engine_reliabilities = get_reliabilities(filtered_engines)
     metrics_text = openmetrics(engine_stats, engine_reliabilities)
 
     return Response(metrics_text, mimetype='text/plain')
@@ -1253,6 +1199,29 @@ def opensearch():
     ret = render('opensearch.xml', opensearch_method=method, autocomplete=autocomplete)
     resp = Response(response=ret, status=200, mimetype="application/opensearchdescription+xml")
     return resp
+
+
+@app.route('/manifest.json', methods=['GET'])
+def manifest():
+    theme = sxng_request.preferences.get_value('simple_style')
+    if theme not in ("light", "dark", "black"):
+        theme = "light"
+
+    theme_color = get_setting(f'brand.pwa_colors.theme_color_{theme}')
+    background_color = get_setting(f'brand.pwa_colors.background_color_{theme}')
+    ret = render('manifest.json', theme_color=theme_color, background_color=background_color)
+    resp = Response(response=ret, status=200, mimetype="application/json")
+    return resp
+
+
+@app.route('/logo/<resolution>')
+def manifest_logo(resolution=0):
+    theme = sxng_request.preferences.get_value("theme")
+    return send_from_directory(
+        os.path.join(app.root_path, settings['ui']['static_path'], 'themes', theme, 'img', 'logos'),  # type: ignore
+        resolution,
+        mimetype='image/vnd.microsoft.icon',
+    )
 
 
 @app.route('/favicon.ico')
@@ -1394,7 +1363,7 @@ def init():
     searx.plugins.initialize(app)
 
     metrics: bool = get_setting("general.enable_metrics")  # type: ignore
-    searx.search.initialize(enable_checker=True, check_network=True, enable_metrics=metrics)
+    searx.search.initialize(check_network=True, enable_metrics=metrics)
 
     limiter.initialize(app, settings)
     favicons.init()

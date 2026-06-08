@@ -17,7 +17,6 @@ help:
 	@echo 'install        - developer install of SearxNG into virtualenv'
 	@echo 'uninstall      - uninstall developer installation'
 	@echo 'clean          - clean up working tree'
-	@echo 'search.checker - check search engines'
 	@echo 'test           - run shell & CI tests'
 	@echo 'test.shell     - test shell scripts'
 	@echo 'ci.test        - run CI tests'
