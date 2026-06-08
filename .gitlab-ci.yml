@@ -1,0 +1,102 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+stages:
+  - sync
+  - build
+  - deploy
+
+variables:
+  CONTAINER_IMAGE_ORGANIZATION: "xdata"
+  CONTAINER_IMAGE_NAME: "xsearch"
+  GIT_DEPTH: 0
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Daily sync with upstream searxng/searxng
+# Triggered via: CI/CD → Schedules (set to run daily, e.g. "0 4 * * *")
+# Required CI variable: GITLAB_PUSH_TOKEN (project/personal access token with
+#                       write_repository scope)
+# ──────────────────────────────────────────────────────────────────────────────
+sync-upstream:
+  stage: sync
+  image: alpine:latest
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+  before_script:
+    - apk add --no-cache git
+  script:
+    - git config user.email "ci@xdata.si"
+    - git config user.name "GitLab CI"
+    - git remote set-url origin "https://oauth2:${GITLAB_PUSH_TOKEN}@gitlab.xdata.si/xdata/xsearch.git"
+    - git remote add upstream "https://github.com/searxng/searxng.git"
+    - git fetch upstream master
+    - git checkout -B master origin/master
+    - |
+      if git merge-base --is-ancestor upstream/master HEAD; then
+        echo "Already up-to-date with upstream, nothing to sync."
+        exit 0
+      fi
+    - git merge upstream/master -X ours --no-edit -m "chore: sync with upstream searxng/searxng"
+    - git push origin master
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Build Docker image and push to GitLab Container Registry
+# Runs on every push to master (incl. pushes from sync-upstream)
+# ──────────────────────────────────────────────────────────────────────────────
+build-image:
+  stage: build
+  image: docker:27
+  services:
+    - name: docker:27-dind
+      alias: docker
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master" && $CI_PIPELINE_SOURCE != "schedule"
+  before_script:
+    - apk add --no-cache python3 git
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+  script:
+    # Generate searx/version_frozen.py from git metadata
+    - PYTHONPATH=. python3 -m searx.version freeze
+    - eval "$(PYTHONPATH=. python3 -m searx.version)"
+    # Build builder stage (Python venv)
+    - |
+      docker build \
+        --build-arg "TIMESTAMP_VENV=$(git log -1 --format='%ct' -- requirements.txt)" \
+        --build-arg "TIMESTAMP_SETTINGS=$(git log -1 --format='%ct' -- searx/settings.yml)" \
+        --tag "localhost/${CONTAINER_IMAGE_ORGANIZATION}/${CONTAINER_IMAGE_NAME}:builder" \
+        --file container/builder.dockerfile \
+        .
+    # Build final dist image
+    - |
+      docker build \
+        --build-arg "CONTAINER_IMAGE_ORGANIZATION=${CONTAINER_IMAGE_ORGANIZATION}" \
+        --build-arg "CONTAINER_IMAGE_NAME=${CONTAINER_IMAGE_NAME}" \
+        --build-arg "CREATED=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+        --build-arg "VERSION=${DOCKER_TAG}" \
+        --build-arg "VCS_URL=${CI_PROJECT_URL}" \
+        --build-arg "VCS_REVISION=${CI_COMMIT_SHA}" \
+        --tag "${CI_REGISTRY_IMAGE}:latest" \
+        --tag "${CI_REGISTRY_IMAGE}:${CI_COMMIT_SHORT_SHA}" \
+        --file container/dist.dockerfile \
+        .
+    - docker push "${CI_REGISTRY_IMAGE}:latest"
+    - docker push "${CI_REGISTRY_IMAGE}:${CI_COMMIT_SHORT_SHA}"
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Trigger Dockhand webhook to redeploy
+# Required CI variables:
+#   DOCKHAND_WEBHOOK_URL    — full webhook URL from Dockhand stack settings
+#   DOCKHAND_WEBHOOK_SECRET — webhook secret token
+# ──────────────────────────────────────────────────────────────────────────────
+deploy:
+  stage: deploy
+  image: curlimages/curl:latest
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master" && $CI_PIPELINE_SOURCE != "schedule"
+  needs:
+    - build-image
+  script:
+    - |
+      curl -sf -X POST "${DOCKHAND_WEBHOOK_URL}" \
+        -H "X-Gitlab-Token: ${DOCKHAND_WEBHOOK_SECRET}"
