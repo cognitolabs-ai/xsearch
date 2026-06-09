@@ -1,280 +1,102 @@
-# XSearch Deployment Guide
+# XSearch — Deployment & Administration
 
-This guide covers deploying XSearch by Cognitolabs AI on a production server.
+## Infrastructure
 
-## Quick Start
+| Component | Location |
+|-----------|----------|
+| Git repository | https://gitlab.xdata.si/xdata/xsearch |
+| Container registry | `registry.xdata.si/xdata/xsearch:latest` |
+| Stack manager (Dockhand) | http://144.91.101.143:3000 |
+| Live URL | https://search.xdata.si |
 
-### 1. Prerequisites
+## CI/CD Pipeline
 
-- Docker Engine 20.10+ and Docker Compose v2
-- At least 2GB RAM, 1GB disk space
-- Linux server (Ubuntu 22.04 LTS recommended)
+Stages run automatically on GitLab:
 
-### 2. Basic Deployment
+| Stage | Trigger | Action |
+|-------|---------|--------|
+| `sync-upstream` | Daily schedule (04:00 UTC) | Merges `searxng/searxng:master` — our changes win all conflicts (`-X ours`) |
+| `build-image` | Push to `master` | Builds Docker image, pushes to `registry.xdata.si` |
+| `deploy` | After build | Triggers Dockhand webhook → pulls new image → restarts container |
+
+Pushing to `master` on GitLab automatically builds and deploys.
+
+## Files on the server
+
+Dockhand repo clone (read-only, managed by Dockhand):
+```
+/app/data/stacks/Production/xsearch/
+```
+
+Docker named volumes (persistent data):
+```
+/var/lib/docker/volumes/xsearch_xsearch-config/_data/   ← settings.yml
+/var/lib/docker/volumes/xsearch_xsearch-data/_data/     ← runtime cache
+```
+
+## Updating settings.yml
+
+`settings.yml` in this repo is a **default template** — written to the volume on first container start, never overwritten automatically.
+
+**To apply config changes (SSH to server):**
+```bash
+nano /var/lib/docker/volumes/xsearch_xsearch-config/_data/settings.yml
+docker restart xsearch
+```
+
+**If you changed settings.yml in this repo and want to apply it:**
+After CI/CD redeploys, the new template appears as `settings.yml.new` in the volume:
+```bash
+# On server:
+cd /var/lib/docker/volumes/xsearch_xsearch-config/_data/
+cp settings.yml.new settings.yml
+docker restart xsearch
+```
+
+## Manual redeploy (without code push)
 
 ```bash
-# Clone the repository
-git clone https://github.com/cognitolabs-ai/xsearch.git
-cd xsearch
-
-# Create environment file
-cp .env.example .env
-
-# Generate a secure secret key
-XSEARCH_SECRET=$(openssl rand -base64 32)
-sed -i "s/CHANGE-ME-TO-RANDOM-SECRET-KEY/$XSEARCH_SECRET/" .env
-
-# Edit .env and set your XSEARCH_BASE_URL
-nano .env
-
-# Start XSearch
-docker compose up -d
-
-# Check logs
-docker compose logs -f xsearch
+curl -X POST "http://144.91.101.143:3000/api/git/stacks/1/webhook" \
+     -H "X-Gitlab-Token: <DOCKHAND_WEBHOOK_SECRET>"
 ```
 
-XSearch will be available at http://localhost:8080
+The secret is stored in GitLab → Settings → CI/CD → Variables as `DOCKHAND_WEBHOOK_SECRET`.
 
-### 3. With Valkey/Redis Cache (Recommended)
+## Required CI/CD variables
 
-For better performance with caching:
+Set in GitLab → Settings → CI/CD → Variables:
 
-```bash
-# Start with Valkey cache
-docker compose --profile with-cache up -d
+| Variable | Purpose |
+|----------|---------|
+| `GITLAB_PUSH_TOKEN` | Token for sync job to push merged commits back to `master` |
+| `DOCKHAND_WEBHOOK_URL` | Full webhook URL for the xsearch stack |
+| `DOCKHAND_WEBHOOK_SECRET` | Webhook secret token |
 
-# Verify both containers are running
-docker compose ps
-```
+## Container environment
 
-## Production Setup
+Key variables in `docker-compose.yml`:
 
-### Environment Variables
+| Variable | Description |
+|----------|-------------|
+| `XSEARCH_BASE_URL` | Public URL — update for production domain |
+| `SEARXNG_SECRET` | Flask session secret (hardcoded in compose) |
+| `GRANIAN_WORKERS` | WSGI worker processes (default: 4) |
+| `GRANIAN_THREADS` | Threads per worker (default: 4) |
 
-Edit `.env` file with production values:
-
-```bash
-# REQUIRED - Set to your public URL
-XSEARCH_BASE_URL=https://search.yourdomain.com
-
-# REQUIRED - Generate secure secret
-XSEARCH_SECRET=your-random-secret-here
-
-# RECOMMENDED for public instances
-XSEARCH_IMAGE_PROXY=true
-XSEARCH_LIMITER=true
-XSEARCH_PUBLIC_INSTANCE=true
-
-# Optional: Adjust port
-XSEARCH_PORT=8080
-```
-
-### Reverse Proxy Setup
-
-#### Nginx
-
-```nginx
-server {
-    listen 443 ssl http2;
-    server_name search.yourdomain.com;
-
-    ssl_certificate /path/to/cert.pem;
-    ssl_certificate_key /path/to/key.pem;
-
-    location / {
-        proxy_pass http://127.0.0.1:8080;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_set_header X-Script-Name "";
-    }
-}
-```
-
-#### Caddy
-
-```caddy
-search.yourdomain.com {
-    reverse_proxy localhost:8080
-}
-```
-
-### SSL/TLS with Let's Encrypt
-
-Using Certbot:
-
-```bash
-sudo apt install certbot python3-certbot-nginx
-sudo certbot --nginx -d search.yourdomain.com
-```
-
-## Configuration
-
-### Custom Settings
-
-XSearch uses `/etc/xsearch/settings.yml` inside the container. To customize:
-
-```bash
-# Copy default settings
-docker compose exec xsearch cat /etc/xsearch/settings.yml > xsearch-config/settings.yml
-
-# Edit settings
-nano xsearch-config/settings.yml
-
-# Restart to apply
-docker compose restart xsearch
-```
-
-Important settings:
-- `general.instance_name` - Display name
-- `server.limiter` - Rate limiting (recommended for public instances)
-- `server.image_proxy` - Privacy protection
-- `ui` - Theme and interface customization
-
-### Search Engines Configuration
-
-To enable/disable search engines, edit `settings.yml`:
-
+To change the public URL, edit `docker-compose.yml` and push to `master`:
 ```yaml
-engines:
-  - name: google
-    disabled: false
-  - name: bing
-    disabled: true
+environment:
+  - XSEARCH_BASE_URL=https://search.xdata.si
 ```
 
-### Valkey/Redis Cache
-
-To use caching, update `settings.yml`:
-
-```yaml
-valkey:
-  url: valkey://valkey:6379/0
-```
-
-## Monitoring
-
-### Health Check
+## Viewing logs
 
 ```bash
-# Check if XSearch is responding
-curl http://localhost:8080/healthz
-
-# View logs
-docker compose logs -f xsearch
+# On server (SSH):
+docker logs xsearch
+docker logs -f xsearch   # follow
 ```
 
-### Resource Usage
+## Upstream sync
 
-```bash
-# Check container stats
-docker stats xsearch
-```
-
-## Maintenance
-
-### Updates
-
-```bash
-# Pull latest image
-docker compose pull
-
-# Restart with new image
-docker compose up -d
-
-# Clean old images
-docker image prune -f
-```
-
-### Backup
-
-```bash
-# Backup configuration and data
-tar -czf xsearch-backup-$(date +%Y%m%d).tar.gz \
-    xsearch-config/ \
-    xsearch-data/ \
-    .env
-```
-
-### Restore
-
-```bash
-# Restore from backup
-tar -xzf xsearch-backup-YYYYMMDD.tar.gz
-
-# Restart services
-docker compose up -d
-```
-
-## Troubleshooting
-
-### Container won't start
-
-```bash
-# Check logs for errors
-docker compose logs xsearch
-
-# Verify configuration
-docker compose config
-
-# Check permissions
-ls -la xsearch-config/ xsearch-data/
-```
-
-### Permission errors
-
-The container runs as user `searxng` (UID 977). Fix permissions:
-
-```bash
-sudo chown -R 977:977 xsearch-config/ xsearch-data/
-```
-
-### Port already in use
-
-Change `XSEARCH_PORT` in `.env`:
-
-```bash
-XSEARCH_PORT=8888
-```
-
-Then restart:
-
-```bash
-docker compose down
-docker compose up -d
-```
-
-## Security Recommendations
-
-1. **Always use HTTPS** in production
-2. **Set strong secret key** (`XSEARCH_SECRET`)
-3. **Enable rate limiting** for public instances
-4. **Keep Docker images updated** regularly
-5. **Restrict network access** using firewall rules
-6. **Enable image proxy** to protect user privacy
-7. **Regular backups** of configuration and data
-
-## Performance Tuning
-
-For high-traffic instances:
-
-```bash
-# Increase workers and threads
-GRANIAN_WORKERS=8
-GRANIAN_THREADS=4
-
-# Enable Valkey cache
-docker compose --profile with-cache up -d
-```
-
-## Support
-
-- Documentation: https://docs.searxng.org
-- Repository: https://github.com/cognitolabs-ai/xsearch
-- Issues: https://github.com/cognitolabs-ai/xsearch/issues
-
-## License
-
-XSearch is licensed under AGPL-3.0-or-later.
+The daily sync merges upstream SearXNG changes with `-X ours` merge strategy — our branding, settings, and customizations always take precedence. If upstream makes breaking changes that need manual review, cancel the scheduled pipeline in GitLab and merge manually.
