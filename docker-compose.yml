@@ -1,28 +1,23 @@
 ---
-version: '3.8'
-
 services:
   xsearch:
     image: registry.xdata.si/xdata/xsearch:latest
     container_name: xsearch
     restart: unless-stopped
     ports:
-      - "${XSEARCH_PORT:-8080}:8080"
+      - "8080:8080"
     volumes:
-      - ./xsearch-config:/etc/searxng:rw
-      - ./xsearch-data:/var/lib/searxng:rw
+      - xsearch-config:/etc/searxng:rw
+      - xsearch-data:/var/lib/searxng:rw
     environment:
       - XSEARCH_BASE_URL=${XSEARCH_BASE_URL:-http://localhost:8080}
-      - XSEARCH_SECRET=${XSEARCH_SECRET}
+      - SEARXNG_SECRET=9e40f8a13ea31b6b717d37ef00426c42409f741655e782ce3a7ee8874b7f76f6
       - XSEARCH_BIND_ADDRESS=0.0.0.0
-      - XSEARCH_PORT=8080
-      - XSEARCH_IMAGE_PROXY=${XSEARCH_IMAGE_PROXY:-true}
-      - XSEARCH_LIMITER=${XSEARCH_LIMITER:-false}
-      - XSEARCH_PUBLIC_INSTANCE=${XSEARCH_PUBLIC_INSTANCE:-false}
+      - XSEARCH_IMAGE_PROXY=true
+      - XSEARCH_LIMITER=false
+      - XSEARCH_PUBLIC_INSTANCE=false
       - GRANIAN_WORKERS=${GRANIAN_WORKERS:-4}
       - GRANIAN_THREADS=${GRANIAN_THREADS:-4}
-    networks:
-      - xsearch-network
     cap_drop:
       - ALL
     cap_add:
@@ -35,28 +30,6 @@ services:
         max-size: "10m"
         max-file: "3"
 
-  valkey:
-    image: valkey/valkey:latest
-    container_name: xsearch-valkey
-    restart: unless-stopped
-    command: valkey-server --save 60 1 --loglevel warning
-    volumes:
-      - ./xsearch-valkey:/data:rw
-    networks:
-      - xsearch-network
-    cap_drop:
-      - ALL
-    cap_add:
-      - SETGID
-      - SETUID
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "5m"
-        max-file: "2"
-    profiles:
-      - with-cache
-
-networks:
-  xsearch-network:
-    driver: bridge
+volumes:
+  xsearch-config:
+  xsearch-data:
