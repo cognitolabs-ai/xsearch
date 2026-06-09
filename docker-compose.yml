@@ -18,12 +18,6 @@ services:
       - XSEARCH_PUBLIC_INSTANCE=false
       - GRANIAN_WORKERS=${GRANIAN_WORKERS:-4}
       - GRANIAN_THREADS=${GRANIAN_THREADS:-4}
-    cap_drop:
-      - ALL
-    cap_add:
-      - CHOWN
-      - SETGID
-      - SETUID
     logging:
       driver: "json-file"
       options:
