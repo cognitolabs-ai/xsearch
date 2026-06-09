@@ -33,7 +33,7 @@ LABEL org.opencontainers.image.created="$CREATED" \
       org.opencontainers.image.version="$VERSION"
 
 ENV XSEARCH_VERSION="$VERSION" \
-    XSEARCH_SETTINGS_PATH="$CONFIG_PATH/settings.yml" \
+    XSEARCH_SETTINGS_PATH="$__SEARXNG_CONFIG_PATH/settings.yml" \
     GRANIAN_PROCESS_NAME="xsearch" \
     GRANIAN_INTERFACE="wsgi" \
     GRANIAN_HOST="::" \
