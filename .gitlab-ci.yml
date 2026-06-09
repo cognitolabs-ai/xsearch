@@ -86,4 +86,4 @@ deploy:
   needs:
     - build-image
   script:
-    - curl -sf -X POST "${DOCKHAND_WEBHOOK_URL}" -H "X-Gitlab-Token: ${DOCKHAND_WEBHOOK_SECRET}"
+    - 'curl -sf -X POST "${DOCKHAND_WEBHOOK_URL}" -H "X-Gitlab-Token: ${DOCKHAND_WEBHOOK_SECRET}"'
