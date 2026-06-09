@@ -58,8 +58,8 @@ build-image:
     - apk add --no-cache python3 git
     - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
   script:
-    - PYTHONPATH=. python3 -m searx.version freeze
-    - eval "$(PYTHONPATH=. python3 -m searx.version)"
+    - python3 searx/version.py freeze
+    - eval "$(python3 searx/version.py)"
     - TIMESTAMP_VENV=$(git log -1 --format='%ct' -- requirements.txt)
     - TIMESTAMP_SETTINGS=$(git log -1 --format='%ct' -- searx/settings.yml)
     - docker build --build-arg "TIMESTAMP_VENV=$TIMESTAMP_VENV" --build-arg "TIMESTAMP_SETTINGS=$TIMESTAMP_SETTINGS" --tag "localhost/${CONTAINER_IMAGE_ORGANIZATION}/${CONTAINER_IMAGE_NAME}:builder" --file container/builder.dockerfile .
