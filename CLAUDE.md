@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this project is
 
-XSearch is a fork of [SearXNG](https://docs.searxng.org), a privacy-respecting metasearch engine built on Flask/Python. It aggregates results from 200+ search engines without tracking users. The fork is maintained by Cognitolabs AI and published as a container image at `ghcr.io/cognitolabs-ai/xsearch`.
+XSearch is a fork of [SearXNG](https://docs.searxng.org), a privacy-respecting metasearch engine built on Flask/Python. It aggregates results from 200+ search engines without tracking users. The fork is maintained by Cognitolabs AI and published as a container image at `registry.xdata.si/xdata/xsearch`. See `DEPLOYMENT.md` for infrastructure, CI/CD, and production administration.
 
 ## Development setup and common commands
 
@@ -104,16 +104,11 @@ The `./manage` script sets up `PATH` to include the virtualenv (`local/py3/bin`)
 
 ## Deployment
 
-Production deployment uses Docker Compose with the pre-built image:
+Production runs on GitLab CI/CD → Dockhand → `registry.xdata.si/xdata/xsearch:latest`. Every push to `master` builds a new image and deploys automatically. See `DEPLOYMENT.md` for the full runbook.
 
-```bash
-./deploy.sh          # automated setup
-# or manually:
-cp .env.example .env
-# set XSEARCH_BASE_URL and XSEARCH_SECRET in .env
-docker compose up -d
-```
+The container entrypoint is `container/entrypoint.sh`. On first start it creates `settings.yml` at `$XSEARCH_SETTINGS_PATH` (`/etc/searxng/settings.yml`) from the bundled template, replacing the placeholder secret with a random key. On subsequent starts, if the bundled template is newer it writes `settings.yml.new` for manual review — the active file is never overwritten. The WSGI server is Granian (not Gunicorn).
 
-Optional Valkey cache: `docker compose --profile with-cache up -d`.
-
-The container entrypoint is `container/entrypoint.sh`. Runtime configuration is volume-mounted at `/etc/xsearch` (maps to `./xsearch-config` in Compose). The WSGI server is Granian (not Gunicorn).
+Key container env vars resolved from the base image at build time:
+- `$__SEARXNG_CONFIG_PATH` → `/etc/searxng` (config volume mount point)
+- `$__SEARXNG_DATA_PATH` → `/var/lib/searxng` (data volume mount point)
+- `SEARXNG_SECRET` → overrides `server.secret_key` in settings (via `settings_defaults.py`)
