@@ -3,7 +3,7 @@ version: '3.8'
 
 services:
   xsearch:
-    image: registry.gitlab.xdata.si/xdata/xsearch:latest
+    image: registry.xdata.si/xdata/xsearch:latest
     container_name: xsearch
     restart: unless-stopped
     ports:
