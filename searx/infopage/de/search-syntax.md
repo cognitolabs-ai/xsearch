@@ -1,6 +1,6 @@
 # Suchbegriffe
 
-SearXNG verfügt über eine Syntax mit der in einer Suchanfrage die Kategorien,
+XSearch verfügt über eine Syntax mit der in einer Suchanfrage die Kategorien,
 Suchmaschinen, Sprachen und mehr geändert werden können.  In den
 {{link('Eigenschaften','preferences')}} sind die Kategorien, Suchmaschinen und
 Sprachen zu finden, die zur Verfügung stehen.
@@ -39,7 +39,7 @@ einfaches Beispiel zu geben:
 
 ## `!!<bang>` external bangs
 
-SearXNG unterstützt die _external bangs_ von [DuckDuckGo].  Das Präfix `!!` kann
+XSearch unterstützt die _external bangs_ von [DuckDuckGo].  Das Präfix `!!` kann
 verwendet werden um direkt zu einer externen Suchseite zu springen.  Um ein
 Beispiel zu geben:
 
@@ -48,7 +48,7 @@ Beispiel zu geben:
   - {{search('!!wde Wau Holland')}}
 
 Bitte beachten; die Suche wird direkt in der externen Suchmaschine durchgeführt.
-SearXNG kann die Privatsphäre des Benutzers in diesem Fall nur eingeschränkt
+XSearch kann die Privatsphäre des Benutzers in diesem Fall nur eingeschränkt
 schützen, dennoch wird diese Funktion von manchen Benutzern als sehr nützlich
 empfunden.
 
@@ -66,7 +66,7 @@ ein Beispiel zu geben:
   - {{search('!! Wau Holland')}}
 
 Bitte beachten: das Ergebnis zu dem weitergeleitet wird, kann nicht auf seine
-Vertrauenswürdigkeit überprüft werden.  SearXNG kann die Privatsphäre des
+Vertrauenswürdigkeit überprüft werden.  XSearch kann die Privatsphäre des
 Benutzers in diesem Fall nicht schützen, dennoch wird diese Funktion von manchen
 Benutzern als sehr nützlich empfunden.
 

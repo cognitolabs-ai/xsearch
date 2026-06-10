@@ -1,6 +1,6 @@
 # Sintassi di ricerca
 
-SearXNG è dotato di una sintassi di ricerca che consente di modificare le
+XSearch è dotato di una sintassi di ricerca che consente di modificare le
 categorie, motori, lingue e altro ancora.  Vedere il {{link('preferenze',
 'preferences')}} per l'elenco dei motori, delle categorie e delle lingue.
 
@@ -37,7 +37,7 @@ Per selezionare il filtro lingua utilizzare il prefisso `:`.  Per fare un esempi
 
 ## `!!<bang>` bangs esterni
 
-SearXNG supporta i bang esterni di [DuckDuckGo].  Per saltare direttamente a una
+XSearch supporta i bang esterni di [DuckDuckGo].  Per saltare direttamente a una
 pagina di ricerca esterna utilizzare il prefisso `!!`.  Per fare un esempio:
 
 - ricerca su Wikipedia in base a una lingua personalizzata
@@ -45,7 +45,7 @@ pagina di ricerca esterna utilizzare il prefisso `!!`.  Per fare un esempio:
   - {{search('!!wde Wau Holland')}}
 
 Si noti che la ricerca verrà eseguita direttamente nel motore di ricerca
-esterno.  motore di ricerca esterno, SearXNG non può proteggere la privacy
+esterno.  motore di ricerca esterno, XSearch non può proteggere la privacy
 dell'utente.
 
 [DuckDuckGo]: https://duckduckgo.com/bang
@@ -62,7 +62,7 @@ esempio:
   - {{search('!! Wau Holland')}}
 
 Si tenga presente che il risultato a cui si viene reindirizzati non può essere
-verificato come affidabile, SearXNG non è in grado di proteggere la vostra
+verificato come affidabile, XSearch non è in grado di proteggere la vostra
 privacy personale quando utilizzate questa funzione.  Utilizzatela a vostro
 rischio e pericolo.
 

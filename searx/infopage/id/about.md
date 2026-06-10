@@ -1,82 +1,97 @@
-# Tentang SearXNG
+# About
 
-SearXNG adalah sebuah [mesin pencari meta], yang mendapatkan hasil dari
-{{link('mesin pencari', 'preferences')}} lainnya sambil tidak melacak
-penggunanya.
+This is a next-generation search engine: fast, private, ad-free, and enhanced with AI in the background.
 
-Proyek SearXNG diarahkan oleh sebuah komunitas terbuka, bergabung dengan kami di
-Matrix jika Anda memiliki pertanyaan atau ingin mengobrol tentang SearXNG di
-[#searxng:matrix.org]
+It is built on the open-source foundation of SearXNG and extended with an additional AI layer that helps better understand search intent, connect information from multiple sources, and present more useful results to the user.
 
-Buat SearXNG lebih baik.
+Our goal is simple: web search should be useful, transparent, and respectful of the user.
 
-- Anda dapat membuat terjemahan SearXNG lebih baik di [Weblate], atau...
-- Lacak pengembangan, kirim kontribusi, dan laporkan masalah di [sumber
-  SearXNG].
-- Untuk mendapatkan informasi lanjut, kunjungi dokumentasi proyek SearXNG di
-  [dokumentasi SearXNG].
+## Why use this search engine?
 
-## Kenapa menggunakan SearXNG?
+Most search engines today do more than show results. They display ads, track users, build profiles, and optimize results around business interests.
 
-- SearXNG mungkin tidak menawarkan Anda hasil yang dipersonalisasikan seperti
-  Google, tetapi tidak membuat sebuah profil tentang Anda.
-- SearXNG tidak peduli apa yang Anda cari, tidak akan membagikan apa pun dengan
-  pihak ketiga, dan tidak dapat digunakan untuk mengkompromikan Anda.
-- SearXNG adalah perangkat lunak bebas, kodenya 100% terbuka, dan semuanya
-  dipersilakan untuk membuatnya lebih baik.
+We do things differently.
 
-Jika Anda peduli dengan privasi, ingin menjadi pengguna yang sadar, ataupun
-percaya dalam kebebasan digital, buat SearXNG sebagai mesin pencari bawaan atau
-jalankan di server Anda sendiri!
+This search engine:
 
-## Bagaimana saya dapat membuat SearXNG sebagai mesin pencari bawaan?
+* does not show ads,
+* does not build user profiles,
+* does not sell user data,
+* does not track users across the web,
+* does not store personal search history,
+* uses AI to improve result relevance,
+* combines results from multiple sources,
+* helps users find useful answers faster.
 
-SearXNG mendukung [OpenSearch].  Untuk informasi lanjut tentang mengubah mesin
-pencari bawaan Anda, lihat dokumentasi peramban Anda:
+Instead of thinking about how to show more ads, this search engine focuses on finding better answers.
+
+## How does it work?
+
+This search engine works as a [metasearch engine]. That means it sends your query to multiple sources and search engines, then combines the results into one clear overview.
+
+In the background, an additional AI layer helps understand the intent behind the query, improve ranking, reduce noise, and highlight more relevant information.
+
+The AI is not here to trap users in a filter bubble. Its purpose is to help find better results — not to create a profile of the user.
+
+## Privacy
+
+Privacy is not an extra feature. It is a core principle.
+
+This search engine does not require a user account, does not track personal habits, and does not create a profile based on what you search for.
+
+Your searches are your business.
+
+## No ads
+
+Search results are not paid advertisements disguised as answers.
+
+When you search, you get results — not an auction between advertisers.
+
+## AI in the background
+
+Artificial intelligence helps improve the quality of search without replacing the open web.
+
+The AI layer helps with:
+
+* understanding the meaning of a query,
+* improving result ranking,
+* identifying useful sources,
+* grouping similar information,
+* reducing irrelevant results.
+
+Search remains transparent: users can still see the sources and verify the information themselves.
+
+## Open-source foundation
+
+This project is based on SearXNG, an open-source metasearch engine developed by the community.
+
+SearXNG started as a fork of the searx project and continues the idea of private, decentralized, and user-friendly web search.
+
+Our version builds on that foundation with additional improvements, optimizations, and AI-powered functionality.
+
+## Set it as your default search engine
+
+This search engine supports [OpenSearch], so it can be added as the default search engine in modern browsers such as Firefox, Microsoft Edge, Chrome, Chromium, and Safari.
+
+If your browser does not add it automatically, you can add it manually in your browser settings under the search engine section.
+
+Supported browsers:
 
 - [Firefox]
-- [Microsoft Edge] - Dibalik tautan, Anda juga akan menemukan beberapa instruksi
-  berguna untuk Chrome dan Safari.
-- Peramban berbasis [Chromium] hanya menambahkan situs web yang dikunjungi oleh
-  pengguna tanpa sebuah jalur.
+- [Microsoft Edge]
+- [Chromium]-based browsers
 
-Apabila menambahkan mesin pencari, tidak boleh ada duplikat dengan nama yang
-sama.  Jika Anda menemukan masalah di mana Anda tidak bisa menambahkan mesin
-pencari, Anda bisa:
+## Our vision
 
-- menghapus duplikat (nama default: SearXNG) atau
-- menghubungi pemilik untuk memberikan nama yang berbeda dari nama default.
+We believe web search should serve the user again.
 
-## Bagaimana caranya SearXNG bekerja?
+Better results. No ads. No tracking. No manipulation.
 
-SearXNG adalah sebuah *fork* dari [mesin pencari meta] [searx] yang banyak
-dikenal yang diinspirasi oleh [proyek Seeks].  SearXNG menyediakan privasi dasar
-dengan mencampur kueri Anda dengan pencarian pada *platform* lainnya tanpa
-menyimpan data pencarian.  SearXNG dapat ditambahkan ke bilah pencarian peramban
-Anda; lain lagi, SearXNG dapat diatur sebagai mesin pencarian bawaan.
-
-{{link('Laman statistik', 'stats')}} berisi beberapa statistik penggunaan anonim
-berguna tentang mesin pencarian yang digunakan.
-
-## Bagaimana caranya untuk membuat SearXNG milik saya?
-
-SearXNG menghargai kekhawatiran Anda tentang pencatatan (*log*), jadi ambil
-kodenya dari [sumber SearXNG] dan jalankan sendiri!
-
-Tambahkan instansi Anda ke [daftar instansi
-publik]({{get_setting('brand.public_instances')}}) ini untuk membantu orang lain
-mendapatkan kembali privasi mereka dan membuat internet lebih bebas.  Lebih
-terdesentralisasinya internet, lebih banyak kebebasan yang kita punya!
+Search as it should be.
 
 
-[sumber SearXNG]: {{GIT_URL}}
-[#searxng:matrix.org]: https://matrix.to/#/#searxng:matrix.org
-[dokumentasi SearXNG]: {{get_setting('brand.docs_url')}}
-[searx]: https://github.com/searx/searx
-[mesin pencari meta]: https://id.wikipedia.org/wiki/Mesin_pencari_web#Mesin_Pencari_dan_Mesin_Pencari-meta
-[Weblate]: https://translate.codeberg.org/projects/searxng/
-[proyek Seeks]: https://beniz.github.io/seeks/
+[metasearch engine]: https://en.wikipedia.org/wiki/Metasearch_engine
 [OpenSearch]: https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
-[Firefox]: https://support.mozilla.org/id/kb/add-or-remove-search-engine-firefox
-[Microsoft Edge]: https://support.microsoft.com/id-id/microsoft-edge/ubah-mesin-pencarian-default-anda-f863c519-5994-a8ed-6859-00fbc123b782
+[Firefox]: https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox
+[Microsoft Edge]: https://support.microsoft.com/en-us/help/4028574/microsoft-edge-change-the-default-search-engine
 [Chromium]: https://www.chromium.org/tab-to-search

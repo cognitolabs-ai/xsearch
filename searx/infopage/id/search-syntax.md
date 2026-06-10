@@ -1,6 +1,6 @@
 # Sintaks pencarian
 
-SearXNG mempunyai sintaks pencarian memungkinkan Anda untuk mengubah kategori,
+XSearch mempunyai sintaks pencarian memungkinkan Anda untuk mengubah kategori,
 mesin pencari, bahasa dan lainnya.  Lihat {{link('preferensi', 'preferences')}}
 untuk daftar mesin pencari, kategori dan bahasa.
 
@@ -37,7 +37,7 @@ Untuk memilih saringan bahasa gunakan awalan `:`.  Sebagai contoh:
 
 ## `!!<bang>` mesin pencarian (*bangs*) eksternal
 
-SearXNG mendukung mesin pencarian eksternal (*bangs*) dari [DuckDuckGo].  Untuk
+XSearch mendukung mesin pencarian eksternal (*bangs*) dari [DuckDuckGo].  Untuk
 langsung lompat ke sebuah laman pencarian eksternal gunakan awalan `!!`.
 Sebagai contoh:
 
@@ -46,7 +46,7 @@ Sebagai contoh:
   - {{search('!!wen cat')}}
 
 Diingat, pencarian Anda akan dilakukan secara langsung di mesin pencari
-eksternal, SearXNG tidak dapat melindungi privasi Anda di sana.
+eksternal, XSearch tidak dapat melindungi privasi Anda di sana.
 
 [DuckDuckGo]: https://duckduckgo.com/bang
 

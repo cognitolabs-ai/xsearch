@@ -1,88 +1,97 @@
-# Über SearXNG
+# About
 
-SearXNG ist eine [Metasuchmaschine], welche die Ergebnisse anderer
-{{link('Suchmaschinen', 'preferences')}} sammelt und aufbereitet ohne dabei
-Informationen über seine Benutzer zu sammeln oder an andere Suchmaschinen weiter
-zu geben.
+This is a next-generation search engine: fast, private, ad-free, and enhanced with AI in the background.
 
-Das SearXNG Projekt wird von einer offenen Gemeinschaft entwickelt; wenn Sie
-Fragen haben oder einfach nur über SearXNG plaudern möchten, besuchen Sie uns
-auf Matrix unter: [#searxng:matrix.org]
+It is built on the open-source foundation of SearXNG and extended with an additional AI layer that helps better understand search intent, connect information from multiple sources, and present more useful results to the user.
 
-Werden Sie Teil des Projekts und unterstützen Sie SearXNG:
+Our goal is simple: web search should be useful, transparent, and respectful of the user.
 
-- Sie können die SearXNG Übersetzungen ergänzen oder korrigieren: [Weblate]
-- oder folgen Sie den Entwicklungen, senden Sie Beiträge und melden Sie Fehler:
-  [SearXNG Quellen]
-- Mehr Informationen sind in der [SearXNG Dokumentation] zu finden.
+## Why use this search engine?
 
-## Warum sollte ich SearXNG benutzen?
+Most search engines today do more than show results. They display ads, track users, build profiles, and optimize results around business interests.
 
-- SearXNG bietet Ihnen vielleicht nicht so personalisierte Ergebnisse wie
-  Google, aber es erstellt auch kein Profil über Sie.
-- SearXNG kümmert sich nicht darum, wonach Sie suchen, gibt niemals etwas an
-  Dritte weiter und kann nicht dazu verwendet werden Sie zu kompromittieren.
-- SearXNG ist freie Software, der Code ist zu 100% offen und jeder ist
-  willkommen ihn zu verbessern.
+We do things differently.
 
-Wenn Ihnen die Privatsphäre wichtig ist, Sie ein bewusster Nutzer sind und Sie
-an die digitale Freiheit glauben, sollten Sie SearXNG zu Ihrer
-Standardsuchmaschine machen oder eine SearXNG Instanz auf Ihrem eigenen Server
-betreiben.
+This search engine:
 
-## Wie kann ich SearXNG als Standardsuchmaschine festlegen?
+* does not show ads,
+* does not build user profiles,
+* does not sell user data,
+* does not track users across the web,
+* does not store personal search history,
+* uses AI to improve result relevance,
+* combines results from multiple sources,
+* helps users find useful answers faster.
 
-SearXNG unterstützt [OpenSearch].  Weitere Informationen zum Ändern Ihrer
-Standardsuchmaschine finden Sie in der Dokumentation zu Ihrem [WEB-Browser]:
+Instead of thinking about how to show more ads, this search engine focuses on finding better answers.
+
+## How does it work?
+
+This search engine works as a [metasearch engine]. That means it sends your query to multiple sources and search engines, then combines the results into one clear overview.
+
+In the background, an additional AI layer helps understand the intent behind the query, improve ranking, reduce noise, and highlight more relevant information.
+
+The AI is not here to trap users in a filter bubble. Its purpose is to help find better results — not to create a profile of the user.
+
+## Privacy
+
+Privacy is not an extra feature. It is a core principle.
+
+This search engine does not require a user account, does not track personal habits, and does not create a profile based on what you search for.
+
+Your searches are your business.
+
+## No ads
+
+Search results are not paid advertisements disguised as answers.
+
+When you search, you get results — not an auction between advertisers.
+
+## AI in the background
+
+Artificial intelligence helps improve the quality of search without replacing the open web.
+
+The AI layer helps with:
+
+* understanding the meaning of a query,
+* improving result ranking,
+* identifying useful sources,
+* grouping similar information,
+* reducing irrelevant results.
+
+Search remains transparent: users can still see the sources and verify the information themselves.
+
+## Open-source foundation
+
+This project is based on SearXNG, an open-source metasearch engine developed by the community.
+
+SearXNG started as a fork of the searx project and continues the idea of private, decentralized, and user-friendly web search.
+
+Our version builds on that foundation with additional improvements, optimizations, and AI-powered functionality.
+
+## Set it as your default search engine
+
+This search engine supports [OpenSearch], so it can be added as the default search engine in modern browsers such as Firefox, Microsoft Edge, Chrome, Chromium, and Safari.
+
+If your browser does not add it automatically, you can add it manually in your browser settings under the search engine section.
+
+Supported browsers:
 
 - [Firefox]
-- [Microsoft Edge] - Hinter dem Link finden sich auch nützliche Hinweise zu
-  Chrome und Safari.
-- [Chromium]-basierte Browser fügen nur Websites hinzu, zu denen der Benutzer
-  ohne Pfadangabe navigiert.
+- [Microsoft Edge]
+- [Chromium]-based browsers
 
-Wenn Sie eine Suchmaschine hinzufügen, darf es keine Duplikate mit demselben
-Namen geben.  Wenn Sie auf ein Problem stoßen, bei dem Sie die Suchmaschine
-nicht hinzufügen können, dann können Sie entweder:
+## Our vision
 
-- das Duplikat entfernen (Standardname: SearXNG) oder
-- den Eigentümer kontaktieren, damit dieser der Instance einen anderen Namen als
-  den Standardnamen gibt.
+We believe web search should serve the user again.
 
-## Wie funktioniert SearXNG?
+Better results. No ads. No tracking. No manipulation.
 
-SearXNG ist ein Fork der bekannten [searx] [Metasuchmaschine], die durch das
-[Seeks-Projekt] inspiriert wurde (diese beide Projekte werden heute nicht mehr
-aktiv weiterentwickelt).  SearXNG bietet einen grundlegenden Schutz der
-Privatsphäre, indem es die Suchanfragen der Benutzer mit Suchen auf anderen
-Plattformen vermischt ohne dabei Suchdaten zu speichern.  SearXNG kann im
-[WEB-Browser] als weitere oder Standard-Suchmaschine hinzugefügt werden.
-
-Die {{link('Suchmaschinenstatistik', 'stats')}} enthält einige nützliche
-Statistiken über die verwendeten Suchmaschinen.
-
-## Wie kann ich einen eigenen SearXNG Server betreiben?
-
-Jeder der mit dem Betrieb von WEB-Servern vertraut ist kann sich eine eigene
-Instanz einrichten; die Software dazu kann über die [SearXNG Quellen] bezogen
-werden. Weitere Informationen zur Installation und zum Betrieb finden sich in
-der [SearXNG Dokumentation].
-
-Fügen Sie Ihre Instanz zu der [Liste der öffentlich zugänglichen
-Instanzen]({{get_setting('brand.public_instances')}}) hinzu um auch anderen
-Menschen zu helfen ihre Privatsphäre zurückzugewinnen und das Internet freier zu
-machen.  Je dezentraler das Internet ist, desto mehr Freiheit haben wir!
+Search as it should be.
 
 
-[SearXNG Quellen]: {{GIT_URL}}
-[#searxng:matrix.org]: https://matrix.to/#/#searxng:matrix.org
-[SearXNG Dokumentation]: {{get_setting('brand.docs_url')}}
-[searx]: https://github.com/searx/searx
-[Metasuchmaschine]: https://de.wikipedia.org/wiki/Metasuchmaschine
-[Weblate]: https://translate.codeberg.org/projects/searxng/
-[Seeks-Projekt]: https://beniz.github.io/seeks/
+[metasearch engine]: https://en.wikipedia.org/wiki/Metasearch_engine
 [OpenSearch]: https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
 [Firefox]: https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox
 [Microsoft Edge]: https://support.microsoft.com/en-us/help/4028574/microsoft-edge-change-the-default-search-engine
 [Chromium]: https://www.chromium.org/tab-to-search
-[WEB-Browser]: https://de.wikipedia.org/wiki/Webbrowser

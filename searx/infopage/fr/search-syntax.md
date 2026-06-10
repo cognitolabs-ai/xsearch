@@ -1,6 +1,6 @@
 # Syntaxe de recherche
 
-SearXNG permet de modifier les catégories de recherche, les moteurs
+XSearch permet de modifier les catégories de recherche, les moteurs
 utilisés ou encore la langue de recherche par l'intermédiaire d'une
 syntaxe dédiée. La liste des moteurs de recherche, de catégories et de
 langues disponibles est accessible depuis la page de
@@ -40,7 +40,7 @@ particulier. Par exemple :
 
 ## `!!<bang>` Recherches externes (!Bang)
 
-SearXNG supporte les recherches [DuckDuckGo] de type "!Bang". Utilisez
+XSearch supporte les recherches [DuckDuckGo] de type "!Bang". Utilisez
 le préfixe "!!" pour être automatiquement redirigé vers un moteur de
 recherche externe. Par exemple :
 
@@ -49,7 +49,7 @@ recherche externe. Par exemple :
   - {{search('!!wfr Wau Holland')}}
 
 Prenez garde au fait que de telles recherches sont exécutées directement
-sur le moteur externe. Dans ce cas, SearXNG ne peut pas protéger votre
+sur le moteur externe. Dans ce cas, XSearch ne peut pas protéger votre
 vie privée.
 
 [DuckDuckGo]: https://duckduckgo.com/bang
@@ -68,7 +68,7 @@ du moteur Google. Par exemple :
 
 Prenez garde au fait qu'aucune vérification ne peut être faite
 concernant le premier lien retourné. Il pourrait même s'agir d'un site
-dangereux. Dans ce cas, SearXNG ne peut pas protéger votre vie
+dangereux. Dans ce cas, XSearch ne peut pas protéger votre vie
 privée. Soyez prudent en utilisant cette fonctionnalité.
 
 ## Requêtes spéciales
