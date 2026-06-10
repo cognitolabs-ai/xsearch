@@ -824,11 +824,11 @@ msgstr "Plugin pemeriksaan Tor"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "Plugin ini memeriksa apakah alamat permintaan adalah node keluaran Tor, "
 "dan memberi tahu pengguna jika alamat tersebut memang node keluaran Tor; "
-"seperti check.torproject.org, tetapi dari SearXNG."
+"seperti check.torproject.org, tetapi dari XSearch."
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1322,8 +1322,8 @@ msgid "Description"
 msgstr "Deskripsi"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Berikut ini adalah daftar modul-penjawab instan SearXNG."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "Berikut ini adalah daftar modul-penjawab instan XSearch."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1347,15 +1347,15 @@ msgstr "Tampilkan hasil pada tengah laman (tata letak Oscar)."
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
 "Daftar berikut merupakan daftar kuki berikut nilai-nilai kuki yang "
-"disimpan SearXNG di komputer Anda."
+"disimpan XSearch di komputer Anda."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
-msgstr "Dengan daftar ini, Anda dapat meninjau transparansi SearXNG."
+msgid "With this list, you can assess the transparency of XSearch."
+msgstr "Dengan daftar ini, Anda dapat meninjau transparansi XSearch."
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1497,17 +1497,17 @@ msgid "Image proxy"
 msgstr "Proksi gambar"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "Proksi hasil gambar melalui SearXNG"
+msgid "Proxy image results through XSearch"
+msgstr "Proksi hasil gambar melalui XSearch"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "Anda ingin mencari dalam bahasa apa?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
 msgstr ""
-"Pilih Deteksi Otomatis agar SearXNG dapat mendeteksi bahasa pencarian "
+"Pilih Deteksi Otomatis agar XSearch dapat mendeteksi bahasa pencarian "
 "Anda."
 
 #: searx/templates/simple/preferences/method.html:2
@@ -1559,8 +1559,8 @@ msgid "Theme"
 msgstr "Tema"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "Ubah tata letak SearXNG"
+msgid "Change the layout of XSearch"
+msgstr "Ubah tata letak XSearch"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"

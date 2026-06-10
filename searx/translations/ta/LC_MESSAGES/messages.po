@@ -834,11 +834,11 @@ msgstr "செருகுநிரலை சரிபார்க்கவு�
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "இந்தச் செருகுநிரல் கோரிக்கையின் முகவரி டோர் வெளியேறும் முனையா என்பதைச் "
 "சரிபார்த்து, அது இருந்தால் பயனருக்குத் தெரிவிக்கும்; check.torproject.org"
-" போன்றது, ஆனால் SearXNG இலிருந்து."
+" போன்றது, ஆனால் XSearch இலிருந்து."
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1340,8 +1340,8 @@ msgid "Description"
 msgstr "விளக்கம்"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "இது SearXNG இன் உடனடி பதில் தொகுதிகளின் பட்டியல்."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "இது XSearch இன் உடனடி பதில் தொகுதிகளின் பட்டியல்."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1365,16 +1365,16 @@ msgstr "பக்கத்தின் மையத்தில் முடி�
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
-"இது உங்கள் கணினியில் SearXNG சேமிக்கும் குக்கீகளின் பட்டியல் மற்றும் "
+"இது உங்கள் கணினியில் XSearch சேமிக்கும் குக்கீகளின் பட்டியல் மற்றும் "
 "அவற்றின் மதிப்புகள்."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
+msgid "With this list, you can assess the transparency of XSearch."
 msgstr ""
-"இந்தப் பட்டியலின் மூலம், நீங்கள் SearXNG இன் வெளிப்படைத்தன்மையை "
+"இந்தப் பட்டியலின் மூலம், நீங்கள் XSearch இன் வெளிப்படைத்தன்மையை "
 "மதிப்பிடலாம்."
 
 #: searx/templates/simple/preferences/cookies.html:9
@@ -1519,17 +1519,17 @@ msgid "Image proxy"
 msgstr "பட நிகராளி"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "SearXNG மூலம் பதிலாள் படம் முடிவுகள்"
+msgid "Proxy image results through XSearch"
+msgstr "XSearch மூலம் பதிலாள் படம் முடிவுகள்"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "தேடலுக்கு எந்த மொழியை விரும்புகிறீர்கள்?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
 msgstr ""
-"உங்கள் வினவலின் மொழியை SearXNG கண்டறிய தானாகக் கண்டறிவதைத் "
+"உங்கள் வினவலின் மொழியை XSearch கண்டறிய தானாகக் கண்டறிவதைத் "
 "தேர்ந்தெடுக்கவும்."
 
 #: searx/templates/simple/preferences/method.html:2
@@ -1581,8 +1581,8 @@ msgid "Theme"
 msgstr "தீம்"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "SearXNG இன் தளவமைப்பை மாற்றவும்"
+msgid "Change the layout of XSearch"
+msgstr "XSearch இன் தளவமைப்பை மாற்றவும்"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"

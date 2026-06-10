@@ -813,10 +813,10 @@ msgstr "టోర్ చెక్ ప్లగిన్"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "ఈ ప్లగిన్ అభ్యర్థన చిరునామా టోర్ ఎగ్జిట్-నోడ్ అవునా కాదా అని తనిఖీ "
-"చేస్తుంది మరియు అది check.torproject.org లాగా, కానీ SearXNG నుండి "
+"చేస్తుంది మరియు అది check.torproject.org లాగా, కానీ XSearch నుండి "
 "వినియోగదారుకు తెలియజేస్తుంది."
 
 #: searx/plugins/tor_check.py:64
@@ -1309,8 +1309,8 @@ msgid "Description"
 msgstr "వర్ణన"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "ఇది SearXNG యొక్క తక్షణ సమాధాన మాడ్యూల్‌ల జాబితా."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "ఇది XSearch యొక్క తక్షణ సమాధాన మాడ్యూల్‌ల జాబితా."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1334,14 +1334,14 @@ msgstr "పేజీ మధ్యలో ఫలితాలను ప్రదర
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
-"ఇది మీ కంప్యూటర్‌లో SearXNG నిల్వ చేస్తున్న కుక్కీల జాబితా మరియు వాటి "
+"ఇది మీ కంప్యూటర్‌లో XSearch నిల్వ చేస్తున్న కుక్కీల జాబితా మరియు వాటి "
 "విలువలు."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
+msgid "With this list, you can assess the transparency of XSearch."
 msgstr ""
 
 #: searx/templates/simple/preferences/cookies.html:9
@@ -1481,17 +1481,17 @@ msgid "Image proxy"
 msgstr "చిత్రం ప్రాక్సీ"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "SearXNG ద్వారా ఇమేజ్ ఫలితాలను ప్రాక్సీ చేస్తోంది"
+msgid "Proxy image results through XSearch"
+msgstr "XSearch ద్వారా ఇమేజ్ ఫలితాలను ప్రాక్సీ చేస్తోంది"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "శోధన కోసం మీరు ఏ భాషను ఇష్టపడతారు?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
 msgstr ""
-"మీ ప్రశ్న యొక్క భాషను SearXNG గుర్తించేలా చేయడానికి ఆటో-డిటెక్ట్‌ను "
+"మీ ప్రశ్న యొక్క భాషను XSearch గుర్తించేలా చేయడానికి ఆటో-డిటెక్ట్‌ను "
 "ఎంచుకోండి."
 
 #: searx/templates/simple/preferences/method.html:2
@@ -1543,7 +1543,7 @@ msgid "Theme"
 msgstr "థీమ్"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
+msgid "Change the layout of XSearch"
 msgstr ""
 
 #: searx/templates/simple/preferences/theme.html:19

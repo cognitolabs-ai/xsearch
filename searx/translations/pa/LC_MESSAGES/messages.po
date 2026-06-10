@@ -591,7 +591,7 @@ msgid "Theme"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:203
-msgid "Change SearXNG layout"
+msgid "Change XSearch layout"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:206
@@ -668,7 +668,7 @@ msgid "Disabled"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:276
-msgid "Proxying image results through SearXNG"
+msgid "Proxying image results through XSearch"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:281
@@ -753,7 +753,7 @@ msgid "Examples"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:365
-msgid "This is the list of SearXNG's instant answering modules."
+msgid "This is the list of XSearch's instant answering modules."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:376
@@ -766,12 +766,12 @@ msgstr ""
 
 #: searx/templates/simple/preferences.html:395
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:396
-msgid "With that list, you can assess SearXNG transparency."
+msgid "With that list, you can assess XSearch transparency."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:401
@@ -999,7 +999,7 @@ msgid "Engines cannot retrieve results."
 msgstr ""
 
 #: searx/templates/simple/messages/no_results.html:15
-msgid "Please, try again later or find another SearXNG instance."
+msgid "Please, try again later or find another XSearch instance."
 msgstr ""
 
 #: searx/templates/simple/messages/no_results.html:20

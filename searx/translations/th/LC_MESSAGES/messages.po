@@ -811,11 +811,11 @@ msgstr "ทอร์ตรวจสอบปลั๊กอิน"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "ปลั๊กอินนี้จะตรวจสอบว่าที่อยู่ของคำขอเป็นโหนดทางออกของ Tor หรือไม่ "
 "และแจ้งให้ผู้ใช้ทราบว่าเป็นหรือไม่ เช่น check.torproject.org แต่มาจาก "
-"SearXNG"
+"XSearch"
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1307,7 +1307,7 @@ msgid "Description"
 msgstr "คำอธิบาย"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
+msgid "This is the list of XSearch's instant answering modules."
 msgstr "นี่คือรายการโมดูลที่ตอบรับทันทีของเซียร์เอ็กซ์เอ็นจี"
 
 #: searx/templates/simple/preferences/answerers.html:29
@@ -1332,12 +1332,12 @@ msgstr "แสดงผลตรงกลางหน้า (เค้าโค�
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr "นี่คือรายการคุกกี้และค่าของคุกกี้ที่เซียร์เอ็กซ์เอ็นจีจัดเก็บไว้ในคอมพิวเตอร์ของคุณ"
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
+msgid "With this list, you can assess the transparency of XSearch."
 msgstr ""
 
 #: searx/templates/simple/preferences/cookies.html:9
@@ -1477,7 +1477,7 @@ msgid "Image proxy"
 msgstr "พร็อกซีรูปภาพ"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
+msgid "Proxy image results through XSearch"
 msgstr ""
 
 #: searx/templates/simple/preferences/language.html:24
@@ -1485,8 +1485,8 @@ msgid "What language do you prefer for search?"
 msgstr "คุณต้องการค้นหาภาษาใด?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
-msgstr "เลือก ตรวจหาอัตโนมัติ เพื่อให้ SearXNG ตรวจจับภาษาของข้อความค้นหาของคุณ"
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
+msgstr "เลือก ตรวจหาอัตโนมัติ เพื่อให้ XSearch ตรวจจับภาษาของข้อความค้นหาของคุณ"
 
 #: searx/templates/simple/preferences/method.html:2
 msgid "HTTP Method"
@@ -1535,7 +1535,7 @@ msgid "Theme"
 msgstr "ธีม"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
+msgid "Change the layout of XSearch"
 msgstr ""
 
 #: searx/templates/simple/preferences/theme.html:19

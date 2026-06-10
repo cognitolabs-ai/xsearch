@@ -826,11 +826,11 @@ msgstr "Plugin kiểm tra Tor"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "Plugin này kiểm tra xem địa chỉ của yêu cầu này có phải là một nút thoát "
 "của Tor hay không và sẽ báo cáo người dùng nếu đúng như vậy; giống như "
-"check.torproject.org, nhưng từ SearXNG."
+"check.torproject.org, nhưng từ XSearch."
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1324,8 +1324,8 @@ msgid "Description"
 msgstr "Mô tả"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Danh sách các mô-đun trả lời nhanh của SearXNG."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "Danh sách các mô-đun trả lời nhanh của XSearch."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1349,15 +1349,15 @@ msgstr "Hiển thị kết quả ở giữa trang (bố cục Oscar)."
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
-"Danh sách tên và giá trị của những cookie mà SearXNG lưu trữ trên máy "
+"Danh sách tên và giá trị của những cookie mà XSearch lưu trữ trên máy "
 "tính của bạn."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
-msgstr "Với danh sách này, bạn có thể đánh giá mức độ minh bạch của SearXNG."
+msgid "With this list, you can assess the transparency of XSearch."
+msgstr "Với danh sách này, bạn có thể đánh giá mức độ minh bạch của XSearch."
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1499,16 +1499,16 @@ msgid "Image proxy"
 msgstr "Proxy hình ảnh"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "Chuyển tiếp (proxy) kết quả hình ảnh thông qua SearXNG"
+msgid "Proxy image results through XSearch"
+msgstr "Chuyển tiếp (proxy) kết quả hình ảnh thông qua XSearch"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "Bạn muốn tìm kiếm bằng ngôn ngữ nào?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
-msgstr "Chọn Tự đông phát hiện để SearXNG dò ra ngôn ngữ thuộc tìm kiếm của bạn."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
+msgstr "Chọn Tự đông phát hiện để XSearch dò ra ngôn ngữ thuộc tìm kiếm của bạn."
 
 #: searx/templates/simple/preferences/method.html:2
 msgid "HTTP Method"
@@ -1559,8 +1559,8 @@ msgid "Theme"
 msgstr "Chủ đề màu"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "Thay đổi bố cục của SearXNG"
+msgid "Change the layout of XSearch"
+msgstr "Thay đổi bố cục của XSearch"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"

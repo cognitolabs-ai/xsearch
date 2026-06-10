@@ -828,10 +828,10 @@ msgstr "Плагін перевірки Tor"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "Цей плагін перевіряє, чи належить адреса запиту вихідному вузлу Tor і, "
-"якщо так, інформує користувача; як check.torproject.org, але від SearXNG."
+"якщо так, інформує користувача; як check.torproject.org, але від XSearch."
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1296,7 +1296,7 @@ msgstr "Змінити пошукову систему, вказану в нал
 
 #: searx/templates/simple/messages/no_results.html:22
 msgid "Switch to another instance:"
-msgstr "Перемкнути екземпляр SearXNG:"
+msgstr "Перемкнути екземпляр XSearch:"
 
 #: searx/templates/simple/messages/no_results.html:24
 msgid "Search for another query or select another category."
@@ -1325,8 +1325,8 @@ msgid "Description"
 msgstr "Опис"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Модулі SearXNG з миттєвою відповіддю."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "Модулі XSearch з миттєвою відповіддю."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1350,15 +1350,15 @@ msgstr "Показувати результати в центрі сторінк
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
-"Список файлів cookie та їх значень, які SearXNG зберігає на вашому "
+"Список файлів cookie та їх значень, які XSearch зберігає на вашому "
 "комп’ютері."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
-msgstr "За допомогою цього списку ви можете оцінити прозорість SearXNG."
+msgid "With this list, you can assess the transparency of XSearch."
+msgstr "За допомогою цього списку ви можете оцінити прозорість XSearch."
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1500,16 +1500,16 @@ msgid "Image proxy"
 msgstr "Проксі для зображень"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "Результати пошуку зображень через проксі SearXNG"
+msgid "Proxy image results through XSearch"
+msgstr "Результати пошуку зображень через проксі XSearch"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "Якій мові ви віддаєте перевагу для пошуку?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
-msgstr "Виберіть автовизначення, щоб SearXNG сам визначав мову вашого запиту."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
+msgstr "Виберіть автовизначення, щоб XSearch сам визначав мову вашого запиту."
 
 #: searx/templates/simple/preferences/method.html:2
 msgid "HTTP Method"
@@ -1560,8 +1560,8 @@ msgid "Theme"
 msgstr "Тема"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "Змінити макет SearXNG"
+msgid "Change the layout of XSearch"
+msgstr "Змінити макет XSearch"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"

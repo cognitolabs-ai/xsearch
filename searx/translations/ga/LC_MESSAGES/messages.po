@@ -813,7 +813,7 @@ msgstr "Breiseán seiceála Tor"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "Seiceálann an breiseán seo an nód amach Tor é seoladh an iarratais, agus "
 "cuireann sé in iúl don úsáideoir más é; cosúil le check.torproject.org, "
@@ -1315,7 +1315,7 @@ msgid "Description"
 msgstr "Cur síos"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
+msgid "This is the list of XSearch's instant answering modules."
 msgstr "Seo an liosta de mhodúil freagartha láithreach SearxNG."
 
 #: searx/templates/simple/preferences/answerers.html:29
@@ -1340,15 +1340,15 @@ msgstr "Taispeáin na torthaí i lár an leathanaigh (leagan amach Oscar)."
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
 "Seo an liosta fianáin agus a luachanna atá ag stóráil SearxNG ar do "
 "ríomhaire."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
-msgstr "Leis an liosta seo, is féidir leat trédhearcacht SearXNG a mheas."
+msgid "With this list, you can assess the transparency of XSearch."
+msgstr "Leis an liosta seo, is féidir leat trédhearcacht XSearch a mheas."
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1491,17 +1491,17 @@ msgid "Image proxy"
 msgstr "Proxy íomhá"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "Torthaí íomhá seachfhreastalaí trí SearXNG"
+msgid "Proxy image results through XSearch"
+msgstr "Torthaí íomhá seachfhreastalaí trí XSearch"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "Cén teanga is fearr leat le haghaidh cuardaigh?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
 msgstr ""
-"Roghnaigh Auto-bhrath chun ligean do SearXNG teanga d'fhiosrúcháin a "
+"Roghnaigh Auto-bhrath chun ligean do XSearch teanga d'fhiosrúcháin a "
 "bhrath."
 
 #: searx/templates/simple/preferences/method.html:2
@@ -1553,8 +1553,8 @@ msgid "Theme"
 msgstr "Téama"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "Athraigh leagan amach SearXNG"
+msgid "Change the layout of XSearch"
+msgstr "Athraigh leagan amach XSearch"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"

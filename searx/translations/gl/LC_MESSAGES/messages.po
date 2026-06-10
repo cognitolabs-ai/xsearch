@@ -817,11 +817,11 @@ msgstr "Complemento para comprobar Tor"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "Este complemento comproba se o enderezo da solicitude é un nodo-saída de "
 "Tor, e informate de se o é; como check.torproject.org, pero desde "
-"SearXNG."
+"XSearch."
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1315,8 +1315,8 @@ msgid "Description"
 msgstr "Descrición"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Esta é a lista de módulos de respostas instantáneas de SearXNG."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "Esta é a lista de módulos de respostas instantáneas de XSearch."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1340,15 +1340,15 @@ msgstr "Mostar resultados no centro da páxina (disposición Oscar)."
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
-"Esta é a lista de rastros que SearXNG garda na túa computadora xunto cos "
+"Esta é a lista de rastros que XSearch garda na túa computadora xunto cos "
 "seus valores."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
-msgstr "Con esta lista podes comprobar a transparencia de SearXNG."
+msgid "With this list, you can assess the transparency of XSearch."
+msgstr "Con esta lista podes comprobar a transparencia de XSearch."
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1491,17 +1491,17 @@ msgid "Image proxy"
 msgstr "Proxy de imaxes"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "Resultados para imaxes a través do mandatario de SearXNG"
+msgid "Proxy image results through XSearch"
+msgstr "Resultados para imaxes a través do mandatario de XSearch"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "Que idioma prefires para buscar?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
 msgstr ""
-"Elixe Autodetectar para deixar que SearXNG detecte o idioma da túa "
+"Elixe Autodetectar para deixar que XSearch detecte o idioma da túa "
 "consulta."
 
 #: searx/templates/simple/preferences/method.html:2
@@ -1553,8 +1553,8 @@ msgid "Theme"
 msgstr "Decorado"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "Cambiar a disposición de SearXNG"
+msgid "Change the layout of XSearch"
+msgstr "Cambiar a disposición de XSearch"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"

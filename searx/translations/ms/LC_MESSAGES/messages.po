@@ -835,11 +835,11 @@ msgstr "Tor semak plugin"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "Plugin ini memeriksa jika alamat permintaan adalah nod-keluaran Tor, dan "
 "memberitahu pengguna jika ya; seperti check.torproject.org, tetapi dari "
-"SearXNG."
+"XSearch."
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1335,8 +1335,8 @@ msgid "Description"
 msgstr "Deskripsi"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Ini adalah senarai modul jawapan segera SearXNG."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "Ini adalah senarai modul jawapan segera XSearch."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1361,14 +1361,14 @@ msgstr "Paparkan hasil di tengah halaman (susun atur Oscar)."
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
-"Ini adalah senarai kuki dan nilai-nilainya yang disimpan oleh SearXNG "
+"Ini adalah senarai kuki dan nilai-nilainya yang disimpan oleh XSearch "
 "pada komputer anda."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
+msgid "With this list, you can assess the transparency of XSearch."
 msgstr ""
 
 #: searx/templates/simple/preferences/cookies.html:9
@@ -1500,7 +1500,7 @@ msgid "Image proxy"
 msgstr "Proksi imej"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
+msgid "Proxy image results through XSearch"
 msgstr ""
 
 #: searx/templates/simple/preferences/language.html:24
@@ -1508,7 +1508,7 @@ msgid "What language do you prefer for search?"
 msgstr "Bahasa apa yang anda suka untuk membuat carian?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
 msgstr ""
 
 #: searx/templates/simple/preferences/method.html:2
@@ -1558,7 +1558,7 @@ msgid "Theme"
 msgstr "Tema"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
+msgid "Change the layout of XSearch"
 msgstr ""
 
 #: searx/templates/simple/preferences/theme.html:19

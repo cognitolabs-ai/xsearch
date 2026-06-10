@@ -839,8 +839,8 @@ msgstr "Tor 网络检测插件"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
-msgstr "此插件检查请求地址是否为 Tor 出口节点，若是则告知用户。这是由 SearXNG 提供的类似 check.torproject.org 的服务。"
+"informs the user if it is; like check.torproject.org, but from XSearch."
+msgstr "此插件检查请求地址是否为 Tor 出口节点，若是则告知用户。这是由 XSearch 提供的类似 check.torproject.org 的服务。"
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1303,7 +1303,7 @@ msgstr "更改“首选项”中使用的搜索引擎："
 
 #: searx/templates/simple/messages/no_results.html:22
 msgid "Switch to another instance:"
-msgstr "切换至另一个 SearXNG 实例："
+msgstr "切换至另一个 XSearch 实例："
 
 #: searx/templates/simple/messages/no_results.html:24
 msgid "Search for another query or select another category."
@@ -1332,8 +1332,8 @@ msgid "Description"
 msgstr "描述"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "这是 SearXNG 即时回应模块的列表。"
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "这是 XSearch 即时回应模块的列表。"
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1357,13 +1357,13 @@ msgstr "在页面中央显示结果（Oscar 布局）。"
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
-msgstr "这是 SearXNG 在您的计算机上存储的 Cookie 的列表及相应的值。"
+msgstr "这是 XSearch 在您的计算机上存储的 Cookie 的列表及相应的值。"
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
-msgstr "通过此列表，您可以评估 SearXNG 的透明度。"
+msgid "With this list, you can assess the transparency of XSearch."
+msgstr "通过此列表，您可以评估 XSearch 的透明度。"
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1382,7 +1382,7 @@ msgid ""
 "Note: specifying custom settings in the search URL can reduce privacy by "
 "leaking data to the clicked result sites."
 msgstr ""
-"注意：当您从 SearXNG 搜索结果页点击进入一个网站时，SearXNG 搜索结果页的 URL 将会在请求头的 Referer "
+"注意：当您从 XSearch 搜索结果页点击进入一个网站时，XSearch 搜索结果页的 URL 将会在请求头的 Referer "
 "字段中发送给目标网站服务器。如果您的设置了自定义搜索，URL 中将会包含您的个性化设置参数（如语言等），它们会被目标网站得知，这不利于您的隐私。"
 
 #: searx/templates/simple/preferences/cookies.html:35
@@ -1494,16 +1494,16 @@ msgid "Image proxy"
 msgstr "图片代理"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "通过 SearXNG 代理图片结果"
+msgid "Proxy image results through XSearch"
+msgstr "通过 XSearch 代理图片结果"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "您偏好搜索哪种语言？"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
-msgstr "选择自动检测可使 SearXNG 检测您的检索关键词的语言。"
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
+msgstr "选择自动检测可使 XSearch 检测您的检索关键词的语言。"
 
 #: searx/templates/simple/preferences/method.html:2
 msgid "HTTP Method"
@@ -1550,8 +1550,8 @@ msgid "Theme"
 msgstr "主题"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "更改 SearXNG 的布局"
+msgid "Change the layout of XSearch"
+msgstr "更改 XSearch 的布局"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"

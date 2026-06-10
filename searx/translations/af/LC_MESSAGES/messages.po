@@ -825,11 +825,11 @@ msgstr "Tor toets inprop"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "Hierdie inprop toepassing kontroleer of die adres van die versoek 'n TOR "
 "uitgang nodus is en stel die gebruiker in kennis indien wel, soos "
-"check.torproject.org maar vanaf SearXNG."
+"check.torproject.org maar vanaf XSearch."
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1323,8 +1323,8 @@ msgid "Description"
 msgstr "Beskrywing"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Dit is die lys van SearXNG se kitsantwoordmodules."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "Dit is die lys van XSearch se kitsantwoordmodules."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1348,15 +1348,15 @@ msgstr "Wys resultate in die middel van die bladsy (Oscar-uitleg)."
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
-"Dit is die lys van koekies en hul waardes wat SearXNG op jou rekenaar "
+"Dit is die lys van koekies en hul waardes wat XSearch op jou rekenaar "
 "stoor."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
-msgstr "Met hierdie lys kan jy die deursigtigheid van SearXNG beoordeel."
+msgid "With this list, you can assess the transparency of XSearch."
+msgstr "Met hierdie lys kan jy die deursigtigheid van XSearch beoordeel."
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1497,16 +1497,16 @@ msgid "Image proxy"
 msgstr "Beeld proksie"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "Volmag-beeldresultate deur SearXNG"
+msgid "Proxy image results through XSearch"
+msgstr "Volmag-beeldresultate deur XSearch"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "Watter taal verkies jy vir soek?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
-msgstr "Kies Outo-detect om SearXNG die taal van jou navraag te laat opspoor."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
+msgstr "Kies Outo-detect om XSearch die taal van jou navraag te laat opspoor."
 
 #: searx/templates/simple/preferences/method.html:2
 msgid "HTTP Method"
@@ -1557,8 +1557,8 @@ msgid "Theme"
 msgstr "Tema"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "Verander die uitleg van SearXNG"
+msgid "Change the layout of XSearch"
+msgstr "Verander die uitleg van XSearch"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"

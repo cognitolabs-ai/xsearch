@@ -188,7 +188,7 @@ msgstr "Doba provozu"
 #. BRAND_CUSTOM_LINKS['ABOUT']
 #: searx/searxng.msg searx/templates/simple/base.html:47
 msgid "About"
-msgstr "O SearXNG"
+msgstr "O XSearch"
 
 #. WEATHER_TERMS['AVERAGE TEMP.']
 #: searx/searxng.msg
@@ -827,11 +827,11 @@ msgstr "Doplněk kontroly Toru"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "Tento doplněk kontroluje, zda je adresa požadavku výstupním uzlem sítě "
 "Tor, a informuje uživatele, pokud tomu tak je; jako check.torproject.org,"
-" ale od SearXNG."
+" ale od XSearch."
 
 #: searx/plugins/tor_check.py:64
 msgid "Could not download the list of Tor exit-nodes from"
@@ -1325,8 +1325,8 @@ msgid "Description"
 msgstr "Popis"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Toto je seznam našeptávačů SearXNG."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "Toto je seznam našeptávačů XSearch."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1350,15 +1350,15 @@ msgstr "Zobrazit výsledky uprostřed stránky (rozložení Oscar)."
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
 msgstr ""
-"Toto je seznam cookies a jejich hodnoty, které si SearXNG ukládá na vašem"
+"Toto je seznam cookies a jejich hodnoty, které si XSearch ukládá na vašem"
 " počítači."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
-msgstr "Pomocí tohoto seznamu můžete posoudit transparentnost SearXNG."
+msgid "With this list, you can assess the transparency of XSearch."
+msgstr "Pomocí tohoto seznamu můžete posoudit transparentnost XSearch."
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1500,16 +1500,16 @@ msgid "Image proxy"
 msgstr "Nepřímé vyhledávání obrázků"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "Načítat výsledky hledání obrázků skrze proxy SearXNG"
+msgid "Proxy image results through XSearch"
+msgstr "Načítat výsledky hledání obrázků skrze proxy XSearch"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "Jaký jazyk vyhledávání upřednostňujete?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
-msgstr "Zvolte Automaticky detekovat, aby SearXNG detekoval jazyk vašeho dotazu."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
+msgstr "Zvolte Automaticky detekovat, aby XSearch detekoval jazyk vašeho dotazu."
 
 #: searx/templates/simple/preferences/method.html:2
 msgid "HTTP Method"
@@ -1560,8 +1560,8 @@ msgid "Theme"
 msgstr "Vzhled"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "Změnit rozvržení SearXNG"
+msgid "Change the layout of XSearch"
+msgstr "Změnit rozvržení XSearch"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"

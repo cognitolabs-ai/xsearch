@@ -813,7 +813,7 @@ msgstr "Tor 검사 플러그인"
 #: searx/plugins/tor_check.py:43
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from XSearch."
 msgstr ""
 "이 플러그인은 요청의 주소가 토르 출구 노드 인지 확인하고 사용자에게 check.torproject.org와 같이 "
 "SearchXNG의 주소인지 알려줍니다."
@@ -1310,8 +1310,8 @@ msgid "Description"
 msgstr "설명"
 
 #: searx/templates/simple/preferences/answerers.html:13
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "SearXNG의 즉각응답 모듈 목록입니다."
+msgid "This is the list of XSearch's instant answering modules."
+msgstr "XSearch의 즉각응답 모듈 목록입니다."
 
 #: searx/templates/simple/preferences/answerers.html:29
 msgid "This is the list of plugins."
@@ -1335,13 +1335,13 @@ msgstr "결과를 페이지 중앙에 표시합니다 (Oscar 레이아웃)."
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values XSearch is storing on your "
 "computer."
-msgstr "SearXNG이 컴퓨터에 저장하는 쿠키 목록입니다."
+msgstr "XSearch이 컴퓨터에 저장하는 쿠키 목록입니다."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With this list, you can assess the transparency of SearXNG."
-msgstr "이 목록을 이용하여, SearXNG의 투명성을 평가할 수 있습니다."
+msgid "With this list, you can assess the transparency of XSearch."
+msgstr "이 목록을 이용하여, XSearch의 투명성을 평가할 수 있습니다."
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1472,16 +1472,16 @@ msgid "Image proxy"
 msgstr "이미지 우회"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxy image results through SearXNG"
-msgstr "SearXNG를 통해 중개된 이미지 검색결과"
+msgid "Proxy image results through XSearch"
+msgstr "XSearch를 통해 중개된 이미지 검색결과"
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
 msgstr "어떤 언어로 검색하시겠습니까?"
 
 #: searx/templates/simple/preferences/language.html:25
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
-msgstr "SearXNG가 검색 언어를 자동감지 할 수 있도록 자동감지를 선택해 주세요."
+msgid "Choose Auto-detect to let XSearch detect the language of your query."
+msgstr "XSearch가 검색 언어를 자동감지 할 수 있도록 자동감지를 선택해 주세요."
 
 #: searx/templates/simple/preferences/method.html:2
 msgid "HTTP Method"
@@ -1528,8 +1528,8 @@ msgid "Theme"
 msgstr "테마"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change the layout of SearXNG"
-msgstr "SearXNG의 레이아웃 변경"
+msgid "Change the layout of XSearch"
+msgstr "XSearch의 레이아웃 변경"
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"
