@@ -1,6 +1,6 @@
 # Search syntax
 
-SearXNG comes with a search syntax by which you can modify the categories,
+XSearch comes with a search syntax by which you can modify the categories,
 engines, languages, and more.  See the {{link('preferences', 'preferences')}} for
 the list of engines, categories, and languages.
 
@@ -35,7 +35,7 @@ To select a language filter use a `:` prefix.  To give an example:
 
 ## `!!<bang>` External bangs
 
-SearXNG supports the external bangs from [DuckDuckGo].  To directly jump to a
+XSearch supports the external bangs from [DuckDuckGo].  To directly jump to a
 external search page use the `!!` prefix.  To give an example:
 
 - Search Wikipedia with a custom language:
@@ -43,7 +43,7 @@ external search page use the `!!` prefix.  To give an example:
   - {{search('!!wfr Wau Holland')}}
 
 Please note that your search will be performed directly in the external search
-engine.  SearXNG cannot protect your privacy with this.
+engine.  XSearch cannot protect your privacy with this.
 
 [DuckDuckGo]: https://duckduckgo.com/bang
 
@@ -58,7 +58,7 @@ the "Feeling Lucky" feature from DuckDuckGo.  To give an example:
   - {{search('!! Wau Holland')}}
 
 Please keep in mind that the result you are being redirected to can't be
-verified for trustworthiness and SearXNG cannot protect your personal privacy
+verified for trustworthiness and XSearch cannot protect your personal privacy
 when using this feature.  Use it at your own risk.
 
 ## Special Queries
