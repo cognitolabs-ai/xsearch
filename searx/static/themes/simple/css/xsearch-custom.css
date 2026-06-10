@@ -1,5 +1,10 @@
 /* XSearch Custom Styles */
 
+/* Remove upstream SearXNG background image from the title div */
+.index .title {
+    background: none;
+}
+
 /* Index page logo */
 .index-logo {
     max-width: 350px;
