@@ -4,6 +4,10 @@
    "Soek met Microsoft Bing en gebruik die krag van AI om inligting te vind, webbladsye, beelde, video's, kaarte en meer te verken. ’n Slimsoekenjin vir die ewig nuuskieriges.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Soek en verken hoëgehalte-, gratis foto’s en muurpapiere op Bing Beelde. Inspireer en verhef jou visuele inhoud!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Nuus vanaf wêreld-, nasionale en plaaslike nuusbronne, wat georganiseer is om aan jou omvattende nuusdekking van sport, vermaak, besigheid, politiek, weer en meer te verskaf.",
    "https://www.bing.com/news"
@@ -36,10 +40,6 @@
    "currency:af",
    "ref"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "google images":[
    "Google Images. Die omvattendste prentesoektog op die web.",
    "https://images.google.com"
@@ -57,8 +57,8 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
-   "ref"
+   "Open Library is an open, editable library catalog, building towards a web page for every book ever published. Read, borrow, and discover more than 3M books for free.",
+   "https://openlibrary.org"
   ],
   "openstreetmap":[
    "OpenStreetMap is wêreldkaart deur gewone mense geskep. Die gebruik daarvan is gratis en val onder 'n oop-lisensie.",
@@ -144,7 +144,7 @@
    "wikidata"
   ],
   "aol":[
-   "لغة برمجة عالية المستوى كائنية التوجه",
+   "شركة إنترنت أمريكية",
    "wikidata"
   ],
   "aol images":[
@@ -286,10 +286,6 @@
   "genius":[
    "شركة الوسائط الرقمية الأمريكية",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "خدمة لمشاريع تطوير البرمجيات على شبكة الأنترنت باستخدام تكنولوجيا غيت",
@@ -459,6 +455,10 @@
    "خدمة لمشاركة مقاطع الڤيديو عبر الإنترنت",
    "wikidata"
   ],
+  "wikibooks":[
+   "مجموعة مجانية متعددة اللغات من الكتب الدراسية على الإنترنت",
+   "wikidata"
+  ],
   "wikicommons.audio":[
    "wikicommons.images:ar",
    "ref"
@@ -483,7 +483,10 @@
    "ويكي تمثل مصدرا للأخبار حرة المحتوى ومشروع لمؤسسة ويكيميديا",
    "wikidata"
   ],
-  "wikipedia":"ويكيبيديا والكلمة مشتقة من مقطعين: ويكي wiki وتعني بلغة هاواي «بالغ السرعة»، والثاني بيديا pedia ومشتق من كلمة موسوعة encyclopedia، فيمكن ترجمتها إلى «الموسوعة السريعة». ويكيبيديا هي موسوعة متعددة اللغات، مبنية على الويب، ذات محتوى حر، تشغلها مؤسسة ويكيميديا، التي هي منظمة غير ربحية. ويكيبيديا هي موسوعة يمكن لأي مستخدم تعديل وتحرير وإنشاء مقالات جديدة فيها.",
+  "wikipedia":[
+   "موسوعة حرة وتشاركية على الإنترنت",
+   "wikidata"
+  ],
   "wikiquote":[
    "مناقاشات باللغة العربية",
    "wikidata"
@@ -516,18 +519,6 @@
   "youtube":"يوتيوب هو موقع ويب أمريكي يسمح لمستخدميه برفع، بث، ومشاركة التسجيلات المرئية مجانًا، بالإضافة إلى إمكانية التعليق والتفاعل مع المحتوى. تأسس الموقع في 14 فبراير 2005 على يد تشاد هيرلي وستيف تشين وجاود كريم، وهم ثلاثة موظفين سابقين في شركة باي بال، وكان مقره في مدينة سان برونو، كاليفورنيا. في البداية، اعتمد يوتيوب على تقنية أدوبي فلاش لعرض الفيديوهات، لكنه انتقل لاحقًا إلى تقنية إتش تي إم إل 5 الأكثر حداثة."
  },
  "bg":{
-  "aol":[
-   "език за програмиране",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:bg",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:bg",
-   "ref"
-  ],
   "baidu":[
    "китайска многонационална технологична компания",
    "wikidata"
@@ -540,13 +531,14 @@
    "baidu:bg",
    "ref"
   ],
-  "bandcamp":[
-   "американска интернет музикална компания",
-   "wikidata"
-  ],
+  "bandcamp":"Бандкамп (Bandcamp) е американска интернет музикална компания, основана през 2008 г. от съоснователя на Одпост Итън Даймънд и програмистите Шон Грънбъргър, Джо Холт и Нийл Тъкър, със седалище в Оукланд, Калифорния, САЩ.",
   "bing":[
    "Търсете с Microsoft Bing и използвайте мощта на ИИ, за да намирате информация, да разглеждате уеб страници, изображения, видеоклипове, карти и др. Интелигентна търсачка за вечно любопитните.",
    "https://www.bing.com"
+  ],
+  "bing images":[
+   "Търсете и разглеждайте висококачествени безплатни снимки и тапети в „Изображения на Bing“. Вдъхновете и издигнете визията си!",
+   "https://www.bing.com/images"
   ],
   "bing news":[
    "Новини от международни, национални и местни източници на новини, организирани така, че да ви предоставят задълбочено информационно покритие от света на спорта, забавленията, бизнеса, политиката, времето и още много други.",
@@ -556,13 +548,9 @@
    "Bing Video ви помага да откривате и гледате видеоклипове от множество източници, включително YouTube, Vimeo и други, с незабавни визуализации, директно възпроизвеждане и интелигентни филтри.",
    "https://www.bing.com/videos"
   ],
-  "brave.images":[
+  "brave":[
    "Търсете в мрежата. Поверително. Истински полезни резултати, отговори от ИИ и др. Всичко това от независим индекс. Без профилиране, предубеденост и Big Tech.",
    "https://search.brave.com/"
-  ],
-  "brave.news":[
-   "brave.images:bg",
-   "ref"
   ],
   "currency":[
    "интернет търсачка",
@@ -603,10 +591,6 @@
   "flickr":[
    "американски уебсайт",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google images":[
    "Google Изображения. Най-резултатното търсене на изображения в мрежата.",
@@ -649,7 +633,7 @@
    "wikidata"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -705,7 +689,7 @@
    "ref"
   ],
   "wikidata":[
-   "уики проект – база знания създадена от Фондация Уикимедия",
+   "уики проект – база знания, създадена от Фондация Уикимедия",
    "wikidata"
   ],
   "wikipedia":[
@@ -727,18 +711,6 @@
    "অনলাইন ছায়া গ্রন্থাগারের একটি মেটাসার্চ ইঞ্জিন",
    "wikidata"
   ],
-  "aol":[
-   "প্রোগ্রামিং ভাষা",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:bn",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:bn",
-   "ref"
-  ],
   "arxiv":[
    "বৈজ্ঞানিক কাগজপত্রের ইলেকট্রনিক সংস্করণের সংরক্ষণের জন্য অনলাইন ডিজিটাল আর্কাইভ নির্মিত হয়েছে",
    "wikidata"
@@ -754,6 +726,10 @@
   "baidu kaifa":[
    "baidu:bn",
    "ref"
+  ],
+  "bandcamp":[
+   "মার্কিন অনলাইন সংগীত পরিবেশক",
+   "wikidata"
   ],
   "bilibili":[
    "চীনা ভিডিও-শেয়ারিং ওয়েবসাইট",
@@ -802,10 +778,6 @@
   "flickr":[
    "চিত্র হোস্টিং ও ভিডিও হোস্টিং পরিষেবা ওয়েবসাইট এবং ওয়েব পরিষেবা সমষ্টি যা লুডিকর্প কোম্পানি কর্তৃক ২০০৪ সালে এটি তৈরি করা হয় এবং মার্চ ২০, ২০০৫ সালে ইয়াহু কর্তৃক ক্রয়কৃত",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "গিট ব্যবহার করে সফটওয়্যার সংস্করণ নিয়ন্ত্রণের জন্যে একটি ওয়েব-ভিত্তিক হোস্টিং সেবা।",
@@ -958,16 +930,12 @@
    "ཨེཕ་རོཌ་ནི་འགྲིག་བཅུག་བྱེད་ཐུབ་པའི་ ཕོས་(རིན་མེད་དང་ཕྱི་གསལ་ནང་གསལ་གྱི་ཨང་རྟགས་མཉེན་ཆས་) དང་ཨེན་ཀྲོཌ་བབས་སྟེགས་ཆེད་དུ་བཟོས་པའི་མཉེན་ཆས་ཤིག་རེད། མཉེན་ཆས་འདིས་ཁྱེད་རང་གི་ཡོ་བྱད་སྒང་ལ་ལྟ་བ་དང་། འགྲིག་བཅུག གསར་བསྒྱུར་བྱེད་དགོས་པ་རྣམས་རྗེས་དེད་གཏོང་བ་སོགས་དཀའ་ཚེགས་མེད་པའི་ཐོག་ནས་བྱེད་ཐུབ།",
    "https://f-droid.org/"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "nixos wiki":[
    "nixos wiki:en",
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "tmdb":[
@@ -985,7 +953,7 @@
    "wikidata"
   ],
   "aol":[
-   "llenguatge de programació",
+   "multinacional americana dels mitjans de comunicació de masses",
    "wikidata"
   ],
   "aol images":[
@@ -1004,6 +972,7 @@
    "stackoverflow:ca",
    "ref"
   ],
+  "bandcamp":"Bandcamp és una botiga online de música i una plataforma de promoció per a artistes independents nascuda el setembre de 2008, que va guanyar atenció el juliol de 2010 quan Amanda Palmer va decidir deixar de banda les discogràfiques per començar a vendre discos a través de Bandcamp i promocionant-se amb Twitter.",
   "bilibili":[
    "plataforma d'streaming xinesa",
    "wikidata"
@@ -1104,10 +1073,6 @@
    "directori de programari lliure de la Free Software Foundation",
    "wikidata"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "github":[
    "servei d'allotjament web per a projectes de desenvolupament de programari usant Git",
    "wikidata"
@@ -1141,8 +1106,8 @@
    "wikidata"
   ],
   "hoogle":[
-   "aol:ca",
-   "ref"
+   "llenguatge de programació",
+   "wikidata"
   ],
   "huggingface":[
    "empresa nordamericana de programari",
@@ -1217,7 +1182,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -1340,11 +1305,11 @@
    "wikidata"
   ],
   "annas archive":[
-   "Vyhledávač ve stínových knihovnách",
+   "metavyhledávač ve stínových knihovnách",
    "wikidata"
   ],
   "aol":[
-   "multiparadigmatický programovací jazyk",
+   "internetová společnost a poskytovatel emailových služeb",
    "wikidata"
   ],
   "aol images":[
@@ -1403,10 +1368,7 @@
    "Bing Video vám pomůže vyhledávat a sledovat videa z různých zdrojů, včetně YouTube, Vimeo a dalších, s okamžitými náhledy, přímým přehráváním a inteligentními filtry.",
    "https://www.bing.com/videos"
   ],
-  "brave":[
-   "svobodný webový prohlížeč",
-   "wikidata"
-  ],
+  "brave":"Brave je svobodný a otevřený webový prohlížeč vyvíjený společností Brave Software, založený na webovém prohlížeči Chromium. Brave je prohlížeč zaměřený na ochranu soukromí, výchozí nastavení je automatické blokování online reklamy a sledovačů webových stránek. Je dostupný pro řadu operační systémů, např. Microsoft Windows, macOS, Linux, Android či iOS. Přednastaveným webovým vyhledávačem se postupně stává Brave Search od stejné společnosti, ale v některých zemích a dříve jím byl i DuckDuckGo a Qwant.",
   "brave.images":[
    "brave:cs",
    "ref"
@@ -1466,10 +1428,6 @@
   "flickr":[
    "americká služba pro hostování obrázků a videí",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "webová služba hostující softwarové projekty a jejich Git repozitáře",
@@ -1627,13 +1585,16 @@
    "síť webů pro otázky a odpovědi",
    "wikidata"
   ],
-  "startpage":"Startpage.com je webový vyhledávač, který jako svoji hlavní přednost prezentuje zachování soukromí uživatelů. Dříve byl známý jako metavyhledávací systém Ixquick, Startpage v té době byla jiná služba. Obě stránky byly sloučeny v roce 2016.",
+  "startpage":[
+   "currency:cs",
+   "ref"
+  ],
   "startpage images":[
-   "startpage:cs",
+   "currency:cs",
    "ref"
   ],
   "startpage news":[
-   "startpage:cs",
+   "currency:cs",
    "ref"
   ],
   "steam":[
@@ -1739,6 +1700,10 @@
    "Chwilio gyda Microsoft Bing a defnyddio pŵer AI i ddod o hyd i wybodaeth, archwilio tudalennau gwe, delweddau, fideos, mapiau, a mwy. Peiriant chwilio clyfar ar gyfer y chwilfrydig am byth.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Chwilio ac archwilio lluniau a phapurau wal o ansawdd uchel sydd ar gael am ddim ar Bing Images. Ysbrydolwch a dyrchafwch eich delweddau!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Newyddion o ffynonellau newyddion byd, cenedlaethol a lleol, wedi eu trefnu i drafod newyddion chwaraeon, adloniant, busnes, gwleidyddiaeth, tywydd a mwy mewn manylder.",
    "https://www.bing.com/news"
@@ -1747,13 +1712,9 @@
    "Mae Fideo Bing yn eich helpu i ddarganfod a gwylio fideos o sawl ffynhonnell gan gynnwys YouTube, Vimeo, a mwy, gyda rhagluniau ar unwaith, chwarae uniongyrchol, a hidlyddion clyfar.",
    "https://www.bing.com/videos"
   ],
-  "brave.images":[
+  "brave":[
    "Search the Web. Privately. Truly useful results, AI-powered answers, & more. All from an independent index. No profiling, no bias, no Big Tech.",
    "https://search.brave.com/"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google images":[
    "Lluniau Google.Y chwiliad lluniau mwya cynhwysfawr ar y we.",
@@ -1788,7 +1749,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -1838,6 +1799,10 @@
    "Søg med Microsoft Bing, og brug styrken ved kunstig intelligens til at finde oplysninger, udforske websider, billeder, videoer, kort og meget mere. En smart søgemaskine til de nysgerrige, der altid er nysgerrige.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Søg efter og udforsk gratis fotos og baggrunde i høj kvalitet på Bing Billeder. Inspirer og opløft dine visuelle oplevelser!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Nyheder fra hele verden, nationale og lokale nyhedskilder – med henblik på at give dig en tilbundsgående nyhedsdækning inden for sport, underholdning, forretning, politik, vejret og meget andet.",
    "https://www.bing.com/news"
@@ -1881,10 +1846,6 @@
   "etymonline":[
    "Online engelsk etymologiordbog",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google":[
    "internet-søgemaskine udviklet af Google",
@@ -1975,8 +1936,8 @@
    "wikidata"
   ],
   "steam":[
-   "steam:bg",
-   "ref"
+   "The Steam Summer Sale is on now — find great deals on thousands of games!",
+   "https://store.steampowered.com/"
   ],
   "tmdb":[
    "tmdb:en",
@@ -2017,18 +1978,6 @@
    "italienische Nachrichten- und Presseagentur",
    "wikidata"
   ],
-  "aol":[
-   "objektorientierte Programmiersprache",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:de",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:de",
-   "ref"
-  ],
   "apple app store":[
    "von Apple betriebene Plattform für elektronische Software-Distribution",
    "wikidata"
@@ -2061,10 +2010,7 @@
    "baidu:de",
    "ref"
   ],
-  "bandcamp":[
-   "Online-Musikdienst, der unabhängigen Musikern/Bands Möglichkeiten eröffnet",
-   "wikidata"
-  ],
+  "bandcamp":"Bandcamp ist ein Online-Musikdienst und eine Plattform zur Promotion, die sich insbesondere an unabhängige Künstler richtet. Künstler bei Bandcamp besitzen eine veränderbare Microsite mit den Alben, die sie hochladen. Viele Titel können kostenfrei auf der Internetseite abgespielt werden. Künstler können festlegen, ob Musikdownloads kostenlos oder kostenpflichtig möglich oder an die Angabe einer E-Mail-Adresse gekoppelt sind. Bandcamp nimmt einen Anteil von 15 % an den Verkäufen auf der Website, wobei der Anteil nach der Einnahme von mehr als 5.000 US-Dollar durch Verkäufe auf 10 % sinkt. Die Teilnahme bei Bandcamp ist kostenlos.",
   "bing":[
    "Internet-Suchmaschine von Microsoft",
    "wikidata"
@@ -2097,22 +2043,16 @@
    "Kostenloser und quelloffener Webbrowser mit Fokus auf Datenschutz, entwickelt von Brave Software, Inc. auf der Grundlage des Chromium-Webbrowsers",
    "wikidata"
   ],
-  "brave.images":[
-   "brave:de",
-   "ref"
-  ],
+  "brave.images":"Brave ist ein auf Chromium basierender, quelloffener Webbrowser, der kostenlos für alle gängigen Plattformen verfügbar ist. Sein Fokus liegt auf dem Schutz der Privatsphäre des Nutzers, indem Phishing, Tracking und Fingerprinting gezielt blockiert werden. Das 2015 gegründete US-amerikanische Unternehmen Brave Software Inc. dahinter wird von Brendan Eich geleitet. Die deutsche Zeitschrift c’t prüfte im Juni 2021 den Schutz der Privatsphäre in mehreren Browsern. Dabei schnitt Brave mit Abstand am besten ab.",
   "brave.news":[
    "brave:de",
    "ref"
   ],
   "brave.videos":[
-   "brave:de",
+   "brave.images:de",
    "ref"
   ],
-  "cachy os packages":[
-   "Auf Archlinux basierende Distribution",
-   "wikidata"
-  ],
+  "cachy os packages":"CachyOS ist eine auf Arch Linux basierende Linux-Distribution mit vielen Änderungen und Optimierungen, die darauf abzielen, die Leistung auf neuerer Hardware zu verbessern. Sie richtet sich unter anderem an Computerspieler.",
   "caddy.community":[
    "discuss.python:de",
    "ref"
@@ -2121,10 +2061,7 @@
    "amerikanische Non-Profit-Organisation",
    "wikidata"
   ],
-  "currency":[
-   "Datenschutzorientierte Suchmaschine",
-   "wikidata"
-  ],
+  "currency":"DuckDuckGo (DDG) ist eine Websuchmaschine, die keine persönlichen Informationen sammelt. Die Website ist im September 2008 Online gegangen.",
   "dailymotion":[
    "französisches Videoportal",
    "wikidata"
@@ -2142,7 +2079,7 @@
    "https://www.destatis.de"
   ],
   "deviantart":[
-   "Soziale Medien/Kunst-Website",
+   "soziale Medien- und Kunst-Website",
    "wikidata"
   ],
   "dictzone":[
@@ -2154,8 +2091,8 @@
    "wikidata"
   ],
   "duckduckgo":[
-   "currency:de",
-   "ref"
+   "Datenschutzorientierte Suchmaschine",
+   "wikidata"
   ],
   "duckduckgo images":[
    "currency:de",
@@ -2196,10 +2133,6 @@
   "fyyd":[
    "Podcast Search Enginge",
    "https://fyyd.de"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "bitbucket:de",
@@ -2249,10 +2182,7 @@
    "huggingface:de",
    "ref"
   ],
-  "imdb":[
-   "Datenbank über Filme, Fernsehserien, Videoproduktionen, Videospiele und daran Mitwirkende",
-   "wikidata"
-  ],
+  "imdb":"Die IMDb ist eine Online-Datenbank zu Filmen, Fernsehserien, Videoproduktionen, Computerspielen und Personen, die daran mitgewirkt haben. Im Dezember 2023 gab es Einträge zu über 17,8 Millionen Titeln. Sie verteilen sich unter anderem auf über 667.000 verschiedene Spielfilmproduktionen, über 285.000 Videofilme, über 143.000 Fernsehfilme, mehr als 254.000 Fernsehserien, fast 8 Millionen Serienepisoden und mehr als 7,2 Millionen Podcast-Episoden. Zudem sind über 13,1 Millionen Film- und Fernsehschaffende aufgeführt. Betrieben wird die Datenbank seit 1998 von Amazon.",
   "ina":[
    "öffentlich-rechtliche Einrichtung in Frankreich, die Rundfunk- und Fernsehproduktionen archiviert",
    "wikidata"
@@ -2308,15 +2238,6 @@
   "minecraft wiki":[
    "Wiki für das Videospiel Minecraft",
    "wikidata"
-  ],
-  "mojeek":"Mojeek ist eine im Vereinigten Königreich ansässige Suchmaschine, die sich durch ihren Fokus auf Datenschutz und Unabhängigkeit von anderen großen Suchindizes unterscheidet. Mojeek wurde mit dem Ziel gegründet, die Privatsphäre der Nutzer zu wahren, und betreibt einen eigenen crawlerbasierten Index. Dadurch unterscheidet es sich von Suchmaschinen, die auf Ergebnisse Dritter zurückgreifen, wie etwa die Ergebnisse von Google oder Bing.",
-  "mojeek images":[
-   "mojeek:de",
-   "ref"
-  ],
-  "mojeek news":[
-   "mojeek:de",
-   "ref"
   ],
   "moviepilot":[
    "Dein Guide für Filme in Kino, TV und auf DVD. Entdecke Filme auf eine neue Art - erhalte persönliche Vorhersagen, wie gut dir ein Film gefallen wird.",
@@ -2374,10 +2295,7 @@
    "Online-Projekt für Buchdaten des Internet Archive",
    "wikidata"
   ],
-  "openstreetmap":[
-   "Datenbank und Karte freier Geoinformationen",
-   "wikidata"
-  ],
+  "openstreetmap":"OpenStreetMap (OSM) ist ein freies Projekt der GeoIT, welches über eigene, freie Softwareentwicklungen und öffentliche (Geodaten-)Infrastrukturen, frei nutzbare Geodaten weltweit sammelt, strukturiert und für die Nutzung durch jedermann über einen Geodatenserver vorhält und anbietet. Diese Geodaten stehen als Open Data unter einer freien Lizenz, der Open Database License. Ein wesentlicher Teil des Projekts ist eine offen zugängliche Geodatenhaltung mit den erfassten Geodatensätzen. Damit ist es eine offene Geowebinfrastruktur bzw. Geodateninfrastruktur (GDI), die von der gemeinnützigen OpenStreetMap Foundation (OSMF) getragen wird.",
   "packagist":[
    "Hauptrepostorium öffentlich verfügbarer PHP-Pakete, die mit Composer installiert werden können",
    "wikidata"
@@ -2427,7 +2345,7 @@
    "wikidata"
   ],
   "rottentomatoes":[
-   "US-amerikanische Website, die Rezensionen von Filmen und Fernsehserien sammelt",
+   "US-amerikanische Film-Website",
    "wikidata"
   ],
   "rubygems":[
@@ -2458,10 +2376,7 @@
    "stackoverflow:de",
    "ref"
   ],
-  "tagesschau":[
-   "deutsche Nachrichtensendung der ARD im Fernsehen",
-   "wikidata"
-  ],
+  "tagesschau":"Die Tagesschau ist eine Nachrichtensendung der ARD, die von ARD-aktuell in Hamburg produziert und täglich mehrmals im Ersten, auf tagesschau24 und online ausgestrahlt wird. Darüber hinaus läuft die Hauptausgabe um 20 Uhr zusätzlich in den meisten Dritten Fernsehprogrammen, Spartenkanälen und Inforadios der ARD. Die Fernsehsendung ist Teil der multimedialen Nachrichtenmarke tagesschau.",
   "tmdb":[
    "tmdb:en",
    "ref"
@@ -2506,10 +2421,7 @@
    "Wikimedia-Projekt zur gemeinschaftlichen Erstellung einer freien und neutralen Nachrichtenquelle",
    "wikidata"
   ],
-  "wikipedia":[
-   "freie Online-Wiki-Enzyklopädie",
-   "wikidata"
-  ],
+  "wikipedia":"Wikipedia [ˌvɪkiˈpeːdia] ist ein gemeinnütziges Projekt zur Erstellung einer freien Enzyklopädie auf Basis des sogenannten Wiki-Prinzips und der freien Wiki-Software-Plattform MediaWiki.",
   "wikiquote":[
    "Online-Projekt einer freien Zitatensammlung auf Wiki-Basis",
    "wikidata"
@@ -2535,6 +2447,10 @@
    "Suchmaschine von Wolfram Research",
    "wikidata"
   ],
+  "woxikon.de synonyme":[
+   "Entdecke das umfassende Online-Lexikon und -Wörterbuch Woxikon ▶ Synonyme & Antonyme ✓ Kreative Sprüche ✓ Geläufige Abkürzungen ✓ Passende Reime ✓ Konjugierte Verben & vieles mehr ✓ Schau vorbei!",
+   "https://www.woxikon.de/"
+  ],
   "yacy":[
    "dezentrale Internet-Suchmaschine",
    "wikidata"
@@ -2551,22 +2467,15 @@
    "yandex:de",
    "ref"
   ],
-  "youtube":[
-   "US-amerikanisches Internet-Videoportal; Tochtergesellschaft von Google",
-   "wikidata"
-  ]
+  "youtube":"YouTube ist ein 2005 gegründetes Videoportal des US-amerikanischen Unternehmens YouTube, LLC mit Sitz im kalifornischen San Bruno, welches seit 2006 eine Tochtergesellschaft von Google LLC ist. Benutzer können auf dem Portal kostenlos Videoclips ansehen, bewerten, kommentieren und selbst hochladen. 2025 erzielte YouTube einen Jahresumsatz von 40 Milliarden Dollar."
  },
  "dv":{
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "nixos wiki":[
    "nixos wiki:en",
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "tmdb":[
@@ -2575,18 +2484,6 @@
   ]
  },
  "el-GR":{
-  "aol":[
-   "γλώσσα προγραμματισμού",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:el-GR",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:el-GR",
-   "ref"
-  ],
   "apple app store":[
    "εφαρμογή για κινητά με λειτουργικό σύστημα iOS",
    "wikidata"
@@ -2610,6 +2507,19 @@
   "bing videos":[
    "Το Βίντεο Bing σάς βοηθά να ανακαλύπτετε και να παρακολουθείτε βίντεο από πολλαπλές προελεύσεις, όπως το YouTube, το Vimeo και πολλά άλλα, με άμεσες προεπισκοπήσεις, άμεση αναπαραγωγή και έξυπνα φίλτρα.",
    "https://www.bing.com/videos"
+  ],
+  "brave":"Ο Brave είναι ελεύθερος και ανοικτού κώδικα περιηγητής ιστού, τον οποίο διαχειρίζεται η Brave Software Inc και βασίζεται στον περιηγητή Chromium. Ως φυλλομετρητής δίνει έμφαση στην ιδιωτικότητα των χρηστών και στο μπλοκάρισμα των διαδικτυακών διαφημίσεων. Επίσης δίνει την δυνατότητα στους χρήστες να ανταλλάσσουν κρυπτονομίσματα. Είναι διαθέσιμος σε διάφορες πλατφόρμες, όπως Android, Linux, Windows, iOS, κλπ.",
+  "brave.images":[
+   "brave:el-GR",
+   "ref"
+  ],
+  "brave.news":[
+   "brave:el-GR",
+   "ref"
+  ],
+  "brave.videos":[
+   "brave:el-GR",
+   "ref"
   ],
   "currency":[
    "διαδικτυακή μηχανή αναζήτησης",
@@ -2650,10 +2560,6 @@
   "fdroid":[
    "αποθετήριο λογισμικού για ελεύθερο και ανοικτού κώδικα λογισμικό για εφαρμογές Android",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "υπηρεσία φιλοξενίας για εγχειρήματα λογισμικού με χρήση του Git",
@@ -2731,6 +2637,10 @@
    "διαδικτυακό συνεργατικό εγχείρημα δημιουργίας γεωγραφικής βάσης δεδομένων",
    "wikidata"
   ],
+  "peertube":[
+   "Ένα δωρεάν λογισμικό για να πάρετε πίσω τον έλεγχο των βίντεό σας! Με περισσότερα από βίντεο φιλοξενούμενα βίντεο, που έχουν προβληθεί περισσότερες από προβολές εκατομμύρια φορές και χρήστες χρήστες, το PeerTube είναι η αποκεντρωμένη εναλλακτική λύση ελεύθερου λογισμικού για τις πλατφόρμες βίντεο που αναπτύχθηκε από την Framasoft",
+   "https://joinpeertube.org"
+  ],
   "pinterest":[
    "ιστοσελίδα μοιράσματος και δημοσίευσης φωτογραφιών",
    "wikidata"
@@ -2771,10 +2681,7 @@
    "ελεύθερο, συνεργατικό εγχείρημα του ιδρύματος Wikimedia",
    "wikidata"
   ],
-  "wikipedia":[
-   "διεθνής, ελεύθερου περιεχομένου, συνεργατική, διαδικτυακή εγκυκλοπαίδεια",
-   "wikidata"
-  ],
+  "wikipedia":"Η Βικιπαίδεια είναι διεθνής, παγκόσμια, ψηφιακή, διαδικτυακή, ελεύθερου περιεχομένου, εγκυκλοπαίδεια, που βασίζεται σε ένα μοντέλο ανοικτό στη σύνταξη του περιεχομένου της.",
   "wikisource":[
    "κατηγορία εγχειρημάτων Wikimedia",
    "wikidata"
@@ -2815,14 +2722,20 @@
    "Social media website where users upload and share user-generated images and videos",
    "wikidata"
   ],
-  "acfun":[
-   "Chinese video sharing website",
+  "acfun":"AcFun, also known as A Site for short, is a Chinese video sharing website. The name \"AcFun\" is an abbreviation of \"Anime, Comics and Fun\". The website is initially orientated as an ACGN community and is a video sharing web platform. AC Musume and TD Musume are the representative icons of AcFun.",
+  "adobe stock":[
+   "stock image supplier",
    "wikidata"
   ],
-  "alpine linux packages":[
-   "Linux distribution",
-   "wikidata"
+  "adobe stock audio":[
+   "adobe stock:en",
+   "ref"
   ],
+  "adobe stock video":[
+   "adobe stock:en",
+   "ref"
+  ],
+  "alpine linux packages":"Alpine Linux is a Linux distribution \"designed for power users who appreciate security, simplicity and resource efficiency\". It uses musl, BusyBox, and OpenRC instead of glibc, GNU Core Utilities, and systemd, respectively. This makes Alpine one of the few Linux distributions not to be based on systemd. For security, Alpine compiles all user-space binaries as position-independent executables with stack-smashing protection. Because of its small size and rapid startup, it is commonly used in containers providing quick boot-up times, on virtual machines as well as on real hardware in embedded devices, such as routers, servers and NAS.",
   "annas archive":[
    "shadow library search engine",
    "wikidata"
@@ -2831,7 +2744,7 @@
    "news agency",
    "wikidata"
   ],
-  "aol":"C++ is a high-level, general-purpose programming language created by Danish computer scientist Bjarne Stroustrup. First released in 1985 as an extension of the C programming language, adding object-oriented (OOP) features, it has since expanded significantly over time adding more OOP and other features; as of 1997/C++98 standardization, C++ has added functional features, in addition to facilities for low-level memory manipulation for systems like microcomputers or to make operating systems like Linux or Windows, and even later came features like generic programming. C++ is usually implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM.",
+  "aol":"AOL Media LLC is an American web portal and former online service provider based in New York City, and a brand marketed by Italian conglomerate Bending Spoons. The service traces its history to an online service known as PlayNET. PlayNET licensed its software to Quantum Link, which went online in November 1985. A new IBM PC client was launched in 1988, and eventually renamed as America Online in 1989. AOL grew to become the largest online service, displacing established players like CompuServe and Prodigy. By 1995, AOL had about three million active users.",
   "aol images":[
    "aol:en",
    "ref"
@@ -2866,10 +2779,13 @@
    "wikidata"
   ],
   "askubuntu":[
-   "stackoverflow:en",
-   "ref"
+   "network of question and answer websites",
+   "wikidata"
   ],
-  "baidu":"Baidu, Inc. is a Chinese multinational technology company specializing in Internet services and artificial intelligence. It holds a dominant position in China's search engine market, and provides a wide variety of other internet services such as Baidu App, Baidu Baike, iQIYI, Baidu Tieba, and ES File Explorer.",
+  "baidu":[
+   "Chinese web services company",
+   "wikidata"
+  ],
   "baidu images":[
    "baidu:en",
    "ref"
@@ -2879,7 +2795,7 @@
    "ref"
   ],
   "bandcamp":"Bandcamp is an American online music distribution platform, founded in 2008, with an office and record store in Oakland, California. It was acquired by Epic Games in March 2022 and sold to the music-licensing company Songtradr in October 2023; about half of Bandcamp staff did not receive offers to continue under the new owner.",
-  "bilibili":"Bilibili, nicknamed B Site, is a Chinese online video sharing platform based in Shanghai. Users can upload, view, and comment on videos, including through danmu, a system of overlaid on-screen comments. The platform originally focused on animation, comics, and games, but later expanded into documentaries, variety shows, and original programming.",
+  "bilibili":"Bilibili, nicknamed BSite, is a Chinese online video sharing platform based in Shanghai. Users can upload, view, and comment on videos, including through danmu, a system of overlaid on-screen comments. The platform originally focused on animation, comics, and games, but later expanded into documentaries, variety shows, and original programming.",
   "bing":"Microsoft Bing is a search engine owned and operated by Microsoft, and developed by Microsoft AI. The service traces its roots back to Microsoft's earlier search engines, including MSN Search, Windows Live Search, and Live Search. Bing offers a broad spectrum of search services, encompassing web, video, image, and map search products, all developed using ASP.NET.",
   "bing images":[
    "bing:en",
@@ -2889,7 +2805,10 @@
    "news portal provided by Microsoft",
    "wikidata"
   ],
-  "bing videos":"Bing Videos is a video search service and part of Microsoft's Bing search engine. The service enables users to search and view videos across various websites. Bing Videos was officially released on September 26, 2007 as Live Search Video, and rebranded as Bing Videos on June 1, 2009.",
+  "bing videos":[
+   "Microsoft's video search search via Bing",
+   "wikidata"
+  ],
   "bitbucket":"Bitbucket is a Git-based source code repository hosting service owned by Atlassian. Bitbucket offers both commercial plans and free accounts with an unlimited number of private repositories.",
   "bitchute":"BitChute is an alt-tech video hosting service launched by Ray Vahey in January 2017. It describes itself as offering freedom of speech, and is known for hosting far-right individuals, conspiracy theorists, and hate speech. Some creators who use BitChute have been banned from YouTube; some others crosspost content to both platforms or post more extreme content only to BitChute. Before its deprecation, BitChute claimed to use peer-to-peer WebTorrent technology for video distribution, though this was disputed.",
   "boardreader":[
@@ -2913,10 +2832,7 @@
    "a Search Engine based on DHT protocol",
    "https://bt4gprx.com"
   ],
-  "btdigg":[
-   "Search engine",
-   "wikidata"
-  ],
+  "btdigg":"BTDigg is the first Mainline DHT search engine. It participates in the BitTorrent DHT network, supporting the network and making correspondence between magnet links and a few torrent attributes that are indexed and inserted into a database. For end users, BTDigg provides a full-text database search via a Web interface. The Web part of its search system retrieves proper information by a user's text query. The Web search supports queries in European and Asian languages. The project name is an acronym of BitTorrent Digger. It went offline in June 2016, reportedly due to index spam. However, as of 2025 the service is back online, albeit often inaccessible from standard clearnet connections because of IP filtering. The service can be accessed via the Tor network/Tor Browser.",
   "cachy os packages":[
    "Linux distribution based on Arch Linux",
    "wikidata"
@@ -2937,27 +2853,18 @@
    "crates.io serves as a central registry for sharing crates, which are packages or libraries written in Rust that you can use to enhance your projects",
    "https://crates.io/"
   ],
-  "crossref":[
-   "one of the official Digital Object Identifier Registration Agencies of the International DOI Foundation",
-   "wikidata"
-  ],
+  "crossref":"Crossref is a nonprofit open digital infrastructure organization for the global scholarly research community. It is the largest digital object identifier (DOI) Registration Agency of the International DOI Foundation. It has 23,000 members from 164 countries representing publishers, libraries, research institutions, and funders and was launched in early 2000 as a cooperative effort among publishers to enable persistent cross-platform citation linking in online academic journals. As of July 2023, Crossref identifies and connects 150 million records of metadata about research objects made openly available for reuse without restriction. They facilitate an average of 1.1 billion DOI resolutions every month, and they see 1 billion queries of the metadata every month.",
   "crowdview":[
    "Discussion search engine",
    "https://crowdview.ai/"
   ],
   "currency":"DuckDuckGo is an American software company focused on online privacy whose flagship product is a search engine named DuckDuckGo. Founded by Gabriel Weinberg in 2008, its later products include browser extensions and a custom DuckDuckGo web browser. Headquartered in Paoli, Pennsylvania, DuckDuckGo is a privately held company with about 335 employees. The company's name is a reference to the children's game duck, duck, goose.",
-  "dailymotion":[
-   "video streaming site",
-   "wikidata"
-  ],
+  "dailymotion":"Dailymotion is a French online video sharing platform owned by Canal+. Prior to 2024, it was owned by Vivendi. North American launch partners included Vice Media, Bloomberg, and Hearst Digital Media. Dailymotion was among the first platforms to support HD (720p) resolution video. It is available worldwide in 183 languages and 43 localised versions featuring local home pages and content. It has more than 300 million monthly users.",
   "ddg definitions":[
    "currency:en",
    "ref"
   ],
-  "deezer":[
-   "French web-based music and podcast streaming service",
-   "wikidata"
-  ],
+  "deezer":"Deezer is a French music streaming service and media service provider founded in 2007 that provides users with access to a vast library of music tracks, podcasts, and radio stations. Developed by Daniel Marhely and Jonathan Benassaya, it offers streaming services in over 180 countries and features a catalog of more than 120 million licensed tracks, which is a Guinness World Record. Deezer is available on various devices, including Android, iOS, macOS and others. The company is 41% owned by the Access Industries investment fund since 2016 and 8% by Orange Group. Also, the Saudi Arabian billionaire and House of Saud royal Al Waleed bin Talal Al Saud is invested through the Kingdom Holding Company (5.3%) and the Rotana Media Group (5.2%), and the Pinault family through the Artémis Group (4.4%).",
   "deviantart":"DeviantArt is an online community that features artwork, videography, photography, and literature, launched on August 7, 2000, by Mathew Stephens, Scott Jarkoff and Angelo Sotira, among others.",
   "devicons":[
    "Devicon aims to gather all logos representing development languages and tools in one font. 🚀",
@@ -3004,12 +2911,11 @@
    "Search over two dozen encyclopedias at once with EncycloSearch! EncycloSearch is an ad-free, open-source encyclopedia search engine and reader. Supported by the Knowledge Standards Foundation.",
    "https://encyclosearch.org"
   ],
-  "erowid":"Erowid, also called Erowid Center, is a non-profit educational organization that provides information about psychoactive plants and chemicals.",
   "etymonline":[
    "online English etymology dictionary",
    "wikidata"
   ],
-  "fdroid":"F-Droid is a free and open source app store and software repository for Android, serving a similar function to the Google Play Store. The main repository, hosted by the project, contains only free and open source apps. Applications can be browsed, downloaded, and installed from the F-Droid website or the client app without registering an account. \"Anti-features\" such as advertising, user tracking, or dependence on non-free software are flagged in app descriptions.",
+  "fdroid":"F-Droid is a free and open source (FOSS) app store and software repository for Android, serving a similar function to the Google Play Store. The main repository, hosted by the project, contains only free and open source apps. Applications can be browsed, downloaded, and installed from the F-Droid website or the client app without registering an account. \"Anti-features\" such as advertising, user tracking, or dependence on non-free software are flagged in app descriptions.",
   "findthatmeme":[
    "FindThatMeme - The Meme Search Engine",
    "https://findthatmeme.com"
@@ -3018,7 +2924,10 @@
    "database of icons",
    "wikidata"
   ],
-  "flickr":"Flickr is an image and video hosting service, as well as an online community, founded in Canada and headquartered in the United States. It was created by Ludicorp in 2004 and was for a time a common way for amateur and professional photographers to host high-resolution photos. Flickr was owned by Yahoo! from 2005 and has been owned by SmugMug since 2018.",
+  "flickr":[
+   "American image and video hosting website",
+   "wikidata"
+  ],
   "free software directory":[
    "catalog of free software, project of the Free Software Foundation",
    "wikidata"
@@ -3035,20 +2944,16 @@
    "comparison shopping website",
    "wikidata"
   ],
-  "genius":"Genius is an American digital media company founded on August 27, 2009, by Tom Lehman, Ilan Zechory, and Mahbod Moghadam. The company's eponymous website serves as a database for song lyrics, news stories, sources, poetry, and documents, in which users can provide annotations and interpretations for.",
-  "gentoo":[
-   "Gentoo Wiki",
-   "https://wiki.gentoo.org/"
+  "genius":[
+   "American digital media company",
+   "wikidata"
   ],
   "gitea.com":[
    "codeberg:en",
    "ref"
   ],
   "github":"GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control and GitHub itself provides access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. GitHub, headquartered in San Francisco, is operated by Github, Inc., a subsidiary of Microsoft since 2018.",
-  "gitlab":[
-   "Your intelligent orchestration platform for DevSecOps",
-   "https://gitlab.com/"
-  ],
+  "gitlab":"GitLab is a software forge primarily developed by GitLab Inc. It is available as either a free software \"Community\" edition or a proprietary software \"Enterprise\" edition.",
   "gmx":[
    "GMX Search – quick, clear, accurate",
    "https://search.gmx.com"
@@ -3062,10 +2967,7 @@
    "google play apps:en",
    "ref"
   ],
-  "google scholar":[
-   "academic search service by Google",
-   "wikidata"
-  ],
+  "google scholar":"Google Scholar is a freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of publishing formats and disciplines. Released in beta in November 2004, the Google Scholar index includes peer-reviewed online academic journals and books, conference papers, theses and dissertations, preprints, abstracts, technical reports, and other scholarly literature, including court opinions and patents.",
   "google videos":[
    "a video search engine from Google",
    "wikidata"
@@ -3106,10 +3008,7 @@
    "The worlds largest non-commercial photo, video and blog sharing community - financed only by membership dues, without any intention of making a profit.",
    "https://www.ipernity.com"
   ],
-  "iqiyi":[
-   "Chinese video streaming service",
-   "wikidata"
-  ],
+  "iqiyi":"iQIYI, formerly Qiyi, is a Chinese subscription video on-demand over-the-top streaming service owned by Baidu. Headquartered in Beijing, iQIYI primarily produces and distributes films and television series.",
   "jisho":[
    "online Japanese-English dictionary",
    "wikidata"
@@ -3132,7 +3031,10 @@
    "ref"
   ],
   "library genesis":"Library Genesis is a shadow library project for file-sharing access to scholarly journal articles, academic and general-interest books, images, comics, audiobooks, and magazines. The site enables free access to works that are otherwise paywalled or not digitized elsewhere. LibGen describes itself as a \"links aggregator\", providing a searchable database of items \"collected from publicly available public Internet resources\" as well as files uploaded \"from users\".",
-  "library of congress":"The Library of Congress is a research library in Washington, D.C., serving as the library and research service for the United States Congress and the de facto national library of the United States. It also administers copyright law through the United States Copyright Office, and it houses the Congressional Research Service.",
+  "library of congress":[
+   "(de facto) national library of the United States of America",
+   "wikidata"
+  ],
   "lingva":[
    "Alternative front-end for Google Translate. Contribute to thedaviddelta/lingva-translate development by creating an account on GitHub.",
    "https://github.com/thedaviddelta/lingva-translate"
@@ -3182,11 +3084,11 @@
    "wiki for the video game Minecraft",
    "wikidata"
   ],
-  "mixcloud":[
-   "British audio streaming platform",
-   "wikidata"
+  "mixcloud":"Mixcloud is a British online music streaming service that allows for the listening and distribution of radio shows, DJ mixes and podcasts, which are crowdsourced by its registered users.",
+  "mojeek":[
+   "Mojeek is a web search engine that provides unbiased, fast, and relevant search results combined with a no tracking privacy policy.",
+   "https://mojeek.com"
   ],
-  "mojeek":"Mojeek is a UK-based search engine known for its focus on privacy and independence from other major search indexes. Established with a commitment to user privacy, Mojeek operates its own crawler-based index, setting it apart from search engines that rely on third-party search results, such as those from Google or Bing.",
   "mojeek images":[
    "mojeek:en",
    "ref"
@@ -3207,10 +3109,7 @@
    "repository of standards-based cybersecurity vulnerability management data",
    "wikidata"
   ],
-  "naver":[
-   "South Korean web portal",
-   "wikidata"
-  ],
+  "naver":"Naver is a South Korean online platform operated by the Naver Corporation. The company's products include a search engine, email hosting, blogs, maps, and mobile payment.",
   "naver images":[
    "naver:en",
    "ref"
@@ -3223,21 +3122,21 @@
    "naver:en",
    "ref"
   ],
-  "niconico":[
-   "Japanese video website",
-   "wikidata"
-  ],
+  "niconico":"Niconico, Inc. , known before 2012 as Nico Nico Douga , is a Japanese video sharing service based in Tokyo, Japan. \"Niconico\" or \"nikoniko\" is the Japanese ideophone for smiling. As of 2021, Niconico is the 34th most-visited website in Japan, according to Alexa Internet.",
   "nixos wiki":[
    "NixOS Wiki - Official NixOS Wiki",
    "https://wiki.nixos.org/"
   ],
-  "npm":"npm is a package manager for the JavaScript programming language maintained by npm, Inc., a subsidiary of GitHub. npm is the default package manager for the JavaScript runtime environment Node.js and is included as a recommended feature in the Node.js installer.",
+  "npm":[
+   "package manager for the Node.js JavaScript runtime environment",
+   "wikidata"
+  ],
   "nyaa":[
    "A BitTorrent community focused on Eastern Asian media including anime, manga, music, and more",
    "https://nyaa.si/"
   ],
-  "odysee":"Odysee is an American decentralized video hosting platform, built on the LBRY blockchain. It positions itself as an alternative to mainstream services like YouTube, but with a focus on freedom of speech and decentralization.",
-  "ollama":"Ollama is a software platform for running and managing large language models on local computers and through hosted cloud models. It provides a command-line interface, a local REST API, model-management tools, and integrations for using open-weight models with coding assistants and other applications.",
+  "odysee":"Odysee is an American video hosting platform which uses a combination of decentralized servers and the LBRY blockchain. The service was created in December 2020. The site is based on a broad interpretation of the concept of freedom of speech. Due to its lack of moderation, the platform hosts videos from users who have been deplatformed from mainstream sites such as YouTube. Content hosted on the site has included misinformation, hate speech, and conspiracy theories. The platform has allowed neo-Nazis and other hate groups to fundraise via cryptocurrency. Non-video content hosted by the platform includes files for 3D-printed firearms.",
+  "ollama":"Ollama is an open-source software platform for running and managing large language models on local computers and through hosted cloud models. It provides a command-line interface, a native GUI, a local REST API, model-management tools, and integrations for using open-weight models with coding assistants and other applications.",
   "openairedatasets":[
    "network of Open Access repositories, archives and journals that support Open Access policies",
    "wikidata"
@@ -3255,7 +3154,14 @@
    "Open-Source ☀️️️️️️️️️️️️️️️️️️️️️️️️️️️️️ Weather API with free access for non-commercial use. No API Key required ✅. Accurate weather forecasts for any location. Open-Meteo provides high-resolution open data ranging from 1 to 11 kilometres from national weather services. With a user-friendly JSON API, integrating weather data has never been easier. Experience the precision and convenience of Open-Meteo's Forecast API for reliable and comprehensive weather information worldwide.",
    "https://open-meteo.com"
   ],
-  "openstreetmap":"OpenStreetMap (OSM) is a map database maintained by a community of volunteers via open collaboration. Contributors collect data from surveys, trace from aerial photo imagery or satellite imagery, and import from other freely licensed geodata sources.",
+  "openrepos":[
+   "OpenRepos.net — Community Repository System",
+   "https://openrepos.net/"
+  ],
+  "openstreetmap":[
+   "online collaborative project creating a world geographic database",
+   "wikidata"
+  ],
   "packagist":[
    "The main Composer repository, aggregating public PHP packages installable with Composer",
    "wikidata"
@@ -3268,7 +3174,10 @@
    "decentralized video hosting network, based on free software",
    "wikidata"
   ],
-  "pexels":"Pexels is a provider of stock photography and stock footage. It was founded in Germany in 2014 and maintains a library with over 3.2 million free stock photos and videos.",
+  "pexels":[
+   "free online media library",
+   "wikidata"
+  ],
   "photon":[
    "Photon, search-as-you-type with OpenStreetMap",
    "https://photon.komoot.io"
@@ -3279,9 +3188,12 @@
   ],
   "pinterest":"Pinterest is an American social media service for publishing and discovery of information in the form of digital pinboards. This includes recipes, home, style, motivation, and inspiration on the Internet using image sharing. Pinterest, Inc. was founded by Ben Silbermann, Paul Sciarra, and Evan Sharp, and is headquartered in San Francisco.",
   "piratebay":"The Pirate Bay, commonly abbreviated as TPB, is a free searchable online index of movies, music, video games, pornography and software. Founded in 2003 by Swedish think tank Piratbyrån, The Pirate Bay facilitates the connection among users of the peer-to-peer torrent protocol, which are able to contribute to the site through the addition of magnet links. The Pirate Bay has consistently ranked as one of the most visited torrent websites in the world.",
-  "pixabay images":"Pixabay.com is a free stock photography and royalty-free stock media website. It is used for sharing photos, illustrations, vector graphics, film footage, stock music, sound effects, 3D models and animated GIFs, exclusively under the custom Pixabay Content License, which generally allows the free use of the material with some restrictions. The site's images are allowed to be used for free without attribution, and allowed to be modified and adapted into new works. Pixabay does not allow users to sell or distribute the content as is, use it commercially if it contains recognizable trademarks, or use photos in immoral, illegal, misleading, or deceptive ways.",
+  "pixabay images":[
+   "pexels:en",
+   "ref"
+  ],
   "pixabay videos":[
-   "pixabay images:en",
+   "pexels:en",
    "ref"
   ],
   "pkg.go.dev":[
@@ -3300,10 +3212,7 @@
    "biomedical bibliographical database",
    "wikidata"
   ],
-  "pypi":[
-   "package list of Python modules",
-   "wikidata"
-  ],
+  "pypi":"The Python Package Index, abbreviated as PyPI and also known as the Cheese Shop, is the official third-party software repository for Python. It is analogous to the CPAN repository for Perl and to the CRAN repository for R. PyPI is run by the Python Software Foundation, a charity. Some package managers, including pip, use PyPI as the default source for packages and their dependencies.",
   "quark":[
    "Chinese search engine",
    "wikidata"
@@ -3312,7 +3221,7 @@
    "quark:en",
    "ref"
   ],
-  "qwant":"Qwant is a French search engine, launched in February 2013. Qwant says that it is focused on privacy, does not track users, resell personal data, or bias the display of search results. Its results are similar to the Microsoft Bing search engine. However, it is used only in case Qwant lacks information of certain website and for image searches. As of 2023, Qwant could be accessed from around 30 countries.",
+  "qwant":"Qwant is a French search engine, launched in February 2013. Qwant says that it is focused on privacy, does not track users, resell personal data, or deliberately bias the display of search results. Its results are similar to the Microsoft Bing search engine. However, it is used only in case Qwant lacks information of certain website and for image searches. As of 2023, Qwant could be accessed from around 30 countries.",
   "qwant images":[
    "qwant:en",
    "ref"
@@ -3330,11 +3239,8 @@
    "wikidata"
   ],
   "reddit":"Reddit is an American proprietary social news aggregation and forum social media platform. Registered users submit content to the site such as links, text posts, images, and videos, which are then voted up or down by other members. Posts are organized by subject into user-created boards called \"subreddits\". Submissions with more upvotes appear towards the top of their subreddit and, if they receive enough upvotes, ultimately on the site's front page. Reddit administrators moderate the communities. Moderation is also conducted by subreddit-specific moderators, who are unpaid volunteers. It is operated by Reddit, Inc., based in San Francisco.",
-  "reuters":"Reuters is a news agency wholly owned by Thomson Reuters, a multinational information conglomerate. It employs around 2,500 journalists and 600 photojournalists in 200 locations and 165 countries worldwide writing in 16 languages. Reuters is one of the largest news agencies in the world.",
-  "rottentomatoes":[
-   "American review aggregator for film and television",
-   "wikidata"
-  ],
+  "reuters":"Reuters is a British news agency wholly owned by Thomson Reuters, a multinational information conglomerate. It employs around 2,500 journalists and 600 photojournalists in 200 locations and 165 countries worldwide writing in 16 languages. Reuters is one of the largest news agencies in the world.",
+  "rottentomatoes":"Rotten Tomatoes is an American review-aggregation website for film and television. The company was launched in August 1998 by three undergraduate students at the University of California, Berkeley: Senh Duong, Patrick Y. Lee, and Stephen Wang.",
   "rubygems":[
    "Package manager for Ruby",
    "wikidata"
@@ -3377,10 +3283,7 @@
    "software development repository and forge",
    "wikidata"
   ],
-  "stackoverflow":[
-   "network of question and answer websites",
-   "wikidata"
-  ],
+  "stackoverflow":"Stack Exchange is a network of question-and-answer (Q&A) websites on topics in diverse fields, each site covering a specific topic, where questions, answers, and users are subject to a reputation award process. The reputation system allows the sites to be self-moderating.",
   "startpage":"Startpage, also known as Startpage.com, is a Netherlands-based search engine website that highlights privacy as its distinguishing feature. The website advertises that it allows users to obtain Bing Search and Google Search results while protecting users' privacy by not storing personal information or search data and removing all trackers. Startpage.com also includes an Anonymous View browsing feature that allows users the option to open search results via proxy for increased anonymity. Startpage is owned and operated by Surfboard Holding BV, which is majority owned by System1, an American internet advertising company.",
   "startpage images":[
    "startpage:en",
@@ -3399,14 +3302,13 @@
    "Germany's main daily news report in television",
    "wikidata"
   ],
-  "tineye":"TinEye is a reverse image search engine developed and offered by Idée, Inc., a company based in Toronto, Ontario, Canada. It was the first image search engine on the web to use image identification technology rather than keywords, metadata or watermarks. TinEye allows users to search not using keywords but with images. Upon submitting an image, TinEye creates a \"unique and compact digital signature or fingerprint\" of the image and matches it with other indexed images. This procedure is able to match even heavily edited versions of the submitted image, but will not usually return similar images in the results.",
+  "tineye":[
+   "reverse image search engine",
+   "wikidata"
+  ],
   "tmdb":[
    "The Movie Database (TMDB) is a popular, user editable database for movies and TV shows.",
    "https://www.themoviedb.org/"
-  ],
-  "tokyotoshokan":[
-   "Tokyo Toshokan :: #tokyotosho @ irc.rizon.net :: Torrent Listing",
-   "https://www.tokyotosho.info/"
   ],
   "unsplash":"Unsplash is a website dedicated to proprietary stock photography. Since 2021, it has been owned by Getty Images. The website claims over 330,000 contributing photographers and generates more than 13 billion photo impressions per month on their growing library of over 5 million photos. Unsplash has been cited as one of the world's leading photography websites by Forbes, Design Hub, CNET, Medium and The Next Web.",
   "uxwing":[
@@ -3414,7 +3316,10 @@
    "https://uxwing.com"
   ],
   "vimeo":"Vimeo is an American video hosting, sharing, and services provider founded in 2004 and headquartered in New York City. Vimeo focuses on the delivery of high-definition video across a range of devices and operates on a software as a service (SaaS) business model. The platform provides tools for video creation, editing, and broadcasting along with enterprise software solutions and the means for video professionals to connect with clients and other professionals. As of December 2021, the site has 260 million users, with around 1.6 million subscribers to its services.",
-  "voidlinux":"Void Linux is an independent Linux distribution that uses the X Binary Package System (XBPS) package manager, which was designed and implemented from scratch, and the runit init system. Excluding binary kernel blobs, a base install is composed entirely of free software.",
+  "voidlinux":[
+   "Linux distribution",
+   "wikidata"
+  ],
   "wiby":[
    "Wiby is a search engine for older style pages, lightweight and based on a subject of interest. Building a web more reminiscent of the early internet.",
    "https://wiby.me/"
@@ -3444,13 +3349,19 @@
    "free online encyclopedia for children",
    "wikidata"
   ],
-  "wikinews":"Wikinews is a free-content news wiki and a project of the Wikimedia Foundation that gathered and reported news collaboratively through user-created content. Wikipedia co-founder Jimmy Wales has distinguished Wikinews from Wikipedia by saying, \"On Wikinews, each story is to be written as a news story as opposed to an encyclopedia article.\"",
-  "wikipedia":[
-   "free multilingual online encyclopedia",
+  "wikinews":[
+   "free online multilingual news",
    "wikidata"
   ],
-  "wikiquote":"Wikiquote is part of a family of wiki-based projects run by the Wikimedia Foundation using MediaWiki software. The project's objective is to collaboratively produce a vast reference of quotations from prominent people, books, films, proverbs, etc. and writings about them. The website aims to be as accurate as possible regarding the provenance and sourcing of the quotations.",
-  "wikisource":"Wikisource is an online wiki-based digital library of free-content textual sources operated by the Wikimedia Foundation. Wikisource is the name of the project as a whole; it is also the name for each instance of that project, one for each language. The project's aim is to host all forms of free text, in many languages, and translations. Originally conceived as an archive to store useful or important historical texts, it has expanded to become a general-content library. The project officially began on November 24, 2003, under the name Project Sourceberg, a play on Project Gutenberg. The name Wikisource was adopted later that year and it received its own domain name.",
+  "wikipedia":"Wikipedia is a free online encyclopedia written and maintained by a community of volunteers, known as Wikipedians, through open collaboration and the wiki software MediaWiki. Founded by Jimmy Wales and Larry Sanger in 2001, Wikipedia has been hosted since 2003 by the Wikimedia Foundation, an American nonprofit organization funded mainly by donations from readers. Wikipedia is the largest and most read reference work in history.",
+  "wikiquote":[
+   "free multilingual online collection of quotes",
+   "wikidata"
+  ],
+  "wikisource":[
+   "online multilingual library that collects open-content source material",
+   "wikidata"
+  ],
   "wikispecies":[
    "free multilingual online species directory",
    "wikidata"
@@ -3463,8 +3374,14 @@
    "free multilingual online travel guide",
    "wikidata"
   ],
-  "wiktionary":"Wiktionary is a multilingual, web-based project to create a free content dictionary of terms in a large number of natural languages and a number of artificial languages. These entries may contain definitions, images for illustration, pronunciations, etymologies, inflections, usage examples, quotations, related terms, and translations of terms into other languages, among other features. It is collaboratively edited by volunteers via a wiki. Its name is a portmanteau of the words wiki and dictionary. It is available in 198 languages and in Simple English. Like its sister project Wikipedia, Wiktionary is run by the Wikimedia Foundation, and is written collaboratively by volunteers, dubbed \"Wiktionarians\". Its wiki software, MediaWiki, allows almost anyone with access to the website to create and edit entries.",
-  "wolframalpha":"WolframAlpha is an online knowledge engine developed by Wolfram Research that has been around since 2009. It is offered as an online service that answers queries by computing answers from externally sourced data.",
+  "wiktionary":[
+   "free online multilingual dictionary",
+   "wikidata"
+  ],
+  "wolframalpha":[
+   "computational search engine and answer engine",
+   "wikidata"
+  ],
   "wordnik":[
    "an online English language dictionary and thesaurus",
    "wikidata"
@@ -3494,7 +3411,7 @@
    "Russian streaming service of music",
    "wikidata"
   ],
-  "youtube":"YouTube is an American online video sharing platform owned by Google. YouTube was founded on February 14, 2005, by Chad Hurley, Jawed Karim, and Steve Chen who were all former employees at PayPal. Headquartered in San Bruno, California, it is the second-most-visited website in the world, after Google itself. In January 2024, YouTube had reached more than 2.7 billion monthly active users, who collectively watched more than one billion hours of video every day. As of May 2019, videos were being uploaded to the platform at a rate of more than 500 hours of video per minute, and as of mid-2024, there were approximately 14.8 billion videos in total."
+  "youtube":"YouTube is an American online video-sharing platform owned by Google. YouTube was founded on February 14, 2005, by Chad Hurley, Jawed Karim, and Steve Chen who were all former employees at PayPal. Headquartered in San Bruno, California, it is the second-most-visited website in the world, after Google itself. In January 2024, YouTube had reached more than 2.7 billion monthly active users, who collectively watched more than one billion hours of video every day. As of May 2019, videos were being uploaded to the platform at a rate of more than 500 hours of video per minute, and as of mid-2024, there were approximately 14.8 billion videos in total."
  },
  "eo":{
   "annas archive":[
@@ -3502,7 +3419,7 @@
    "wikidata"
   ],
   "aol":[
-   "ĝeneralcela plurparadigma programlingvo",
+   "multnacia amaskomunikila korporacio bazita en Novjorko",
    "wikidata"
   ],
   "aol images":[
@@ -3533,13 +3450,23 @@
    "baidu:eo",
    "ref"
   ],
-  "bandcamp":[
-   "usona kompanio",
-   "wikidata"
-  ],
+  "bandcamp":"Bandcamp estas usona firmao kiu malfermis retan muzikbutikon kaj artistan platformon kiu akcelas sendependajn artistojn. En 2013 apo estis aldonita al la muzikdistribuejo.",
   "bilibili":[
    "ĉinlingva filmetokunhaviga retejo",
    "wikidata"
+  ],
+  "brave":"Brave estas malfermkoda retumilo kreita en 2016 de Brendan Eich por kiu la respekto de la privata vivsfero estas grava. Brave estas konstruita sur la bazo de Kromio, kiu estas la bazo de plej multaj retumiloj en la merkato, inkluzive de Google Chrome. La plej grava diferenco de ili estas la ĉeesto de la modulo Brave Shields, kiu aŭtomate blokas reklamojn kaj dosierinterŝanĝo kiam vi malfermas retpaĝojn.. Brave havas komercan modelon laŭ la devizo \"Akiri pagon retumante\", kiu signifas ke uzantoj akiras malgrandajn kvantojn da BAT, bazita sur la ĉifromono Ethereum.",
+  "brave.images":[
+   "brave:eo",
+   "ref"
+  ],
+  "brave.news":[
+   "brave:eo",
+   "ref"
+  ],
+  "brave.videos":[
+   "brave:eo",
+   "ref"
   ],
   "deezer":[
    "cifereca distribua servo kun sidejo en Francio",
@@ -3556,10 +3483,6 @@
   "free software directory":[
    "katalogo de programaroj kreita de Fondaĵo por Libera Programaro",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google images":[
    "Google Bildoj. La plej efika bildoserĉilo en Interreto.",
@@ -3622,7 +3545,7 @@
    "wikidata"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -3677,10 +3600,7 @@
    "libera datumaro de la Vikimedia fondaĵo, redaktata de volontuloj",
    "wikidata"
   ],
-  "wikipedia":[
-   "reta kunlabora multlingva enciklopedio, kiun ĉiuj povas redakti",
-   "wikidata"
-  ],
+  "wikipedia":"Vikipedio estas interreta, plurlingva reta enciklopedio kun enhavo laŭ la koncepto de libera verko. Ĝin verkadas volontuloj surbaze de amaskunlaboro – ĉiu homo kun aliro al la Interreto rajtas ŝanĝi la enhavon de preskaŭ ĉiu artikolo. Tamen oni ne rajtas fari ion ajn, sed devas sekvi certajn regulojn. La plej gravaj estas konformo al enciklopedieco, neŭtraleco kaj respekto.",
   "wikiquote":[
    "malferma projekto de Vikimedio por kompili citaĵojn",
    "wikidata"
@@ -3736,11 +3656,11 @@
    "wikidata"
   ],
   "annas archive":[
-   "buscador de bibliotecas fantasma",
-   "wikidata"
+   "annas archive:gl",
+   "ref"
   ],
   "aol":[
-   "lenguaje de programación de propósito general",
+   "empresa estadounidense de servicios de internet y medios",
    "wikidata"
   ],
   "aol images":[
@@ -3763,12 +3683,18 @@
    "museo de arte en Chicago, Estados Unidos",
    "wikidata"
   ],
-  "arxiv":"arXiv es un archivo en línea para las prepublicaciones de artículos científicos en el campo de las matemáticas, física, ciencias de la computación y biología cuantitativa. En muchos campos de las matemáticas y la física, casi todos los artículos científicos se colocan en arXiv. A fecha 27 de julio de 2010, arXiv.org contenía más de 617 767 imprimibles, lo que supone que miles de ellos son añadidos cada mes.",
+  "arxiv":[
+   "base de datos y archivo bibliográfico",
+   "wikidata"
+  ],
   "askubuntu":[
    "stackoverflow:es",
    "ref"
   ],
-  "baidu":"Baidu es un motor de búsqueda en idioma chino con sede en Pekín fundado a finales de 1999 por Robin Li y Eric Xu. Su diseño es similar al de Google e incluye la posibilidad de búsqueda de noticias, imágenes y canciones, entre otras funciones.",
+  "baidu":[
+   "motor de búsqueda en idioma chino",
+   "wikidata"
+  ],
   "baidu images":[
    "baidu:es",
    "ref"
@@ -3805,36 +3731,30 @@
    "servicio de almacenamiento de videos de internet",
    "wikidata"
   ],
-  "brave":[
-   "navegador web libre y de código abierto centrado en la privacidad",
-   "wikidata"
-  ],
+  "brave":"Brave es un navegador web de código abierto basado en Chromium, creado por la compañía Brave Software en el año 2016. Dicha compañía fue fundada Brendan Eich, cofundador del Proyecto Mozilla y creador de JavaScript.",
   "brave.images":[
    "brave:es",
    "ref"
   ],
   "brave.news":[
-   "brave.videos:es",
+   "brave:es",
    "ref"
   ],
-  "brave.videos":"Brave es un navegador web de código abierto basado en Chromium, creado por la compañía Brave Software en el año 2016. Dicha compañía fue fundada Brendan Eich, cofundador del Proyecto Mozilla y creador de JavaScript.",
+  "brave.videos":[
+   "brave:es",
+   "ref"
+  ],
   "caddy.community":[
    "discuss.python:es",
    "ref"
   ],
   "currency":"DuckDuckGo (DDG) es un motor de búsqueda que hace hincapié en la protección de la privacidad de los usuarios y en evitar la burbuja de filtros de los resultados de búsqueda personalizados. DuckDuckGo no muestra resultados de búsqueda procedentes de granjas de contenido. Utiliza varias API de otros sitios web para mostrar resultados rápidos a las consultas y para los enlaces tradicionales utiliza la ayuda de sus socios y su propio rastreador.",
-  "dailymotion":[
-   "sitio web de videos",
-   "wikidata"
-  ],
+  "dailymotion":"Dailymotion es una plataforma francesa para compartir vídeos en línea, propiedad de Canal+. Antes de 2024, la empresa pertenecía a Vivendi. Entre sus socios de lanzamiento en Norteamérica se encuentran Vice Media, Bloomberg y Hearst Digital Media. Es una de las primeras plataformas conocidas en ofrecer vídeo en resolución HD (720p). Dailymotion está disponible en todo el mundo en 183 idiomas y 43 versiones localizadas con páginas de inicio y contenido locales. Cuenta con más de 300 millones de usuarios mensuales.",
   "ddg definitions":[
    "currency:es",
    "ref"
   ],
-  "deezer":[
-   "servicio de suscripción de música en streaming de origen francés",
-   "wikidata"
-  ],
+  "deezer":"Deezer es un sitio web y aplicación informática con un amplio catálogo musical. Se creó en Francia durante junio de 2006 por dos jóvenes, Daniel Marhely y Jonathan Benassaya. Cuenta con 16 millones de usuarios, está disponible en 16 idiomas, cuenta con tres versiones: Free [Disponible en algunos países], Premium [calidad 320 kbps y FLAC] y Family.",
   "deviantart":[
    "sitio web de arte",
    "wikidata"
@@ -3856,8 +3776,8 @@
    "ref"
   ],
   "duckduckgo news":[
-   "motor de búsqueda web centrado en la privacidad",
-   "wikidata"
+   "currency:es",
+   "ref"
   ],
   "duckduckgo videos":[
    "currency:es",
@@ -3879,7 +3799,10 @@
    "Diccionario en línea en el que se describe la etimología de las palabras en lengua inglesa",
    "wikidata"
   ],
-  "fdroid":"F-Droid es un repositorio de software para dispositivos Android; funciona de manera similar a la tienda de Google Play, pero solo contiene software libre y de código abierto 4.4. Las aplicaciones pueden buscarse e instalarse desde la página web de F-Droid o desde el cliente oficial. La aplicación de F-Droid busca actualizaciones de forma automática para las aplicaciones descargadas a través de la misma. Además, tanto la web como el cliente ofrecen enlaces al código fuente de todas las aplicaciones descargables.",
+  "fdroid":[
+   "tienda de aplicaciones Android para software gratuito y de código abierto",
+   "wikidata"
+  ],
   "flaticon":[
    "Base de Datos de Iconos",
    "wikidata"
@@ -3891,10 +3814,6 @@
   "genius":[
    "empresa estadounidense",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "plataforma de software para alojar proyectos usando el sistema Git",
@@ -3916,22 +3835,13 @@
    "especialización del buscador principal para imágenes",
    "wikidata"
   ],
-  "google news":[
-   "agregador de noticias y aplicación desarrollada por Google",
-   "wikidata"
-  ],
-  "google play apps":[
-   "plataforma estadounidense de distribución digital de aplicaciones móviles para Android",
-   "wikidata"
-  ],
+  "google news":"Google Noticias, conocido en España como Google News, es un agregador y buscador de noticias automatizado que rastrea de forma constante la información de los principales medios de comunicación en línea.",
+  "google play apps":"Google Play Store, también conocida como Google Play o Play Store es una plataforma de distribución digital de aplicaciones móviles para los dispositivos con sistema operativo Android, así como una tienda en línea desarrollada y operada por Google. Esta plataforma permite a los usuarios navegar y descargar aplicaciones, juegos, música, libros, revistas y películas. También se pueden adquirir dispositivos móviles como ordenadores Chromebook, teléfonos inteligentes Nexus y Pixel, Google Chromecast, entre otros. También cuenta con versiones para Wear OS y Android TV.",
   "google play movies":[
    "google play apps:es",
    "ref"
   ],
-  "google scholar":[
-   "servicio de búsqueda académica de Google",
-   "wikidata"
-  ],
+  "google scholar":"Google Académico es un motor de búsqueda de Google enfocado y especializado en la búsqueda de contenido y bibliografía científico-académica. El sitio indexa editoriales, bibliotecas, repositorios, bases de datos bibliográficas, entre otros; y entre sus resultados se pueden encontrar citas, enlaces a libros, artículos de revistas científicas, comunicaciones y congresos, informes científico-técnicos, tesis, tesinas y archivos depositados en repositorios.",
   "google videos":[
    "motor de búsqueda de videos de Google",
    "wikidata"
@@ -3956,7 +3866,10 @@
    "genius:es",
    "ref"
   ],
-  "imdb":"Internet Movie Database es una base de datos en línea que en un principio almacena información relacionada con películas, y con el tiempo se transforma en la base de datos más grande del mundo donde se encuentran programas de televisión, eventos en vivo y difundidos en televisión o en la web, entrega de premios, especiales y videojuegos. Se encuentra el personal de equipo de producción, actores, series y programas de televisión, videojuegos, actores de doblaje y personajes ficticios que aparecen en los medios de entretenimiento visual. Recibe más de 100 000 000 de usuarios únicos al mes y cuenta con una versión móvil. IMDb fue inaugurada el 17 de octubre de 1990, y en 1998 fue adquirida por Amazon.com.",
+  "imdb":[
+   "base de datos cinematográficos en línea",
+   "wikidata"
+  ],
   "imgur":[
    "servicio estadounidense de intercambio de imágenes en línea y alojamiento de imágenes",
    "wikidata"
@@ -3997,10 +3910,7 @@
    "biblioteca nacional (de facto) de Estados Unidos",
    "wikidata"
   ],
-  "mastodon hashtags":[
-   "mastodon users:es",
-   "ref"
-  ],
+  "mastodon hashtags":"Mastodon es una red social libre, y descentralizada de microblogueo, que utiliza el protocolo de red ActivityPub para que sus usuarios puedan comunicarse entre sí desde distintos servidores que conforman el Fediverso. Mastodon es desarrollado por voluntarios, y por la organización sin ánimo de lucro Mastodon gGbmH.",
   "mastodon users":[
    "servicio de red social",
    "wikidata"
@@ -4065,19 +3975,13 @@
    "proyecto colaborativo para crear mapas libres y editables a través de Internet",
    "wikidata"
   ],
-  "peertube":[
-   "aplicación web descentralizada de software libre",
-   "wikidata"
-  ],
+  "peertube":"PeerTube es una aplicación web de software libre, descentralizada, federada y que usa la tecnología peer-to-peer para reducir la carga de los servidores individuales al visualizar videos.",
   "pi-hole.community":[
    "discuss.python:es",
    "ref"
   ],
   "pinterest":"Pinterest, Inc. es una red social estadounidense que permite a los usuarios crear y administrar, en tableros personales temáticos, colecciones de imágenes como eventos, intereses, aficiones y mucho más. Los usuarios pueden buscar otros pinboards, \"repinchar\" imágenes para sus propias colecciones. La misión de Pinterest es «conectar a todos en el mundo, a través de cosas que encuentran interesantes» también se puede charlar en ese sitio pero no contiene llamadas o videollamadas. Fue fundada por Ben Silbermann, Paul Sciarra y Evan Sharp y tiene su sede en San Francisco, California.",
-  "piratebay":[
-   "motor de búsqueda y tracker de ficheros BitTorrent (.torrent)",
-   "wikidata"
-  ],
+  "piratebay":"The Pirate Bay es un motor de búsqueda y rastreo de ficheros BitTorrent (.torrent) en el que es posible realizar búsquedas de todo tipo de material multimedia.",
   "pixabay images":[
    "sitio web para el intercambio de archivos (fotos, imágenes, ilustraciones, gráficos vectoriales, y material fílmico)",
    "wikidata"
@@ -4110,22 +4014,13 @@
    "qwant:es",
    "ref"
   ],
-  "reddit":[
-   "sitio web estadounidense de marcadores sociales y agregador de noticias",
-   "wikidata"
-  ],
+  "reddit":"Reddit es un sitio web de marcadores sociales y agregador de noticias donde los usuarios pueden añadir textos, imágenes, videos o enlaces. Los usuarios pueden votar a favor o en contra del contenido, haciendo que aparezcan en las publicaciones destacadas. Su público es mayoritariamente anglosajón y la mayoría de la actividad se realiza en inglés. Reddit fue software libre desde el 19 de junio de 2009 hasta septiembre de 2017, cuando la compañía archivó y cerró el acceso a sus repositorios en Github, que incluían todo el código escrito para Reddit excepto las partes antispam.",
   "reuters":[
    "agencia británica de noticias internacional",
    "wikidata"
   ],
-  "rottentomatoes":[
-   "agregador de crítica estadounidense para cine y televisión, propiedad de Fandango",
-   "wikidata"
-  ],
-  "rumble":[
-   "plataforma para compartir videos, hacer transmisiones en vivo y computación en la nube bajo demanda",
-   "wikidata"
-  ],
+  "rottentomatoes":"Rotten Tomatoes es un sitio web estadounidense de revisión y reseñas para cine y televisión. La compañía fue fundada en agosto de 1998 por tres estudiantes universitarios de la Universidad de California, Berkeley: Senh Duong, Patrick Y. Lee y Stephen Wang. Aunque el nombre «Rotten Tomatoes» se conecta con la práctica de audiencias arrojando tomates podridos cuando desaprueba una pobre actuación en el escenario, la inspiración original proviene de una escena con tomates en la película canadiense de 1992 Léolo.",
+  "rumble":"Rumble es una plataforma de video en línea canadiense con sede en Toronto. Fue fundada en 2013 por Chris Pavlovski, un emprendedor tecnológico de Canadá. El recuento mensual de usuarios de Rumble ha experimentado un rápido crecimiento desde julio de 2020, pasando de 1,6 millones de usuarios mensuales a 31,9 millones al final del primer trimestre de 2021.",
   "semantic scholar":[
    "sitio web",
    "wikidata"
@@ -4138,16 +4033,13 @@
    "red de sitios web de preguntas y respuestas",
    "wikidata"
   ],
-  "startpage":[
-   "qwant:es",
-   "ref"
-  ],
+  "startpage":"Startpage es un motor de búsqueda neerlandés, que destaca la privacidad como su característica distintiva. El sitio web anuncia que permite a los usuarios obtener resultados del buscador de Google protegiendo la privacidad de los usuarios al no almacenar información personal ni datos de búsqueda y eliminar todos los rastreadores. Startpage también incluye una función de navegación anónima que permite a los usuarios la opción de abrir los resultados de búsqueda a través de un proxy para aumentar el anonimato. Dado que la empresa tiene su sede en los Países Bajos, está protegida por las leyes de privacidad neerlandesa y de la Unión Europea, por lo que no está sujeta a los programas de vigilancia de Estados Unidos, como PRISM.",
   "startpage images":[
-   "qwant:es",
+   "startpage:es",
    "ref"
   ],
   "startpage news":[
-   "qwant:es",
+   "startpage:es",
    "ref"
   ],
   "steam":"Steam es una plataforma de distribución digital de videojuegos desarrollada por Valve Corporation. Fue lanzada el 12 de septiembre de 2003 como una forma para Valve de proveer actualizaciones automáticas a sus juegos, pero finalmente se amplió para incluir juegos de terceros. Steam ofrece protección contra piratería, servidores de emparejamiento, transmisiones de vídeo y servicios de redes sociales. También proporciona al usuario la instalación y la actualización automática de juegos y características de comunidad como grupos y listas de amigos, guardado en la nube, voz en el juego y funcionalidad de chat.",
@@ -4171,10 +4063,7 @@
    "plataforma estadounidense de alojamiento de videos",
    "wikidata"
   ],
-  "voidlinux":[
-   "Es una distribución Linux independiente que utiliza el gestor de paquetes XBPS",
-   "wikidata"
-  ],
+  "voidlinux":"Void Linux es una distribución Linux independiente que utiliza el gestor de paquetes XBPS, diseñado e implementado desde cero, y el sistema de iniciación runit. Excluyendo los blobs binarios del kernel, la instalación base se compone enteramente de software libre, pero los usuarios pueden acceder a un repositorio oficial no libre para instalar software propietario.",
   "wikibooks":[
    "proyecto de la fundación Wikimedia; colección de libros de texto",
    "wikidata"
@@ -4195,10 +4084,7 @@
    "wikicommons.images:es",
    "ref"
   ],
-  "wikidata":[
-   "grafo de conocimiento libre alojado por Wikimedia y editado por voluntarios",
-   "wikidata"
-  ],
+  "wikidata":"Wikidata es una base de conocimientos editada en colaboración y alojada por la Fundación Wikimedia. Tiene el objetivo de proporcionar una fuente común de datos que puedan ser utilizados por proyectos de Wikimedia como Wikipedia, y por cualquier otra persona, bajo una licencia CC0 de dominio público. Esto es similar a la forma en que Wikimedia Commons proporciona almacenamiento para archivos multimedia y acceso a estos archivos para todos los proyectos de Wikimedia. Wikidata funciona y opera con el software Wikibase.",
   "wikimini":[
    "enciclopedia en línea gratuita para niños",
    "wikidata"
@@ -4207,10 +4093,7 @@
    "fuente de noticias libres, proyecto de la Fundación Wikimedia",
    "wikidata"
   ],
-  "wikipedia":[
-   "enciclopedia en línea gratuita que todos pueden editar",
-   "wikidata"
-  ],
+  "wikipedia":"Wikipedia es una enciclopedia libre, políglota y editada de manera colaborativa. Es administrada por la Fundación Wikimedia, una organización sin ánimo de lucro cuya financiación está basada en donaciones. Sus más de 67 millones de artículos en 334 idiomas han sido redactados en conjunto por voluntarios de todo el mundo, lo que suma más de 3500 millones de ediciones, y permite que cualquier persona pueda sumarse al proyecto para editarlos, a menos que la página se encuentre protegida contra vandalismos para evitar problemas o disputas. Se trata de la obra de referencia más extensa y más leída de la historia.",
   "wikiquote":[
    "proyecto de la fundación Wikimedia cuyo objetivo es recopilar una colección de citas célebres",
    "wikidata"
@@ -4251,18 +4134,6 @@
   "youtube":"YouTube es una red social y plataforma de video online de Estados Unidos propiedad de Google. YouTube fue fundada el 14 de febrero de 2005 por Steve Chen, Chad Hurley y Jawed Karim, tres antiguos empleados de PayPal. Con sede en San Bruno, California, es el segundo sitio web más visitado del mundo, después de Google Search. En enero de 2024, YouTube contaba con más de 2,7 millardos de usuarios activos mensuales, que veían colectivamente más de mil millones de horas de videos al día. En mayo de 2019 se subían videos a la plataforma a un ritmo de más de 500 horas de contenido por minuto, y a 2023, había aproximadamente 14 millardos de videos en total."
  },
  "et":{
-  "aol":[
-   "üldotstarbeline programmeerimiskeel",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:et",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:et",
-   "ref"
-  ],
   "apple app store":[
    "rakenduste levitamise platvorm",
    "wikidata"
@@ -4270,6 +4141,10 @@
   "bing":[
    "Saate otsida Microsoft Bingiga ja kasutada tehisintellekti võimsust, et leida teavet, uurida veebilehti, pilte, videoid, kaarte ja palju muud. Nutikas otsimootor igavesti uudishimulikele.",
    "https://www.bing.com"
+  ],
+  "bing images":[
+   "Otsige ja uurige kvaliteetseid tasuta fotosid ja taustapilte Bingi piltidest. Inspireerige ja tõstke oma visuaalid uuele tasemele!",
+   "https://www.bing.com/images"
   ],
   "bing news":[
    "Ülemaailmsetest, riiklikest ja kohalikest uudiste allikatest pärinevad uudised on korrastatud nii, et need annavad põhjaliku ülevaate spordi, meelelahutuse, äri ja poliitika uudiste, ilma ning palju muu kohta.",
@@ -4279,9 +4154,18 @@
    "Bing Video abil saate avastada ja vaadata videoid mitmest allikast, sealhulgas YouTube’ist, Vimeost ja teistest, vahetute eelvaadetega, otseesituse ja nutikate filtritega.",
    "https://www.bing.com/videos"
   ],
+  "brave":"Brave on veebibrauser, mille looja ja haldaja on Brave Software Inc.. See on avatud lähtekoodiga veebibrauser, mis põhineb Google Chrome'i operatsioonisüsteemil.",
   "brave.images":[
-   "Otsi veebist. Privaatselt. Kasulikud tulemused, AI-põhised vastused jms. Kõik sõltumatust indeksist. Pole profileerimist, eelarvamusi ega suurt tehnoloogiat.",
-   "https://search.brave.com/"
+   "brave:et",
+   "ref"
+  ],
+  "brave.news":[
+   "brave:et",
+   "ref"
+  ],
+  "brave.videos":[
+   "brave:et",
+   "ref"
   ],
   "currency":[
    "Internetiprivaatsuse ettevõte, mis annab sulle võimaluse sujuvalt oma isikuandmeid veebis kontrollida, järelandmisi tegemata.",
@@ -4309,10 +4193,6 @@
   ],
   "duckduckgo weather":[
    "currency:et",
-   "ref"
-  ],
-  "gentoo":[
-   "gentoo:en",
    "ref"
   ],
   "google":[
@@ -4383,10 +4263,7 @@
    "vaba ja kõigile avatud teadmusbaas, mida loovad ja toimetavad vabatahtlikud kaastöölised",
    "wikidata"
   ],
-  "wikipedia":[
-   "Veebientsüklopeedia, mida igaüks võib täiendada",
-   "wikidata"
-  ],
+  "wikipedia":"Vikipeedia on paljukeelne veebipõhine vaba sisuga entsüklopeedia, mida kirjutab ühiselt suur hulk vabatahtlikke.",
   "wikisource":[
    "Wikimedia kategooria",
    "wikidata"
@@ -4397,18 +4274,6 @@
   ]
  },
  "eu":{
-  "aol":[
-   "helburu orokorreko programazio lengoaia",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:eu",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:eu",
-   "ref"
-  ],
   "bing":[
    "Microsoft enpresak garatutako bilaketa motorra",
    "wikidata"
@@ -4448,10 +4313,6 @@
   "fdroid":[
    "Android sistema eragilerako software librearen gordailua",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google images":[
    "Google Irudiak. Interneteko irudi-bilaketarik onena.",
@@ -4502,7 +4363,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -4541,10 +4402,7 @@
    "Modu kolaboratiboan editatutako ezagutza datu base askea",
    "wikidata"
   ],
-  "wikipedia":[
-   "edonork edita dezakeen entziklopedia askea linean",
-   "wikidata"
-  ],
+  "wikipedia":"Wikipedia eduki askeko entziklopedia bat da, lankidetzaz editatua, eleanitza, Interneten argitaratua, Wikimedia Fundazioa irabazi asmorik gabeko erakundeak sustengatua. Wikipedia mundu osoko boluntarioek idazten dute. Internetera konektatutako edonork parte har dezake Wikipediako artikuluetan, aldatu lotura sakatuz. 2015ko azaroaren bostean, 291 hizkuntzatako edizioak zituen, eta horietatik 275 zeuden aktibo. Proiektuaren xedea da ahalik eta hizkuntza gehienetan idatzitako entziklopedia sortu eta hedatzea. Guztira 37 milioi artikulu ditu, horietatik 491.175 euskaraz eta bost milioitik gora ingelesez.",
   "wikisource":[
    "Wikimediako kategoria",
    "wikidata"
@@ -4571,9 +4429,12 @@
   ]
  },
  "fa-IR":{
-  "500px":"۵۰۰px یک وبگاه اشتراک‌گذاری تصویر و جامعهٔ آنلاین است که اولگ گوتسول و ایوجنی تچ‌بترو (EvgenyTchebotarev) در ۳۱ اکتبر ۲۰۰۹ در تورنتوی کانادا آن را بنا نهادند و در همین سال یک‌هزار کاربر داشت، اما در ژوئن سال ۲۰۱۱ تعداد کاربران این وبگاه به بیش‌از ۸۵٬۰۰۰ نفر گسترش یافت. و در ماه اکتبر ۲۰۱۱ ، کاربران سایت به سه میلیون رسیدند. تعداد اعضای این وبگاه در سپتامبر ۲۰۱۸ ، ۱۵ میلیون نفر بوده‌است.",
+  "500px":[
+   "وبگاه اشتراکگذاری تصویر",
+   "wikidata"
+  ],
   "aol":[
-   "زبان برنامهنویسی شیءگرا با کاربرد عمومی",
+   "کمپانی اینترنتی",
    "wikidata"
   ],
   "aol images":[
@@ -4603,6 +4464,19 @@
   "bing videos":[
    "«ویدیوی Bing» به شما کمک می‌کند ویدیوهایی از منابع مختلف از جمله YouTube‏، Vimeo و دیگر پلتفرم‌های اشتراک‌گذاری ویدیو را با پیش‌نمایش فوری، پخش مستقیم و فیلترهای هوشمند کشف و تماشا کنید.",
    "https://www.bing.com/videos"
+  ],
+  "brave":"بریو یک مرورگر وب آزاد و متن‌باز است. با سیستم پرداخت به گشت‌وگذار و بر پایهٔ مرورگر کرومیوم و موتور چیدمان بلینک ساخته شده است. ساخت این مرورگر را یکی از بنیان‌گذاران پروژه موزیلا و خالق جاوااسکریپت یعنی برندان آیک اعلام کرد.",
+  "brave.images":[
+   "brave:fa-IR",
+   "ref"
+  ],
+  "brave.news":[
+   "brave:fa-IR",
+   "ref"
+  ],
+  "brave.videos":[
+   "brave:fa-IR",
+   "ref"
   ],
   "currency":[
    "داکداکگو موتور جستجوی وب",
@@ -4647,10 +4521,6 @@
   "flickr":[
    "یکی از سایتهای اشتراکگذاری تصویر و ویدئو",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "سرویس میزبانی وب",
@@ -4721,7 +4591,7 @@
    "wikidata"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -4776,10 +4646,7 @@
    "پایگاه دادهٔ آزاد و قابل ویرایش توسط همگان",
    "wikidata"
   ],
-  "wikipedia":[
-   "دانشنامه آنلاینِ چند زبانه آزاد",
-   "wikidata"
-  ],
+  "wikipedia":"ویکی‌پدیا ، یک دانشنامه برخط چندزبانه بر پایهٔ وب با محتوای آزاد و همکاری باز است که با همکاری داوطلب‌ها نوشته می‌شود و هر کسی که به اینترنت و وب دسترسی داشته باشد می‌تواند مقاله‌های آن را ببیند و ویرایش کند. نام ویکی‌پدیا از پیوند واژه «ویکی» با «پدیا» ساخته شده است. هدف ویکی‌پدیا آفرینش و انتشار جهانی یک دانشنامه با محتوای آزاد به همه زبان‌های زندهٔ جهان است.",
   "wikiquote":[
    "یک پایگاه از نقلقولهای متنی آزاد و از پروژههای ویکیمدیا",
    "wikidata"
@@ -4814,22 +4681,9 @@
   ]
  },
  "fi":{
-  "500px":"500px on online-valokuvayhteisö jonka ovat perustaneet Oleg Gutsol sekä Evgeny Tchebotarev. Torontossa perustettu startup-yritys julkaisi ohjelman Web 2.0-version vuonna 2009 ja se on suunnattu pyrkiville ja ammattilaisille kuvaajille; kannustaen jäseniä lataamaan parhaita kuvaotoksia.",
   "ansa":[
    "italialainen uutistoimisto",
    "wikidata"
-  ],
-  "aol":[
-   "oliopohjainen, käännettävä ohjelmointikieli",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:fi",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:fi",
-   "ref"
   ],
   "apple app store":[
    "Applen sovelluskauppa",
@@ -4859,6 +4713,10 @@
    "Hae Microsoft Bingillä ja hyödynnä tekoälyä tietojen etsimiseen, verkkosivujen, kuvien, videoiden, karttojen ja muiden toimintojen tutkimiseen. Älykäs hakukone, joka on aina utelias.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Etsi ja tutustu korkealaatuisiin, ilmaisiin valokuviin ja taustakuviin Bing Kuvissa. Inspiroi ja kohota visuaalisuutta!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Uutisia niin maailman ja valtakunnan lähteistä kuin paikallislähteistäkin. Uutiset on järjestetty niin, että saat seikkaperäisiä uutisia urheilusta, viihteestä, taloudesta, politiikasta, säästä ja monesta muusta aiheesta.",
    "https://www.bing.com/news"
@@ -4867,9 +4725,18 @@
    "Bing Videon avulla löydät ja katsot videoita useista lähteistä, kuten YouTubesta, Vimeosta ja muista. Saat käyttöösi pikaesikatselut, suoran toiston ja älykkäät suodattimet.",
    "https://www.bing.com/videos"
   ],
+  "brave":"Brave on ilmainen ja avoimen lähdekoodin verkkoselain, jonka on kehittänyt Brave Software Inc. Se perustuu Googlen avoimen lähdekoodin Chromium-verkkoselainprojektiin, jonka päälle myös mm. suljetun lähdekoodin selain Google Chrome on rakennettu. Brave-selain on saatavilla Microsoft Windows, GNU/Linux, macOS, Android ja Applen iOS -käyttöjärjestelmille. Brave on yksityisyyteen keskittyvä selain ja se estää häiritsevät mainosbannerit ja -ikkunat ja vähentää netissä seuraamista. Se tarjoaa myös käyttäjille mahdollisuuden ottaa käyttöön valinnaiset ​​mainokset, jotka maksavat käyttäjille mainosten katsomisesta Basic Attention Token (BAT) -kryptovaluutan muodossa. Käyttäjät voivat lähettää lahjoituksia verkkosivustoille ja sisällöntuottajille. Brave sisältää myös valinnaisen Tor-integraation ja IPFS-integraation.",
   "brave.images":[
-   "Hae verkosta. Yksityisesti. Hyödyllisiä hakutuloksia, tekoälyvastauksia ja muuta. Kaikki itsenäisestä indeksistä puolueettomasti ilman profilointia.",
-   "https://search.brave.com/"
+   "brave:fi",
+   "ref"
+  ],
+  "brave.news":[
+   "brave:fi",
+   "ref"
+  ],
+  "brave.videos":[
+   "brave:fi",
+   "ref"
   ],
   "currency":[
    "Yksityisyydensuojaa internetissä tarjoava yritys, jonka avulla voit hallita henkilötietojasi verkossa saumattomasti ja ilman kompromisseja.",
@@ -4906,10 +4773,6 @@
   "fdroid":[
    "sovelluskauppa vapaille Android-sovelluksille",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "Git-järjestelmää käyttävä verkkopalvelu ohjelmistokehitysprojektien säilytykseen",
@@ -5000,7 +4863,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -5067,10 +4930,7 @@
    "avoimen sisällön verkkouutisia, jotka ovat vapaaehtoisten kirjoittamia ja toimittamia",
    "wikidata"
   ],
-  "wikipedia":[
-   "avoin verkkotietosanakirja, jota kuka tahansa voi muokata",
-   "wikidata"
-  ],
+  "wikipedia":"Wikipedia on voittoa tavoittelematon, yleishyödyllinen projekti, jonka tarkoituksena on luoda ilmainen avoin tietosanakirja Internetiin. Wikipedian englanninkielinen versio perustettiin vuonna 2001, ja tietosanakirjaa julkaistiin vuonna 2024 yli 330 kielellä. Wikipedian sisällön luovat ja ylläpitävät pääasiassa vapaaehtoiset, jotka eivät saa siitä taloudellista korvausta. Vapaaehtoistyö on avoin kaikille.",
   "wikiquote":[
    "avoin sitaattikokoelma, jota kuka tahansa voi muokata",
    "wikidata"
@@ -5121,6 +4981,10 @@
    "Maghanap gamit ang Microsoft Bing at gamitin ang lakas ng AI para maghanap ng impormasyon, galugarin ang mga webpage, imahe, video, mapa, at higit pa. Smart search engine para sa magpakailanmang mausisa.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Maghanap at mag-explore ng mga de-kalidad, libreng larawan at wallpaper sa Bing Images. Magbigay ng inspirasyon at pagbutihin",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Balita mula sa buong daigdig, bansa, at lokal, organisado para bigyan ka ng malawakang coverage ng sports, entertainment, negosyo, pulitika, panahon, at marami pang iba.",
    "https://www.bing.com/news"
@@ -5128,10 +4992,6 @@
   "bing videos":[
    "Tinutulungan ka ng Bing Video na tumuklas at manood ng mga video mula sa maraming pinagmumulan kasama ang YouTube, Vimeo, at higit pa, gamit ang mga instant preview, direktang playback, at smart filter.",
    "https://www.bing.com/videos"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google images":[
    "Google Images. Ang pinakamalawak na paghahanap ng imahe sa web.",
@@ -5220,7 +5080,7 @@
    "wikidata"
   ],
   "aol":[
-   "langage de programmation",
+   "entreprise américaine",
    "wikidata"
   ],
   "aol images":[
@@ -5247,7 +5107,10 @@
    "archive en ligne de prépublications électroniques d'articles scientifiques",
    "wikidata"
   ],
-  "askubuntu":"Stack Exchange est un réseau de sites anglophones de questions et réponses à édition collaborative, chacun traitant d'un thème particulier. Deux exemples sont les sites Stack Overflow, dont le thème est la programmation informatique, et Ask Ubuntu (en), qui offre des réponses aux problèmes rencontrés sur le système d'exploitation Ubuntu.",
+  "askubuntu":[
+   "stackoverflow:fr",
+   "ref"
+  ],
   "baidu":[
    "société chinoise travaillant dans le domaine du web, et auteur du principal moteur de recherche chinois",
    "wikidata"
@@ -5268,7 +5131,10 @@
    "site de partage de vidéos et de jeux vidéo chinois",
    "wikidata"
   ],
-  "bing":"Microsoft Bing, est un moteur de recherche élaboré par la société Microsoft. Il a été rendu public le 3 juin 2009.",
+  "bing":[
+   "moteur de recherche web de Microsoft",
+   "wikidata"
+  ],
   "bing images":[
    "bing:fr",
    "ref"
@@ -5289,10 +5155,7 @@
    "plateforme d'hébergement vidéo",
    "wikidata"
   ],
-  "brave":[
-   "navigateur web libre et open source axé sur la confidentialité, développé par Brave Software, Inc. sur la base du navigateur web Chromium",
-   "wikidata"
-  ],
+  "brave":"Brave est un navigateur web open source disponible sur Microsoft Windows, macOS et Linux ainsi que sur iOS et Android. Il a pour objectif de protéger la vie privée de ses utilisateurs en bloquant par défaut les pisteurs et en permettant la navigation privée via le réseau Tor. Le logiciel, fondé sur Chromium, est développé par l’entreprise américaine Brave Software depuis 2016.",
   "brave.images":[
    "brave:fr",
    "ref"
@@ -5325,7 +5188,10 @@
    "currency:fr",
    "ref"
   ],
-  "deezer":"Deezer est une plateforme française de distribution numérique dédiée à l'écoute de musique en streaming, lancée en août 2007. Ce service permet l'écoute de musiques et podcasts, issus d'un catalogue négocié avec les labels regroupant plus de 120 millions de titres en 2024. Deezer éditorialise son contenu par l'établissement de playlists ainsi que son algorithme Flow, qui recommande de nouveaux morceaux selon les goûts musicaux de l’utilisateur.",
+  "deezer":[
+   "plateforme numérique française d'écoute de musique et de podcasts",
+   "wikidata"
+  ],
   "deviantart":[
    "site internet",
    "wikidata"
@@ -5366,10 +5232,7 @@
    "dictionnaire d'étymologie anglais en ligne",
    "wikidata"
   ],
-  "fdroid":[
-   "dépôt d’applications libres pour Android",
-   "wikidata"
-  ],
+  "fdroid":"F-Droid est un magasin d'applications libres pour les systèmes d’exploitation Android et dérivés, comme Replicant sur lequel il est installé par défaut. Il est promu par la Free Software Foundation Europe.",
   "free software directory":[
    "projet de recensement des logiciels libres par la FSF et l'UNESCO",
    "wikidata"
@@ -5377,10 +5240,6 @@
   "genius":[
    "site web américain",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "plateforme web collaborative pour le développement de logiciels",
@@ -5394,11 +5253,11 @@
    "site web de critiques et de notation de livres",
    "wikidata"
   ],
-  "google":"Google /ˈgu.gəl/ est un moteur de recherche sur Internet sur le World Wide Web, ayant donné son nom à la société Google.",
-  "google images":[
-   "moteur de recherche d’images",
+  "google":[
+   "moteur de recherche internet",
    "wikidata"
   ],
+  "google images":"Google Images est un service proposé depuis 2001 par le moteur de recherche Google pour permettre de trouver sur le web des images en rapport avec un sujet donné.",
   "google news":[
    "service de presse en ligne",
    "wikidata"
@@ -5479,7 +5338,10 @@
    "moteur de recherche d'articles et livres scientifiques",
    "wikidata"
   ],
-  "library of congress":"La Bibliothèque du Congrès, située à Washington, assure la fonction de bibliothèque de recherche du Congrès des États-Unis et, de facto, constitue la bibliothèque nationale américaine.",
+  "library of congress":[
+   "bibliothèque fédérale à Washington, aux États-Unis",
+   "wikidata"
+  ],
   "mastodon hashtags":[
    "mastodon users:fr",
    "ref"
@@ -5652,10 +5514,7 @@
    "réseau de forums internet",
    "wikidata"
   ],
-  "startpage":[
-   "moteur de recherche",
-   "wikidata"
-  ],
+  "startpage":"Startpage, initialement connu sous le nom d'Ixquick, est un métamoteur de recherche sur le Web.",
   "startpage images":[
    "startpage:fr",
    "ref"
@@ -5728,10 +5587,7 @@
    "site d'actualité multilingue",
    "wikidata"
   ],
-  "wikipedia":[
-   "encyclopédie en ligne multilingue",
-   "wikidata"
-  ],
+  "wikipedia":"Wikipédia est une encyclopédie en ligne collaborative et multilingue créée par Jimmy Wales et Larry Sanger le 15 janvier 2001. Il s'agit d'une œuvre libre, c'est-à-dire que chacun est libre de l'amender et de la rediffuser. Gérée en wiki dans le site web wikipedia.org grâce au logiciel MediaWiki, elle permet à tous les internautes d'écrire et de modifier des articles, ce qui lui vaut d'être qualifiée d'« encyclopédie participative ».",
   "wikiquote":[
    "site web de recueils de citations",
    "wikidata"
@@ -5783,6 +5639,10 @@
    "Cuardaigh le Microsoft Bing agus úsáid cumhacht AI chun faisnéis a aimsiú, leathanaigh ghréasáin, íomhánna, físeáin, mapaí agus tuilleadh. Inneall cuardaigh cliste don duine atá fiosrach go deo.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Cuardaigh agus taiscéal grianghraif agus cúlbhrait atá ardchaighdeán agus saor in aisce ar íomhánna Bing. Spreag agus ardaigh d’fhísigh!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Nuacht ó fhoinsí nuachta domhanda, náisiúnta agus áitiúla, eagraithe chun grinnchuardach nuachta a thabhairt ar an spórt, siamsaíocht, gnó, polaitíocht, aimsir agus tuilleadh.",
    "https://www.bing.com/news"
@@ -5794,10 +5654,6 @@
   "duden":[
    "ciclipéid ar líne",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google images":[
    "Íomhánna Google. An cuardach íomhánna is cuimsithí ar an ngréasán.",
@@ -5816,7 +5672,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -5835,10 +5691,7 @@
    "tmdb:en",
    "ref"
   ],
-  "wikipedia":[
-   "ciclipéid shaor ar líne is féidir í a chur in eagar",
-   "wikidata"
-  ],
+  "wikipedia":"Is ciclipéid ar líne é an Vicipéid atá scríofa agus á chothabháil ag pobal oibrithe deonacha, ar a dtugtar Vicipéideoirí, trí chomhoibriú oscailte agus trí úsáid a bhaint as córas eagarthóireachta vicí-bhunaithe ar a dtugtar MediaWiki. Is í an Vicipéid an saothar tagartha is mó agus is mó léite sa stair, agus i rith an ama bhí sí ar cheann de na 10 suíomhanna gréasáin is mó tóir. Cruthaithe ag Jimmy Wales agus Larry Sanger ar 15 Eanáir, 2001, tá sé á óstáil ag an bhFondúireacht Wikimedia, eagraíocht neamhbhrabúis Mheiriceá.",
   "wikisource":[
    "Viciméid catagóir",
    "wikidata"
@@ -5846,20 +5699,8 @@
  },
  "gl":{
   "annas archive":[
-   "annas archive:es",
-   "ref"
-  ],
-  "aol":[
-   "linguaxe de programación",
+   "buscador de bibliotecas fantasma",
    "wikidata"
-  ],
-  "aol images":[
-   "aol:gl",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:gl",
-   "ref"
   ],
   "artic":[
    "museo e escola de arte",
@@ -5873,6 +5714,10 @@
    "Busca con Microsoft Bing e usa o poder da IA para atopar información, explorar páxinas web, imaxes, vídeos, mapas e moito máis. Un motor de busca intelixente para os máis curiosos.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Busca e explora fotos e fondos de pantalla gratuítos e de alta calidade en Bing Images. Inspírate e mellora as túas imaxes!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Novas procedentes de fontes de noticias mundiais, nacionais e locais, organizadas para ofrecerche unha cobertura en profundidade das novas relacionadas co deporte, o entretemento, os negocios, a política, o tempo e moito máis.",
    "https://www.bing.com/news"
@@ -5881,13 +5726,9 @@
    "Bing Video axúdache a descubrir e ver vídeos de múltiples fontes, como YouTube, Vimeo e moitas máis, con vistas previas instantáneas, reprodución directa e filtros intelixentes.",
    "https://www.bing.com/videos"
   ],
-  "brave.images":[
+  "brave":[
    "Busca na Web. Privadamente. Resultados verdadeiramente útiles, respostas impulsadas por IA, e máis. Todo dende un índice independente. Sen perfis, sen sesgo, sen Big Tech.",
    "https://search.brave.com/"
-  ],
-  "brave.news":[
-   "brave.images:gl",
-   "ref"
   ],
   "currency":[
    "motor de procura web",
@@ -5925,11 +5766,6 @@
    "repositorio de aplicacións para Android que só contén software libre",
    "wikidata"
   ],
-  "genius":"Genius é unha empresa estadounidense de medios dixitais fundada en agosto de 2009 por Tom Lehman, Ilan Zechory e Mahbod Moghadam. O sitio permite aos usuarios achegar anotacións e interpretacións ás letras de cancións, noticias, fontes, poesías e documentos.",
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "github":[
    "plataforma de software para aloxar proxectos usando o sistema Git",
    "wikidata"
@@ -5951,8 +5787,8 @@
    "ref"
   ],
   "hoogle":[
-   "aol:gl",
-   "ref"
+   "linguaxe de programación",
+   "wikidata"
   ],
   "imdb":[
    "base de datos sobre a industria fílmica",
@@ -5987,7 +5823,7 @@
    "wikidata"
   ],
   "peertube":[
-   "Software Libre para retomar o control dos teus vídeos! Con máis de 600.000 vídeos hospedados, vistos máis de 70 millóns de veces e con 150.000 usuarias, PeerTube é a alternativa as plataformas de vídeo descentralizada desenvolta por Framasoft",
+   "Software Libre para retomar o control dos teus vídeos! Con máis de 600.000 vídeos aloxados, vistos máis de 70 millóns de veces e con 150.000 usuarias, PeerTube é a alternativa as plataformas de vídeo descentralizada desenvolvida por Framasoft",
    "https://joinpeertube.org"
   ],
   "pinterest":[
@@ -6089,7 +5925,7 @@
    "wikidata"
   ],
   "aol":[
-   "שפת תכנות",
+   "חברת אינטרנט אמריקאית",
    "wikidata"
   ],
   "aol images":[
@@ -6200,10 +6036,9 @@
    "אתר שיתוף תמונות",
    "wikidata"
   ],
-  "genius":"Genius הוא מאגר מידע מקוון בתחום המדיה, שהוקם באוקטובר 2009 על ידי מהבוד מוגדם, טום ליהמן ואילן זקורי. האתר מאפשר למשתמשים לספק מילים, הסברים ופרשנויות לשירים, לסיפורים, למקורות, לשירה ולמסמכים.",
-  "gentoo":[
-   "gentoo:en",
-   "ref"
+  "genius":[
+   "מאגר מידע מוזיקלי-גלובלי מקוון וחופשי",
+   "wikidata"
   ],
   "github":[
    "שירות אירוח למיזמי תכנה עם Git",
@@ -6294,7 +6129,7 @@
    "wikidata"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -6411,21 +6246,13 @@
   ]
  },
  "hr":{
-  "aol":[
-   "programski jezik",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:hr",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:hr",
-   "ref"
-  ],
   "bing":[
    "Pretražujte uz Microsoft Bing i koristite moć umjetne inteligencije kako biste pronašli informacije, istražili web-stranice, slike, videozapise, karte i još mnogo toga. Pametna tražilica za vječno znatiželjne.",
    "https://www.bing.com"
+  ],
+  "bing images":[
+   "Pretražujte i istražujte visokokvalitetne, besplatne fotografije i pozadine na servisu Bing slike. Inspirirajte se i unaprijedite svoje vizualne prikaze!",
+   "https://www.bing.com/images"
   ],
   "bing news":[
    "Novosti iz svjetskih, nacionalnih i lokalnih izvora, organizirane tako da pružaju podrobne informacije o sportu, zabavi, poslovnim temama, politici, vremenu i drugim temama.",
@@ -6466,10 +6293,6 @@
   "fdroid":[
    "F-Droid je FOSS ekosustav za distribuciju aplikacija na Androidu u kojem je sloboda korisnika stoji na prvom mjestu. Otkrij našu trgovinu aplikacija i istraži svijet besplatnih/slobodnih aplikacija otvorenog koda (FOSS) te [saznaj](https://f-droid.org/about/) o našim drugim alatima za distribuciju open source aplikacija.",
    "https://f-droid.org/"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google":[
    "internetski pretraživač istoimene američke tvrtke",
@@ -6561,18 +6384,6 @@
    "olasz hírügynökség",
    "wikidata"
   ],
-  "aol":[
-   "általános célú, magas szintű programozási nyelv",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:hu",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:hu",
-   "ref"
-  ],
   "artic":[
    "Chicagoi múzeum",
    "wikidata"
@@ -6605,7 +6416,7 @@
    "A Bing Video segít felfedezni és megnézni videókat több forrásból, például a YouTube-ról, a Vimeóról és másokról, azonnali előnézettel, közvetlen lejátszással és okos szűrőkkel.",
    "https://www.bing.com/videos"
   ],
-  "brave.images":[
+  "brave":[
    "Privát keresés a weben. Valóban hasznos találatok, MI által biztosított válaszok és még több. Független indexből. Profilozás, részrehajlás és Big Tech nélkül.",
    "https://search.brave.com/"
   ],
@@ -6645,10 +6456,6 @@
    "Az F-Droid egy Androidra készült alkalmazás-terjesztési ökoszisztéma, amelyben a felhasználói szabadság az elsődleges szempont. Fedezze fel alkalmazás-áruházunkat, hogy megismerje a szabad és nyílt forráskódú (FOSS) alkalmazások világát, és [tudjon meg többet](https://f-droid.org/about/) az alkalmazásterjesztési eszközeinkről.",
    "https://f-droid.org/"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "github":[
    "szoftver fejlesztési projekt tárolására alkalmas internetes szolgáltatás",
    "wikidata"
@@ -6657,7 +6464,10 @@
    "közösségi honlap és könyvkatalógus",
    "wikidata"
   ],
-  "google":"A Google internetes keresőrendszer, amely egyúttal térképként, pénzváltóként, számológépként, naptárként, helyesírás-ellenőrzőként és szótárként is használható.",
+  "google":[
+   "currency:hu",
+   "ref"
+  ],
   "google images":[
    "Google Képek. Az internet legátfogóbb képkereső szolgáltatása.",
    "https://images.google.com"
@@ -6686,6 +6496,10 @@
    "képmegosztó (image hosting) webhely",
    "wikidata"
   ],
+  "iqiyi":[
+   "kínai streaming platform",
+   "wikidata"
+  ],
   "library of congress":[
    "Az Amerikai Egyesült Államok nemzeti könyvtára",
    "wikidata"
@@ -6711,7 +6525,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -6832,10 +6646,6 @@
   ]
  },
  "ia":{
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "google images":[
    "Google Imagines. Le recerca de imagines le plus comprehensive del web.",
    "https://images.google.com"
@@ -6853,7 +6663,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -6887,7 +6697,7 @@
    "wikidata"
   ],
   "aol":[
-   "Bahasa pemrograman bertujuan umum",
+   "perusahaan asal Amerika Serikat",
    "wikidata"
   ],
   "aol images":[
@@ -7018,10 +6828,6 @@
    "katalog Perangkat Lunak Bebas, proyek dari Yayasan Perangkat Lunak Bebas",
    "wikidata"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "github":[
    "layanan hos untuk proyek perangkat lunak yang menggunakan Git",
    "wikidata"
@@ -7035,8 +6841,8 @@
    "https://images.google.com"
   ],
   "google news":[
-   "perusahaan asal Amerika Serikat",
-   "wikidata"
+   "aol:id",
+   "ref"
   ],
   "google play apps":[
    "platform distribusi perangkat lunak digital dari Google",
@@ -7051,7 +6857,7 @@
    "wikidata"
   ],
   "google videos":[
-   "google news:id",
+   "aol:id",
    "ref"
   ],
   "hackernews":[
@@ -7134,6 +6940,10 @@
    "nixos wiki:en",
    "ref"
   ],
+  "npm":[
+   "manajer paket JavaScript",
+   "wikidata"
+  ],
   "openlibrary":[
    "Proyek daring untuk salinan buku dan arsip internet",
    "wikidata"
@@ -7211,23 +7021,23 @@
    "ref"
   ],
   "wikibooks":[
-   "google news:id",
+   "aol:id",
    "ref"
   ],
   "wikicommons.audio":[
-   "google news:id",
+   "aol:id",
    "ref"
   ],
   "wikicommons.files":[
-   "google news:id",
+   "aol:id",
    "ref"
   ],
   "wikicommons.images":[
-   "google news:id",
+   "aol:id",
    "ref"
   ],
   "wikicommons.videos":[
-   "google news:id",
+   "aol:id",
    "ref"
   ],
   "wikidata":[
@@ -7263,7 +7073,7 @@
    "wikidata"
   ],
   "wiktionary":[
-   "google news:id",
+   "aol:id",
    "ref"
   ],
   "wolframalpha":[
@@ -7279,7 +7089,7 @@
    "ref"
   ],
   "youtube":[
-   "google news:id",
+   "aol:id",
    "ref"
   ]
  },
@@ -7296,12 +7106,9 @@
    "motore di ricerca per biblioteche ombra",
    "wikidata"
   ],
-  "ansa":[
-   "agenzia di informazione multimediale italiana",
-   "wikidata"
-  ],
+  "ansa":"L'Agenzia nazionale della stampa associata, comunemente nota con l'acronimo ANSA, è la maggiore agenzia d'informazione italiana e tra le prime nel mondo.",
   "aol":[
-   "linguaggio di programmazione",
+   "società di telecomunicazioni statunitense",
    "wikidata"
   ],
   "aol images":[
@@ -7452,9 +7259,8 @@
    "sito web di proprietà di SmugMug",
    "wikidata"
   ],
-  "genius":"Genius è un sito internet dedicato alla spiegazione e all'interpretazione di testi musicali, in particolare testi hip hop.",
-  "gentoo":[
-   "gentoo:en",
+  "genius":[
+   "9gag:it",
    "ref"
   ],
   "github":[
@@ -7494,8 +7300,8 @@
    "wikidata"
   ],
   "hoogle":[
-   "aol:it",
-   "ref"
+   "linguaggio di programmazione",
+   "wikidata"
   ],
   "huggingface":[
    "azienda di sviluppo software Americana",
@@ -7517,7 +7323,6 @@
    "database online di informazioni sul cinema",
    "wikidata"
   ],
-  "imgur":"Imgur è un servizio di image hosting e di photosharing, fondato da Alan Schaaf nel 2009. Il servizio è diventato popolare con l'hosting di immagini virali e meme, in particolare quelle pubblicate su Reddit.",
   "ina":[
    "museo in Francia",
    "wikidata"
@@ -7600,6 +7405,10 @@
   ],
   "odysee":[
    "piattaforma decentralizzata di condivisione video",
+   "wikidata"
+  ],
+  "ollama":[
+   "software per eseguire LLM in locale anziché nel cloud",
    "wikidata"
   ],
   "openlibrary":[
@@ -7776,6 +7585,10 @@
    "Microsoft Bing を使用して検索し、AI の機能を使用して情報を検索したり、Web ページ、画像、ビデオ、マップなどを探索したりすることができます。いつまでも好奇心旺盛な人のためのスマート検索エンジンです。",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Bing 画像で高品質で無料の写真や壁紙を検索して探索できます。ビジュアルを刺激し、向上させましょう。",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "世界、国内、地方のニュース ソースから、スポーツ、エンターテイメント、ビジネス、政治、お天気情報など、さまざまな分野の詳細なニュースを整理してお届けします。",
    "https://www.bing.com/news"
@@ -7788,10 +7601,7 @@
    "アトラシアンが運営するWeb ベースのバージョン管理リポジトリホスティングサービス",
    "wikidata"
   ],
-  "brave":[
-   "Brave Softwareが開発しているウェブブラウザー",
-   "wikidata"
-  ],
+  "brave":"Brave（ブレイブ）は、Brave Softwareによって開発されているウェブブラウザである。Chromiumをベースとしており、Windows、macOS、Linux、iOS、Android版が存在し、オープンソースで開発されている。広告とトラッカーをブロックする機能（アドブロック）を標準装備し、ユーザーのプライバシーの保護、そして高いパフォーマンスを実現できることを売りにしている。",
   "brave.images":[
    "brave:ja",
    "ref"
@@ -7807,10 +7617,6 @@
   "cachy os packages":[
    "Arch LinuxベースのLinuxディストリビューション",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google images":[
    "Google 画像検索 ウェブ上の画像を縦横無尽に検索",
@@ -7841,8 +7647,8 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
-   "ref"
+   "Open Libraryは、これまでに出版されたすべての本のウェブページを目指して構築しているオープンで編集可能な図書館カタログです。300万冊以上の本を無料で読んだり、借りたり、発見したりできます。",
+   "https://openlibrary.org"
   ],
   "openstreetmap":[
    "OpenStreetMap は、あなたのような人々が作成する世界地図であり、オープンなライセンスの下で自由に利用できます。",
@@ -7867,7 +7673,7 @@
    "wikidata"
   ],
   "aol":[
-   "객체 지향 프로그래밍 언어",
+   "뉴욕에 본사를 둔 미국의 포털 사이트이자 전직 온라인 서비스 제공자",
    "wikidata"
   ],
   "aol images":[
@@ -7922,6 +7728,10 @@
    "아틀라시안 소유의 웹 기반 버전 관리 저장소 호스팅 서비스",
    "wikidata"
   ],
+  "brave":[
+   "웹을 검색합니다. 프라이버시 보호 하에 진행할 수 있습니다. 진정으로 유용한 결과, AI 기반 답변 등. 모두 독립적 색인에서 가져옵니다. 프로파일링도, 편향도, 빅테크도 없습니다.",
+   "https://search.brave.com/"
+  ],
   "crossref":[
    "국제 DOI 재단의 공식 디지털 객체 식별자 등록 기관 중 하나",
    "wikidata"
@@ -7971,16 +7781,12 @@
    "wikidata"
   ],
   "fdroid":[
-   "F-Droid는 이용자로서의 여러분의 자유가 우선하는 자유 오픈 소스 앱 배포 생태계입니다. 저희 앱스토어를 구경해서 자유 오픈 소스 (FOSS) 앱의 세계를 경험하고 저희의 다른 오픈 소스 앱 배포 도구에 대해서도 [알아보세요](https://f-droid.org/about/).",
+   "F-Droid는 이용자로서의 여러분의 자유가 우선하는 앱 배포 생태계입니다. 저희 앱스토어를 구경해서 자유 오픈 소스 (FOSS) 앱의 세계를 경험하고 저희의 앱 배포 도구에 대해서도 [알아보세요](https://f-droid.org/about/).",
    "https://f-droid.org/"
   ],
   "flickr":[
    "소셜 네트워크 서비스",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "Git을 사용하는 소프트웨어 개발 프로젝트를 위한 웹 기반 호스팅 서비스",
@@ -8058,7 +7864,10 @@
    "mozhi:en",
    "ref"
   ],
-  "naver":"네이버(영어: NAVER)는 1999년 6월 2일에 출시된 대한민국의 포털사이트이다. 현재는 네이버(주)에서 운영하고 있다.",
+  "naver":[
+   "대한민국의 포털 사이트",
+   "wikidata"
+  ],
   "naver images":[
    "naver:ko",
    "ref"
@@ -8099,7 +7908,10 @@
    "flickr:ko",
    "ref"
   ],
-  "reddit":"레딧(Reddit)은 미국의 소셜 뉴스 집계, 콘텐츠 등급 및 토론 웹사이트이다. 등록된 사용자(일반적으로 \"레디터\"라고 함)는 링크, 텍스트 게시물, 이미지, 동영상 등의 콘텐츠를 사이트에 제출한 후 다른 회원에 의해 투표된다. 게시물은 주제별로 \"커뮤니티\" 또는 \"서브레딧\"이라고 불리는 사용자가 만든 게시판으로 구성된다. 더 많은 업보트가 있는 제출물은 하위 레딧의 맨 위에 표시되며, 충분한 업보트를 받은 경우 최종적으로 사이트의 첫 페이지에 표시된다. 레딧 관리자는 커뮤니티를 관리하며 중재는 레딧 직원이 아닌 커뮤니티별 중재자에 의해 수행된다.",
+  "reddit":[
+   "미국의 소셜 뉴스 및 토론 사이트",
+   "wikidata"
+  ],
   "reuters":[
    "영국의 대형 통신사",
    "wikidata"
@@ -8124,7 +7936,10 @@
    "startpage:ko",
    "ref"
   ],
-  "steam":"스팀(영어: Steam)은 밸브 코퍼레이션에서 개발한 디지털 관리 멀티플레이어 플랫폼이다. 처음의 스팀 서비스는 2003년 9월 12일 시작되어 현재에도 서비스 되고 있으며, 일인칭 슈팅 게임부터 롤플레잉 게임, 레이싱 게임 그리고 독립 게임까지 다양한 게임을 디지털로 관리하며 배급한다. 테이크투 인터랙티브, 락스타 게임즈, 에이도스 인터랙티브, 인트로버전 소프트웨어, 스트레티지 퍼스트, 팝캡 게임즈, 캡콤, 이드 소프트웨어, THQ, 일렉트로닉 아츠, 유비소프트, 2K 게임즈, 워너 브라더스, 액티비전, 에픽 게임즈 등이 스팀에서 게임을 판매하고 있다.",
+  "steam":[
+   "밸브 사에서 운영하는 온라인 게임 유통 플랫폼",
+   "wikidata"
+  ],
   "superuser":[
    "stackoverflow:ko",
    "ref"
@@ -8161,7 +7976,10 @@
    "자유로운 뉴스 콘텐츠를 목표로 하는 위키미디어 재단의 프로젝트",
    "wikidata"
   ],
-  "wikipedia":"위키백과(위키百科, IPA: [ɥikçibɛ̝k̚ɡ̊wa̠], [ykçibɛ̝k̚k͈wa̠] ) 또는 위키피디아(영어: Wikipedia, IPA: [ˌwɪkɪˈpiːdɪə] )는 누구나 자유롭게 쓰는 다언어판 온라인 백과사전이다. 협업을 개방한 위키 기반 편집 시스템을 사용하여 자발적인 위키백과 사용자 공동체가 작성하고 관리한다. 위키백과는 대표적인 집단 지성의 사례로 평가받으며 역사상 최대로 가장 많이 읽는 참고서이기도 하다. 시밀러웹과 (과거) 알렉사 인터넷에서 가장 인기있는 웹사이트 10곳 중 하나로 꾸준히 순위를 올린다. 2024년 1월 기준으로 위키백과는 세계에서 7번째로 인기 있는 사이트로 순위를 올렸다. 위키백과는 자유 저작물을 보유하고 상업적인 광고가 없다. 주로 기부금으로 지원을 받는 비영리 단체인 위키미디어 재단이 소유하고 지원한다.",
+  "wikipedia":[
+   "누구나 자유롭게 편집할 수 있는 인터넷 백과사전",
+   "wikidata"
+  ],
   "wikiquote":[
    "어록과 인용문을 수집하는 위키미디어 프로젝트",
    "wikidata"
@@ -8194,7 +8012,10 @@
    "yacy:ko",
    "ref"
   ],
-  "yandex":"얀덱스 LLC(Yandex LLC, 러시아어: Яндекс)는 러시아의 기술 기업으로, 웹 브라우저, 검색 엔진, 클라우드 컴퓨팅, 웹 매핑, 온라인 음식 주문, 스트리밍, 온라인 쇼핑, 승차 공유 서비스 등 인터넷 관련 제품 및 서비스를 제공한다.",
+  "yandex":[
+   "러시아의 검색 엔진이자 포털사이트, IT 기업",
+   "wikidata"
+  ],
   "yandex images":[
    "yandex:ko",
    "ref"
@@ -8222,9 +8043,13 @@
    "„Bing Video“ padeda atrasti ir žiūrėti vaizdo įrašus iš kelių šaltinių, įskaitant „YouTube“, „Vimeo“ ir kt., su sparčiosiomis peržiūromis, tiesioginiu atkūrimu ir išmaniaisiais filtrais.",
    "https://www.bing.com/videos"
   ],
-  "brave.images":[
+  "brave":[
    "Paieška žiniatinklyje. Privati. Naudingi rezultatai, DI atsakymai ir kt. Viskas iš nepriklausomo indekso. Be profiliavimo, šališkumo ir didžiųjų technologijų.",
    "https://search.brave.com/"
+  ],
+  "brave.videos":[
+   "brave:lt",
+   "ref"
   ],
   "currency":[
    "Interneto privatumo bendrovė, suteikianti jums galimybę sklandžiai ir be jokių kompromisų kontroliuoti savo asmeninę informaciją internete.",
@@ -8252,10 +8077,6 @@
   ],
   "duckduckgo weather":[
    "currency:lt",
-   "ref"
-  ],
-  "gentoo":[
-   "gentoo:en",
    "ref"
   ],
   "google images":[
@@ -8291,13 +8112,14 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
    "OpenStreetMap yra pasaulio žemėlapis, kuriamas žmonių, tokių kaip jūs. Jis atviras ir laisvas - naudojamas pagal atvirą licenciją.",
    "https://www.openstreetmap.org/"
   ],
+  "piratebay":"The Pirate Bay – interneto svetainė, pristatanti save „Atspariausiu pasaulyje BitTorrent serveriu“. Alexa, interneto svetainių lankomumo duomenimis, 2007 m. spalio 6 d. užėmė 192 vietą lankomiausių svetainių suvestinėje.",
   "tmdb":[
    "tmdb:en",
    "ref"
@@ -8313,7 +8135,7 @@
  },
  "lv":{
   "aol":[
-   "programmēšanas valoda",
+   "interneta uzņēmums",
    "wikidata"
   ],
   "aol images":[
@@ -8344,6 +8166,10 @@
    "Bing video palīdz atklāt un skatīties videoklipus no vairākiem avotiem, tostarp YouTube, Vimeo un citiem avotiem, izmantojot tūlītējos priekšskatījumus, tiešo atskaņošanu un viedos filtrus.",
    "https://www.bing.com/videos"
   ],
+  "brave":[
+   "Meklējiet tīmeklī. Konfidenciāli. Noderīgi rezultāti, AI atbildes u. c. Neatkarīga indeksēšana. Bez profilēšanas, aizspriedumiem un tehnoloģijas gigantiem.",
+   "https://search.brave.com/"
+  ],
   "currency":[
    "Interneta privātuma uzņēmums, kas tev ļauj būt noteicējam pār savu personīgo informāciju tiešsaistē, neko neupurējot.",
    "https://duckduckgo.com/"
@@ -8366,10 +8192,6 @@
   ],
   "duckduckgo weather":[
    "currency:lv",
-   "ref"
-  ],
-  "gentoo":[
-   "gentoo:en",
    "ref"
   ],
   "google images":[
@@ -8401,13 +8223,14 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
    "brīvi papildināma Pasaules karte",
    "wikidata"
   ],
+  "piratebay":"The Pirate Bay ir Zviedrijas tīmekļa vietne, kas indeksē BitTorrent (.torrent) failus un magnet saites (.magnet) pārsvarā uz izklaidējoša rakstura multimediju failiem. Tā pozicionē sevi kā \"Pasaulē noturīgāko bittorrent vietni\" un pēc Alexa Internet vērtējuma ir 324. populārākā lapa pasaulē un 135. populārākā ASV. Vietnes uzturēšanas izmaksas tiek segtas no reklāmām, kas izvietotas blakus torrentu sarakstiem. To 2003. gada novembrī izveidoja Zviedrijas autortiesību pretinieku organizācija Piratbyrån. Kopš 2004. gada oktobra vietni uztur atsevišķa organizācija. Vietni uzturēja Gotfrīds Svartholms un Fredriks Neijs. 2009. gadā abi kopā ar Peteru Sundi un Karlu Lundsremu tika notiesāti par līdzdalību autortiesību pārkāpšanā saistībā ar savu līdzdalību The Pirate Bay.",
   "soundcloud":[
    "mūzikas straumēšanas platforma",
    "wikidata"
@@ -8446,18 +8269,6 @@
    "ഓപ്പറേറ്റിങ് സിസ്റ്റം",
    "wikidata"
   ],
-  "aol":[
-   "പ്രോഗ്രാമിങ് ഭാഷ",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:ml",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:ml",
-   "ref"
-  ],
   "askubuntu":[
    "stackoverflow:ml",
    "ref"
@@ -8465,6 +8276,10 @@
   "bing":[
    "Microsoft Bing ഉപയോഗിച്ച് തിരയുക, വിവരങ്ങൾ കണ്ടെത്തുന്നതിനും വെബ്‌പേജുകൾ, ചിത്രങ്ങൾ, വീഡിയോകൾ, മാപ്പുകൾ എന്നിവയും മറ്റും പര്യവേക്ഷണം ചെയ്യാനും ആർട്ടിഫിഷ്യൽ ഇന്റലിജൻസിന്റെ ശക്തി ഉപയോഗിക്കുക. എക്കാലവും ജിജ്ഞാസയുള്ളവർക്കായി ഒരു മികച്ച സെർച്ച് എഞ്ചിൻ.",
    "https://www.bing.com"
+  ],
+  "bing images":[
+   "Bing ഇമേജുകളിൽ ഉയർന്ന നിലവാരമുള്ള, സൗജന്യ ഫോട്ടോകളും വാൾപേപ്പറുകളും തിരയുകയും പര്യവേക്ഷണം ചെയ്യുകയും ചെയ്യുക. നിങ്ങളുടെ ദൃശ്യങ്ങളെ പ്രചോദിപ്പിക്കുകയും ഉയർത്തുകയും ചെയ്യുക!",
+   "https://www.bing.com/images"
   ],
   "bing news":[
    "സ്പോർട്സ്, വിനോദം, ബിസിനസ്സ്, രാഷ്ട്രീയം, കാലാവസ്ഥ, എന്നിവയുടെ സമഗ്രമായ വാർത്താ കവറേജ് നൽകുന്നതിന് ലോക, ദേശീയ, പ്രാദേശിക വാർത്താ സ്രോതസ്സുകളിൽ നിന്നുള്ള വാർത്തകൾ സംഘടിപ്പിച്ചു.",
@@ -8498,10 +8313,6 @@
    "currency:ml",
    "ref"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "github":[
    "ഗിറ്റ് ഉപയോഗിച്ചുള്ള വെബ് അധിഷ്ഠിതമായ പതിപ്പ് നിയന്ത്രണത്തിനുള്ള വെബ്സൈറ്റും ഇന്റർനെറ്റ് ഹോസ്റ്റിംഗ് സേവനവുമാണ് ഗിറ്റ്ഹബ്",
    "wikidata"
@@ -8523,8 +8334,8 @@
    "ref"
   ],
   "hoogle":[
-   "aol:ml",
-   "ref"
+   "പ്രോഗ്രാമിങ് ഭാഷ",
+   "wikidata"
   ],
   "mastodon hashtags":[
    "mastodon users:ml",
@@ -8539,9 +8350,10 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
+  "piratebay":"ബിറ്റ്ടോറൻറ് ഫയലുകൾ ഇൻഡക്സ് ചെയ്യപ്പെട്ട ഒരു സ്വീഡിഷ് വെബ്‌സൈറ്റാണ് ദി പൈറേറ്റ് ബേ.ഓർഗ്. അലക്സ ഇൻറർനെറ്റിൻറെ കണക്കുകൾ പ്രകാരം പ്രശസ്തിയിൽ ലോകത്ത് തൊണ്ണുറ്റൊന്നാമതും സ്വീഡനിൽ പത്തൊൻപതാം സ്ഥാനത്തുമാണ് പൈറേറ്റ് ബേ. പരസ്യങ്ങളാണ് പൈറേറ്റ് ബേയുടെ പ്രധാന വരുമാനമാർഗം. സ്വീഡിഷ് ആൻറി കോപ്പിറൈറ്റ് സംഘടനയായ പൈറേറ്റ്ബൈറൻ പൈറേറ്റ് ബേ സ്ഥാപിച്ചത്. 2004 ഒക്ടോബർ മുതൽ ഇത് പ്രത്യേക സ്ഥാപനമായി പ്രവർത്തിക്കാൻ തുടങ്ങി.",
   "stackoverflow":[
    "സ്റ്റാക്ക് എക്സ്ചേഞ്ച് എന്നത് വിവിധ മേഖലയിലുള്ള വിഷയങ്ങൾക്കായുള്ള ഒരുകൂട്ടം ചോദ്യോത്തര വെബ്സൈറ്റുകളുടെ ഒരു ശൃംഖലയാണ്",
    "wikidata"
@@ -8624,18 +8436,6 @@
   ]
  },
  "ms":{
-  "aol":[
-   "bahasa pengaturcaraan tujuan am",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:ms",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:ms",
-   "ref"
-  ],
   "apple app store":[
    "pelantar pengedaran aplikasi digital untuk iOS",
    "wikidata"
@@ -8656,6 +8456,10 @@
    "Cari dengan Microsoft Bing dan gunakan kuasa AI untuk mencari maklumat, meneroka laman web, imej, video, peta, dan banyak lagi. Enjin carian pintar untuk selama-lamanya ingin tahu.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Cari dan terokai foto dan kertas dinding berkualiti tinggi secara percuma di Imej Bing. Dapatkan inspirasi dan tingkatkan visual anda!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Berita daripada sumber berita dunia, nasional dan tempatan, disusun untuk memberi anda liputan berita mendalam bagi sukan, hiburan, perniagaan, politik, cuaca dan lagi.",
    "https://www.bing.com/news"
@@ -8663,6 +8467,10 @@
   "bing videos":[
    "Video Bing membantu anda menemui dan menonton video daripada pelbagai sumber termasuk YouTube, Vimeo dan banyak lagi, dengan pratonton segera, main balik terus dan penapis pintar.",
    "https://www.bing.com/videos"
+  ],
+  "brave":[
+   "Cari di Web. Peribadi. Hasil carian berguna, jawapan dikuasakan AI, dll. Semuanya daripada indeks berasingan. Tanpa pemprofilan, berat sebelah atau 'Big Tech'.",
+   "https://search.brave.com/"
   ],
   "deviantart":[
    "tapak sesawang perkongsian karya seni",
@@ -8675,10 +8483,6 @@
   "fdroid":[
    "gedung untuk aplikasi Android percuma dan bersumber terbuka",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "goodreads":[
    "Laman web sosial dan pengkatalogan buku yang dimiliki oleh Amazon",
@@ -8778,6 +8582,10 @@
    "Søk med Microsoft Bing, og bruk KI til å finne informasjon, utforske nettsider, bilder, videoer, kart og mer. En smart søkemotor for nysgjerrige sjeler.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Søk etter og utforsk gratis bilder og bakgrunner i høy kvalitet på Bing Images. Inspirer og hev visualobjektene dine!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Nyheter fra internasjonale, nasjonale og lokale nyhetskilder, organisert slik at de gir deg dypdegående nyhetsdekning av sport, underholdning, forretningsliv, politikk, vær og mye mer.",
    "https://www.bing.com/news"
@@ -8785,6 +8593,10 @@
   "bing videos":[
    "Bing Video hjelper med å finne og se videoer fra flere kilder, inkludert YouTube (plattform for deling av videoer på nett), Vimeo og flere, med umiddelbare forhåndsvisninger, direkte avspilling og smarte filtre.",
    "https://www.bing.com/videos"
+  ],
+  "brave":[
+   "Søk på internett – privat. Genuint nyttige resultater, KI-baserte svar med mer – fra en uavhengig indeks. Ingen profilering, ingen biaser, ingen Big Tech.",
+   "https://search.brave.com/"
   ],
   "currency":[
    "Personvernselskapet som gir deg muligheten til sømløst å ta kontroll over personopplysningene dine på nettet, uten kompromisser.",
@@ -8816,10 +8628,6 @@
   ],
   "duckduckgo weather":[
    "currency:nb-NO",
-   "ref"
-  ],
-  "gentoo":[
-   "gentoo:en",
    "ref"
   ],
   "google images":[
@@ -8855,7 +8663,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -8889,7 +8697,7 @@
    "wikidata"
   ],
   "aol":[
-   "programmeertaal van Bjarne Stroustrup",
+   "bedrijf uit Verenigde Staten van Amerika",
    "wikidata"
   ],
   "aol images":[
@@ -8936,6 +8744,10 @@
    "Zoek met Microsoft Bing en gebruik de kracht van AI om informatie te zoeken, webpagina's, afbeeldingen, video's, kaarten en meer te verkennen. Een slimme zoekmachine voor altijd nieuwsgierige mensen.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Zoek en verken gratis foto's en achtergronden van hoge kwaliteit op Bing Afbeeldingen. Laat je inspireren en verbeter je visuals!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Je ontvangt diepgravend nieuws over sport, entertainment, business, politiek, weerberichten en nog veel meer van internationale, landelijke en lokale nieuwsbronnen.",
    "https://www.bing.com/news"
@@ -8949,7 +8761,7 @@
    "wikidata"
   ],
   "brave":[
-   "open source webbrowser gebaseerd op de Chromium webbrowser",
+   "opensource webbrowser, gebaseerd op Chromium",
    "wikidata"
   ],
   "brave.images":[
@@ -9020,11 +8832,6 @@
    "MediaWiki-site van Free Software Foundation",
    "wikidata"
   ],
-  "genius":"Genius is een online kennisbank. De website biedt gebruikers de mogelijkheid om liedteksten, nieuwsberichten, belangrijke documenten, poëzie, en andere vormen van tekst van toelichtingen te voorzien.",
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "github":[
    "online-platform voor softwareontwikkeling en versiebeheer",
    "wikidata"
@@ -9046,7 +8853,7 @@
    "https://news.google.com"
   ],
   "google play apps":[
-   "appstore voor Android",
+   "appwinkel voor Android",
    "wikidata"
   ],
   "google play movies":[
@@ -9054,15 +8861,15 @@
    "ref"
   ],
   "huggingface":[
-   "bedrijf uit Verenigde Staten van Amerika",
-   "wikidata"
+   "aol:nl",
+   "ref"
   ],
   "huggingface datasets":[
-   "huggingface:nl",
+   "aol:nl",
    "ref"
   ],
   "huggingface spaces":[
-   "huggingface:nl",
+   "aol:nl",
    "ref"
   ],
   "imdb":[
@@ -9118,7 +8925,7 @@
    "wikidata"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -9133,10 +8940,7 @@
    "Ontdek recepten, ideeën voor thuis, stijlinspiratie en andere ideeën om uit te proberen.",
    "https://www.pinterest.com/"
   ],
-  "piratebay":[
-   "website van Gottfrid Svartholm",
-   "wikidata"
-  ],
+  "piratebay":"The Pirate Bay is een website die torrentlinks indexeert. Volgens Alexa stond de website in maart 2013 op plaats 73 van de meest bezochte websites ter wereld. In december 2014 ging de Pirate Bay een paar maanden offline nadat de Zweedse politie tijdens een inval een groot aantal servers van de website in beslag nam.",
   "reddit":[
    "online sociaal netwerk van Aaron Swartz",
    "wikidata"
@@ -9336,10 +9140,6 @@
    "free software directory:nl",
    "ref"
   ],
-  "genius":[
-   "genius:nl",
-   "ref"
-  ],
   "github":[
    "github:nl",
    "ref"
@@ -9361,15 +9161,15 @@
    "ref"
   ],
   "huggingface":[
-   "huggingface:nl",
+   "aol:nl",
    "ref"
   ],
   "huggingface datasets":[
-   "huggingface:nl",
+   "aol:nl",
    "ref"
   ],
   "huggingface spaces":[
-   "huggingface:nl",
+   "aol:nl",
    "ref"
   ],
   "imdb":[
@@ -9498,10 +9298,6 @@
   ]
  },
  "oc":{
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "google images":[
    "Google Images. La recherche d'images la plus complète sur le Web.",
    "https://images.google.com"
@@ -9519,7 +9315,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -9533,28 +9329,21 @@
   "wikipedia":[
    "l'enciclopèdia liura",
    "wikidata"
-  ]
+  ],
+  "youtube":"YouTube es un sit de publicacion e de partatge de vidèos. Foguèt creat en febrièr de 2005 per tres ancians emplegats de la firma PayPal. Foguèt aquesit per Google Inc. en octobre de 2006 per 1.650 milions de dolars."
  },
  "pa":{
   "alpine linux packages":[
    "ਆਪਰੇਟਿੰਗ ਸਿਸਟਮ",
    "wikidata"
   ],
-  "aol":[
-   "ਪ੍ਰੋਗਰਾਮਿੰਗ ਭਾਸ਼ਾ",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:pa",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:pa",
-   "ref"
-  ],
   "bing":[
    "Microsoft Bing ਨਾਲ ਖੋਜ ਕਰੋ ਅਤੇ ਜਾਣਕਾਰੀ ਲੱਭਣ, ਵੈਬਪੰਨਿਆਂ, ਚਿੱਤਰਾਂ, ਵੀਡੀਓਜ਼, ਨਕਸ਼ਿਆਂ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਦੀ ਪੜਚੋਲ ਕਰਨ ਲਈ AI ਦੀ ਸ਼ਕਤੀ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਹਮੇਸ਼ਾ ਲਈ ਉਤਸੁਕ ਲੋਕਾਂ ਲਈ ਇੱਕ ਸਮਾਰਟ ਖੋਜ ਇੰਜਨ।",
    "https://www.bing.com"
+  ],
+  "bing images":[
+   "Bing ਚਿੱਤਰਾਂ 'ਤੇ ਉੱਚ-ਗੁਣਵੱਤਾ, ਮੁਫਤ ਫੋਟੋਆਂ ਅਤੇ ਵਾਲਪੇਪਰਾਂ ਦੀ ਖੋਜ ਕਰੋ ਅਤੇ ਪੜਚੋਲ ਕਰੋ। ਆਪਣੇ ਦ੍ਰਿਸ਼ਾਂ ਨੂੰ ਪ੍ਰੇਰਿਤ ਅਤੇ ਉੱਚਾ ਚੁੱਕੋ!",
+   "https://www.bing.com/images"
   ],
   "bing news":[
    "bing news:bn",
@@ -9563,10 +9352,6 @@
   "bing videos":[
    "Bing ਵੀਡੀਓ ਤੁਹਾਨੂੰ ਤਤਕਾਲ ਪੂਰਵਦਰਸ਼ਨ, ਸਿੱਧੇ ਪਲੇਬੈਕ ਅਤੇ ਸਮਾਰਟ ਫਿਲਟਰਾਂ ਦੇ ਨਾਲ YouTube, Vimeo, ਅਤੇ ਹੋਰ ਬਹੁਤ ਸਾਰੇ ਸਰੋਤਾਂ ਤੋਂ ਵੀਡੀਓ ਖੋਜਣ ਅਤੇ ਦੇਖਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਦਾ ਹੈ।",
    "https://www.bing.com/videos"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google images":[
    "Google Images. ਵੈੱਬ 'ਤੇ ਸਭ ਤੋਂ ਵਿਆਪਕ ਚਿੱਤਰ ਖੋਜ।",
@@ -9589,8 +9374,8 @@
    "wikidata"
   ],
   "hoogle":[
-   "aol:pa",
-   "ref"
+   "ਪ੍ਰੋਗਰਾਮਿੰਗ ਭਾਸ਼ਾ",
+   "wikidata"
   ],
   "imdb":[
    "imdb - ਫ਼ਿਲਮਾਂ ਨਾਲ ਸੰਬੰਧਿਤ ਜਾਣਕਾਰੀ ਵਾਲੀ ਵੈਬਸਾਈਟ",
@@ -9601,7 +9386,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -9632,19 +9417,12 @@
    "ਵਿਕੀਮੀਡੀਆ ਪ੍ਰੋਜੈਕਟ",
    "wikidata"
   ],
-  "youtube":[
-   "ਆਪਣੇ ਮਨਪਸੰਦ ਵੀਡੀਓ ਅਤੇ ਸੰਗੀਤ ਦਾ ਅਨੰਦ ਮਾਣੋ, ਮੂਲ ਸਮੱਗਰੀ ਅੱਪਲੋਡ ਕਰੋ ਅਤੇ ਉਸ ਨੂੰ YouTube 'ਤੇ ਆਪਣੇ ਦੋਸਤਾਂ, ਪਰਿਵਾਰ ਅਤੇ ਸਾਰੀ ਦੁਨੀਆ ਨਾਲ ਸਾਂਝਾ ਕਰੋ।",
-   "https://www.youtube.com/"
-  ]
+  "youtube":"ਯੂਟਿਊਬ ਪੇਪਾਲ (PayPal) ਦੇ ਤਿੰਨ ਸਾਬਕਾ ਮੁਲਾਜਮਾਂ ਦੁਆਰਾ ਬਣਾਈ ਇੱਕ ਵੀਡੀਓ ਸਾਂਝੀ ਕਰਨ ਵਾਲੀ ਵੈੱਬਸਾਈਟ ਹੈ। ਜਿਸ 'ਤੇ ਵਰਤੋਂਕਾਰ ਵੀਡੀਓ ਵੇਖ ਅਤੇ ਖ਼ੁਦ ਆਪਣੀ ਵੀਡੀਓ ਚੜ੍ਹਾ ਸਕਦੇ ਹਨ। ਨਵੰਬਰ 2006 ਵਿੱਚ ਗੂਗਲ ਨੇ ਇਸਨੂੰ 1.65 ਬਿਲੀਅਨ ਅਮਰੀਕੀ ਡਾਲਰਾਂ ਵਿੱਚ ਖਰੀਦ ਲਿਆ ਅਤੇ ਹੁਣ ਇਹ ਗੂਗਲ ਦੀ ਇੱਕ ਸਹਾਇਕ ਕੰਪਨੀ ਹੈ। ਆਨਲਾਈਨ ਵੀਡੀਓ ਦੇਖਣ ਲਈ ਦੁਨੀਆਂ ਭਰ 'ਚ ਯੂਟਿਊਬ ਦਾ ਇਸਤੇਮਾਲ ਸਭ ਤੋਂ ਜ਼ਿਆਦਾ ਹੁੰਦਾ ਹੈ। ਯੂਟਿਊਬ 'ਤੇ ਜਿਹੜੀਆ ਵੀਡੀਓਜ਼ ਨੂੰ ਤੁਸੀਂ ਸਭ ਤੋਂ ਜ਼ਿਆਦਾ ਵੇਖਦੇ ਹੋ। ਉਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਆਫਲਾਈਨ ਸੇਵ ਕਰ ਸਕਦੇ ਹੋ, ਜਿਸ ਨਾਲ ਤੁਸੀਂ ਇਸ ਨੂੰ ਦੁਬਾਰਾ ਵੀ ਵੇਖ ਸਕਦੇ ਹੋ। ਇੰਟਰਨੈੱਟ ਤੇ ਯੂ ਟਿਯੂਬ ਰਾਂਹੀ ਪਹਿਲੀ ਵੀਡੀਉ Me at the zoo ਚੜਾਉਣ ਦੀ ਸ਼ੁਰਆਤ 23 ਅਪਰੈਲ, 2005 ਨੂੰ ਹੋਈ।"
  },
  "pap":{
   "annas archive":[
    "buskadó di biblioteka klandestino",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google":[
    "mashin di buska riba internet",
@@ -9685,7 +9463,8 @@
   "wikispecies":[
    "proyecto di Wikimedia ku katalòk taksonómiko di tur forma di bida",
    "wikidata"
-  ]
+  ],
+  "youtube":"Youtube ta un plataforma merikano riba internet, di estilo video share, riba kua usuarionan por upload, komparti i wak video. E servisio aki a wordu krea pa tres eks-trahado di e kompania Paypal na febrüari 2005."
  },
  "pl":{
   "acfun":[
@@ -9705,7 +9484,7 @@
    "wikidata"
   ],
   "aol":[
-   "język programowania ogólnego przeznaczenia",
+   "amerykańskie przedsiębiorstwo",
    "wikidata"
   ],
   "aol images":[
@@ -9832,11 +9611,6 @@
    "serwis internetowy",
    "wikidata"
   ],
-  "genius":"Genius – amerykańskie przedsiębiorstwo zajmujące się mediami cyfrowymi, założone w sierpniu 2009 roku przez Toma Lehmana, Ilana Zechory’ego i Mahboda Moghadama. Witryna Genius umożliwia użytkownikom dostarczanie adnotacji i interpretacji tekstów piosenek, wiadomości o muzykach i informacji dotyczących utworów. Pierwotnie funkcjonowała pod nazwą Rap Genius.",
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "github":[
    "hostingowy serwis internetowy przeznaczony dla projektów programistycznych wykorzystujących system kontroli wersji Git",
    "wikidata"
@@ -9953,10 +9727,7 @@
    "Serwis społecznościowy",
    "wikidata"
   ],
-  "piratebay":[
-   "strona internetowa dostarczająca pliki torrent i linki magnetyczne",
-   "wikidata"
-  ],
+  "piratebay":"The Pirate Bay (TPB) – strona internetowa do wyszukiwania plików w sieci peer-to-peer, wykorzystująca protokół BitTorrenta oraz magnet link. Strona została założona w 2003 roku przez Gottfrida Svartholma, Fredrika Neij i Petera Sunde’a. TPB nie hostuje żadnych plików – również tych, których rozpowszechnianie może naruszać prawo autorskie, a udostępnia jedynie odnośniki do danych zasobów, w postaci Magnet linków.",
   "qwant":[
    "francuska wyszukiwarka internetowa",
    "wikidata"
@@ -9989,7 +9760,6 @@
    "czeski portal internetowy",
    "wikidata"
   ],
-  "startpage":"Startpage – holenderska wyszukiwarka internetowa, nastawiona na prywatność. Strona umożliwia uzyskiwanie wyników wyszukiwania Google, jednocześnie chroniąc prywatność użytkowników, nie przechowując danych osobowych ani danych wyszukiwania i usuwając wszystkie skrypty śledzące. Startpage.com posiada również funkcję „Anonymous View”, która umożliwia użytkownikom otwieranie wyników wyszukiwania za pośrednictwem serwera proxy w celu zwiększenia anonimowości. Ponieważ firma ma siedzibę w Holandii, jest chroniona przez holenderskie i unijne przepisy dotyczące prywatności, a zatem nie podlega programom nadzoru prowadzonym przez Stany Zjednoczone, takim jak PRISM.",
   "steam":[
    "platforma cyfrowej dystrybucji gier",
    "wikidata"
@@ -10074,10 +9844,7 @@
    "yandex:pl",
    "ref"
   ],
-  "youtube":[
-   "amerykański serwis internetowy",
-   "wikidata"
-  ]
+  "youtube":"YouTube – amerykański serwis internetowy założony 14 lutego 2005 roku, umożliwiający bezpłatne udostępnianie, edycję, nadawanie na żywo i komentowanie filmów. Należy do korporacji Google i jest najpopularniejszym serwisem społecznościowym na świecie. Od 2023 roku prezesem YouTube jest Neal Mohan."
  },
  "pt":{
   "9gag":[
@@ -10088,16 +9855,13 @@
    "Website chinês de compartilhamento de vídeos",
    "wikidata"
   ],
-  "alpine linux packages":[
-   "alpine linux packages:es",
-   "ref"
-  ],
+  "alpine linux packages":"Alpine Linux é uma distribuição Linux baseada em musl e BusyBox, originalmente projetada para usuários avançados que apreciam segurança, simplicidade e eficiência no uso de recursos. Usa os patches PaX e grsecurity no kernel padrão e compila todos os binários do Userland como executável de posição independente com proteção contra stack-smashing.",
   "annas archive":[
    "buscador de shadow libraries",
    "wikidata"
   ],
   "aol":[
-   "linguagem de programação",
+   "portal e provedor online americano",
    "wikidata"
   ],
   "aol images":[
@@ -10128,10 +9892,7 @@
    "O Vídeo do Bing lhe ajuda a descobrir e ver vídeos de várias fontes, incluindo YouTube, Vimeo e muito mais, com pré-visualizações instantâneas, reprodução direta e filtros inteligentes.",
    "https://www.bing.com/videos"
   ],
-  "brave":[
-   "navegador web gratuito e de código aberto com foco na privacidade",
-   "wikidata"
-  ],
+  "brave":"Brave é um navegador web de software livre e de código aberto focado na privacidade e na segurança dos usuários, lançado em 20 de janeiro de 2016. Desenvolvido pela Brave Software, Inc., fundada pelo criador do JavaScript e ex-CEO da Mozilla, Brendan Eich, e por Brian Bondy, o navegador é baseado no Chromium e bloqueia nativamente anúncios e rastreadores de sites. Adota o modelo de negócio pay-to-surf, recompensando os usuários que optam por receber anúncios da própria plataforma por meio da criptomoeda BAT. Além do bloqueio de rastreadores, o Brave oferece um modo de navegação privada com integração à rede de anonimato Tor, uma carteira de criptomoedas integrada, o mecanismo de pesquisa próprio Brave Search e o assistente de inteligência artificial Brave Leo.",
   "brave.images":[
    "brave:pt",
    "ref"
@@ -10148,6 +9909,7 @@
    "website de pesquisa BT",
    "wikidata"
   ],
+  "cachy os packages":"CachyOS é uma distribuição Linux baseada no Arch Linux. Lançado em 2022, tem em seu o foco na otimização. segurança do sistema e um suporte melhor para máquinas mais modernas. Também é altamente personalizável com vários ambientes de Desktop como GNOME, KDE Plasma 6, Xfce, i3, LXQt, Cinnamon, LXDE, MATE, Budgie e entre outros mais.",
   "currency":[
    "site de buscas focado na privacidade",
    "wikidata"
@@ -10156,10 +9918,7 @@
    "currency:pt",
    "ref"
   ],
-  "deezer":[
-   "serviço de streaming de música",
-   "wikidata"
-  ],
+  "deezer":"Deezer é um serviço de streaming de áudio lançado em 2007. Disponível para usuários de mais de 180 países, a plataforma possui atualmente mais de 90 milhões de músicas, mais de 100 milhões de playlists e mais de 4 milhões de programas de áudio, como podcasts, em seu acervo. É uma empresa de capital fechado, com sede em Paris, e escritórios em Londres, Berlim, Miami, São Paulo e em outros lugares do mundo. Criada em Paris, França, a Deezer possui 16 milhões de usuários ativos mensais, permitindo que os usuários ouçam conteúdo de música de gravadoras incluindo EMI, Sony, Universal Music Group e Warner Music Group.",
   "deviantart":[
    "website de arte e redes sociais",
    "wikidata"
@@ -10192,17 +9951,10 @@
    "Dicionário Etimológico Inglês Online",
    "wikidata"
   ],
-  "fdroid":[
-   "O F-Droid é o ecossistema de distribuição de aplicativos para Android, onde a sua liberdade de usuário vem em primeiro lugar. Descubra nossa loja de aplicativos, explore o mundo dos aplicativos livres e de código aberto (FOSS) e [saiba mais](https://f-droid.org/about/) sobre nossas ferramentas de distribuição de aplicativos.",
-   "https://f-droid.org/"
-  ],
+  "fdroid":"F-Droid é uma loja de software para Android, tem uma função similar à da Google Play. O repositório principal, hospedado pelo projeto, contém apenas aplicativos livres e de código aberto. Os aplicativos podem ser navegados, baixados e instalados a partir do site ou do F-Droid sem a necessidade de registro. As \"anti-features\" tais como publicidade, rastreamento de usuários ou dependência de software não livre são sinalizados nas descrições dos aplicativos.",
   "genius":[
    "sítio de anotações a ficheiros de mídia",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "plataforma de hospedagem para projetos de software",
@@ -10212,18 +9964,12 @@
    "motor de busca da internet desenvolvido pela Google LLC",
    "wikidata"
   ],
-  "google images":[
-   "Imagens do Google. A pesquisa de imagens mais completa da web.",
-   "https://images.google.com"
-  ],
+  "google images":"O Google Imagens é um serviço de pesquisa de propriedade do Google que permite aos usuários pesquisar por conteúdo de imagem na World Wide Web. Foi introduzido em 12 de julho de 2001 devido a uma demanda por fotos do vestido verde Versace de Jennifer Lopez que a pesquisa regular do Google não conseguiu lidar. Em 2011, foi adicionada a funcionalidade de pesquisa reversa de imagens.",
   "google news":[
    "Cobertura jornalística abrangente e atualizada, agregada de fontes do mundo inteiro pelo Google Notícias.",
    "https://news.google.com"
   ],
-  "google play apps":[
-   "plataforma de distribuição de aplicativos para o sistema operacional Android",
-   "wikidata"
-  ],
+  "google play apps":"Google Play Store, é uma plataforma de distribuição digital de aplicativos móveis para dispositivos Android, bem como uma loja online desenvolvida e operada pelo Google. Esta plataforma permite aos usuários navegar e baixar aplicativos, jogos, músicas, livros, revistas e filmes. Dispositivos móveis como Chromebook, celulares Nexus e Pixel e Chromecast, entre outros, também podem ser adquiridos. Ela também possui versões para Wear OS e Android TV.",
   "google play movies":[
    "google play apps:pt",
    "ref"
@@ -10233,8 +9979,8 @@
    "wikidata"
   ],
   "hoogle":[
-   "aol:pt",
-   "ref"
+   "linguagem de programação",
+   "wikidata"
   ],
   "huggingface":[
    "empresa americana",
@@ -10280,10 +10026,7 @@
    "lemmy communities:pt",
    "ref"
   ],
-  "library genesis":[
-   "motor de busca de livros e artigos científicos",
-   "wikidata"
-  ],
+  "library genesis":"Library Genesis ou LibGen é um motor de busca de artigos científicos e livros que permite o acesso livre a conteúdos que só seriam acessíveis através de pagamentos e, também, a conteúdos que não são facilmente encontrados em formato digital. Entre outros, esse site carrega conteúdos dos portais de informação da Elsevier e ScienceDirect. LibGen é um site de biblioteca de compartilhamento de arquivos não apenas para artigos de periódicos acadêmicos, mas também para livros de interesse geral, imagens, quadrinhos, audiolivros e revistas.",
   "library of congress":[
    "Biblioteca dos Estados Unidos",
    "wikidata"
@@ -10300,7 +10043,10 @@
    "conjunto de ícones do Google",
    "wikidata"
   ],
-  "mdn":"MDN Web Docs, previamente Mozilla Developer Network e anteriormente Mozilla Developer Center, é o website oficial de Mozilla para desenvolvimento de padrões web e projetos de Mozilla.",
+  "mdn":[
+   "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.",
+   "https://developer.mozilla.org"
+  ],
   "microsoft learn":[
    "Encontre documentação oficial, conhecimentos práticos e orientação especializada para construtores que trabalham e resolvem problemas em produtos Microsoft.",
    "https://learn.microsoft.com"
@@ -10329,7 +10075,6 @@
    "nixos wiki:en",
    "ref"
   ],
-  "odysee":"Odysee é uma plataforma descentralizada americana de partilha de vídeos construída na blockchain LBRY. Posiciona-se como uma alternativa aos principais sites de partilha de vídeos, mas com ênfase na liberdade de expressão e na descentralização.",
   "openairedatasets":[
    "rede europeia de repositórios, arquivos e revistas científicas de Acesso Aberto",
    "wikidata"
@@ -10358,11 +10103,11 @@
    "rede social de compartilhamento de fotos norte-americana",
    "wikidata"
   ],
-  "piratebay":[
-   "site da internet",
+  "piratebay":"The Pirate Bay é um índice online de conteúdo digital de mídia de entretenimento e software. Fundado em 2003 pelo think tank sueco Piratbyrān, o Pirate Bay permite que os visitantes pesquisem, baixem e contribuam com magnet links e arquivos torrent, que facilitam o compartilhamento de arquivos peer-to-peer entre os usuários do protocolo BitTorrent.",
+  "qwant":[
+   "motor de busca europeu com foco em privacidade",
    "wikidata"
   ],
-  "qwant":"Qwant é um motor de busca desenvolvido pela empresa francesa de mesmo nome, que se anuncia com uma forte política de privacidade.",
   "qwant images":[
    "qwant:pt",
    "ref"
@@ -10390,6 +10135,15 @@
   "soundcloud":[
    "plataforma de música",
    "wikidata"
+  ],
+  "startpage":"Startpage.com é um motor de busca neerlandês. Fundado por David Bodnick em 1998, Startpage.com pertence a empresa Surfboard Holding BV, que adquiriu a mesma no ano 2000.",
+  "startpage images":[
+   "startpage:pt",
+   "ref"
+  ],
+  "startpage news":[
+   "startpage:pt",
+   "ref"
   ],
   "steam":[
    "plataforma de distribuição digital, gerenciamento de direitos digitais e, rede multijogador",
@@ -10465,13 +10219,10 @@
   ],
   "yandex":"Yandex é uma companhia de internet russa que opera o maior motor de busca da Rússia, detendo 60% do mercado neste país; a companhia também desenvolve outros serviços e produtos para a web. A Yandex ocupa o 4.º (quarto) lugar na lista mundial dos maiores provedores, baseado em informações do sítio Comscore.com, com mais de 150 milhões de buscas por dia, como observado em abril de 2012, e mais de 25,5 milhões de visitantes diariamente, como observado em maio de 2012. O faturamento da empresa em 2024 foi de 5,9 bilhões de euros.",
   "yandex images":[
-   "empresa de Internet da Rússia e Países-Baixos",
-   "wikidata"
+   "yandex:pt",
+   "ref"
   ],
-  "youtube":[
-   "plataforma de compartilhamento de vídeos e mídia social",
-   "wikidata"
-  ]
+  "youtube":"YouTube é uma plataforma de compartilhamento de vídeos com sede em San Bruno, Califórnia. O serviço foi criado por três ex-funcionários do PayPal — Chad Hurley, Steve Chen e Jawed Karim — em fevereiro de 2005. O Google comprou o site em novembro de 2006 por 1,65 bilhão de dólares. Desde então o YouTube funciona como uma das subsidiárias do Google."
  },
  "pt-BR":{
   "9gag":[
@@ -10483,7 +10234,7 @@
    "ref"
   ],
   "alpine linux packages":[
-   "alpine linux packages:es",
+   "alpine linux packages:pt",
    "ref"
   ],
   "annas archive":[
@@ -10506,12 +10257,10 @@
    "bandcamp:pt",
    "ref"
   ],
-  "bing":[
-   "bing:pt",
-   "ref"
-  ],
+  "bilibili":"Bilibili, apelidado de Site B, é um site chinês de compartilhamento de vídeos online com sede em Xangai, onde os usuários podem enviar, assistir e adicionar comentários sobrepostos aos vídeos. O Bilibili hospeda vídeos sobre diversos temas, incluindo anime, música, dança, ciência e tecnologia, filmes, drama, moda e jogos eletrônicos, mas também é conhecido por suas extensas paródias no estilo kuso por criadores de conteúdo de subcultura.",
+  "bing":"Microsoft Bing, popularmente conhecido como Bing, é o motor de pesquisa da Microsoft, designado para competir com os líderes das indústrias Google e Yahoo!. Revelado pelo CEO da Microsoft, Steve Ballmer, em 28 de maio de 2009, na conferência \"All Things D\", em San Diego, Bing é um substituto do Live Search, e disponibilizado totalmente em 1 de junho de 2009.",
   "bing images":[
-   "bing:pt",
+   "bing:pt-BR",
    "ref"
   ],
   "brave":[
@@ -10523,8 +10272,8 @@
    "ref"
   ],
   "brave.news":[
-   "brave:pt",
-   "ref"
+   "navegador web gratuito e de código aberto com foco na privacidade",
+   "wikidata"
   ],
   "brave.videos":[
    "brave:pt",
@@ -10532,6 +10281,10 @@
   ],
   "btdigg":[
    "btdigg:pt",
+   "ref"
+  ],
+  "cachy os packages":[
+   "cachy os packages:pt",
    "ref"
   ],
   "currency":[
@@ -10574,6 +10327,10 @@
    "etymonline:pt",
    "ref"
   ],
+  "fdroid":[
+   "fdroid:pt",
+   "ref"
+  ],
   "genius":[
    "genius:pt",
    "ref"
@@ -10584,6 +10341,10 @@
   ],
   "google":[
    "google:pt",
+   "ref"
+  ],
+  "google images":[
+   "google images:pt",
    "ref"
   ],
   "google play apps":[
@@ -10599,7 +10360,7 @@
    "ref"
   ],
   "hoogle":[
-   "aol:pt",
+   "hoogle:pt",
    "ref"
   ],
   "huggingface":[
@@ -10662,10 +10423,6 @@
    "material icons:pt",
    "ref"
   ],
-  "mdn":[
-   "mdn:pt",
-   "ref"
-  ],
   "naver":[
    "naver:pt",
    "ref"
@@ -10680,10 +10437,6 @@
   ],
   "naver videos":[
    "naver:pt",
-   "ref"
-  ],
-  "odysee":[
-   "odysee:pt",
    "ref"
   ],
   "openairedatasets":[
@@ -10715,8 +10468,8 @@
    "ref"
   ],
   "qwant":[
-   "motor de busca europeu com foco em privacidade",
-   "wikidata"
+   "qwant:pt",
+   "ref"
   ],
   "qwant images":[
    "qwant:pt",
@@ -10744,6 +10497,10 @@
   ],
   "soundcloud":[
    "soundcloud:pt",
+   "ref"
+  ],
+  "startpage":[
+   "startpage:pt",
    "ref"
   ],
   "steam":[
@@ -10819,7 +10576,7 @@
    "ref"
   ],
   "yandex images":[
-   "yandex images:pt",
+   "yandex:pt",
    "ref"
   ],
   "youtube":[
@@ -10837,7 +10594,7 @@
    "wikidata"
   ],
   "aol":[
-   "limbaj de programare",
+   "companie americană",
    "wikidata"
   ],
   "aol images":[
@@ -10920,6 +10677,10 @@
    "currency:ro",
    "ref"
   ],
+  "deviantart":[
+   "rețea de socializare/site web de artă",
+   "wikidata"
+  ],
   "dictzone":[
    "DictZone dicţionare online: franceză-maghiare, germană-maghiare...",
    "https://dictzone.com/"
@@ -10947,10 +10708,6 @@
   "fdroid":[
    "magazin de aplicații Android pentru software gratuit și open source",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "serviciu de găzduire pentru proiecte software folosind Git",
@@ -10981,8 +10738,8 @@
    "wikidata"
   ],
   "hoogle":[
-   "aol:ro",
-   "ref"
+   "limbaj de programare",
+   "wikidata"
   ],
   "imdb":[
    "bază de date online cu informații legate de filme, seriale de televiziune și jocuri video",
@@ -11020,10 +10777,7 @@
    "site american de partajare și publicare a fotografiilor",
    "wikidata"
   ],
-  "piratebay":[
-   "site web ce oferă fișiere torrent",
-   "wikidata"
-  ],
+  "piratebay":"The Pirate Bay este un website suedez de indexare a fișierelor torrent (BitTorrent) și magnet. Site-ul a fost creat în 2003 de către Gottfrid Svartholm, Fredrik Neij și Peter Sunde. Site-ul Pirate Bay apare în acte ca fiind în Seychelles și este o țintă a autorităților americane din 2011. Biroul de Comerț al Statelor Unite l-a desemnat ca fiind printre site-urile cele mai populare pentru descărcatul ilegal al fișierelor. Deoarece site-ul nu folosește serverele sale pentru a stoca filme și muzică piratată, Pirate Bay a supraviețuit la numeroase încercări de a fi oprit. Site-ul folosește o aplicație externă pentru ca utilizatorii să încarce și să descarce filme, fiind o procedură mai complicată la încărcare.",
   "reuters":[
    "agenție internațională de știri",
    "wikidata"
@@ -11088,6 +10842,14 @@
    "categorie în cadrul unui proiect Wikimedia",
    "wikidata"
   ],
+  "wikispecies":[
+   "director online multilingv gratuit de specii",
+   "wikidata"
+  ],
+  "wikiversity":[
+   "site web cu resurse educaționale",
+   "wikidata"
+  ],
   "wiktionary":[
    "dicționar gratuit care poate fi editat de oricine",
    "wikidata"
@@ -11112,10 +10874,7 @@
    "yandex:ro",
    "ref"
   ],
-  "youtube":[
-   "platformă video online deținută de Alphabet Inc.",
-   "wikidata"
-  ]
+  "youtube":"YouTube este un site web al YouTube LLC, o filială a Google LLC. Este un site web unde utilizatorii pot publica și viziona videoclipuri gratuit și, în unele cazuri, contra cost. Videoclipurile gratuite sunt întrerupte de reclame. Regulamentul privind serviciile digitale consideră YouTube o platformă online foarte mare și impune obligații corespunzătoare."
  },
  "ru":{
   "1337x":[
@@ -11141,15 +10900,6 @@
   "ansa":[
    "итальянское новостное агентство",
    "wikidata"
-  ],
-  "aol":"C++ — компилируемый, статически типизированный язык программирования общего назначения.",
-  "aol images":[
-   "aol:ru",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:ru",
-   "ref"
   ],
   "apple app store":[
    "магазин приложений для iOS",
@@ -11215,6 +10965,10 @@
    "brave:ru",
    "ref"
   ],
+  "cachy os packages":[
+   "свободный и открытый дистрибутив Linux, основанный на Arch Linux",
+   "wikidata"
+  ],
   "caddy.community":[
    "discuss.python:ru",
    "ref"
@@ -11278,10 +11032,6 @@
   "genius":[
    "американский сайт аннотаций и текстов песен",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "веб-сервис для хостинга проектов и их совместной разработки",
@@ -11384,8 +11134,8 @@
    "wikidata"
   ],
   "mdn":[
-   "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.",
-   "https://developer.mozilla.org"
+   "mdn:pt",
+   "ref"
   ],
   "microsoft learn":[
    "Находите официальную документацию, практические советы и рекомендации экспертов для разработчиков, которые используют продукты Microsoft и занимаются устранением неполадок.",
@@ -11455,10 +11205,7 @@
    "социальный интернет-сервис, фотохостинг, позволяющий пользователям добавлять в режиме онлайн изображения",
    "wikidata"
   ],
-  "piratebay":[
-   "крупнейший в мире BitTorrent-трекер",
-   "wikidata"
-  ],
+  "piratebay":"The Pirate Bay — крупнейший в мире BitTorrent-индексатор и каталог для поиска .torrent-файлов.",
   "pypi":[
    "Индекс пакетов Python (PyPI) - это хранилище программного обеспечения для языка программирования Python.",
    "https://pypi.org"
@@ -11580,7 +11327,10 @@
    "wikidata"
   ],
   "wikipedia":"Википе́дия — многоязычная общедоступная интернет-энциклопедия со свободным контентом и элементами социальной сети, поддержку и написание которой осуществляют добровольцы — «википедисты», посредством открытого сотрудничества и с использованием программного обеспечения (сайта) MediaWiki, а также системы редактирования на основе вики-принципов. Википедия является самым крупным и, в то же время, наиболее читаемым справочником, а также самой полной энциклопедией из когда-либо создававшихся за всю историю человечества. По состоянию на май 2025 года сайт находился на 8 месте по посещаемости в мире по версии компании SimilarWeb, занимающейся анализом интернет-трафика.",
-  "wikiquote":"Викицита́тник — свободное собрание цитат и высказываний известных личностей или героев художественных произведений, создаваемое читателями совместно. Этот сайт создан Фондом Викимедиа на движке MediaWiki. Первоначально появился на английском языке 10 июня 2003 года.",
+  "wikiquote":[
+   "свободное собрание цитат и высказываний, проект Фонда Викимедиа",
+   "wikidata"
+  ],
   "wikisource":[
    "свободная библиотека, проект фонда Викимедиа",
    "wikidata"
@@ -11613,7 +11363,7 @@
    "yacy:ru",
    "ref"
   ],
-  "yandex":"«Я́ндекс» — российская транснациональная компания в отрасли информационных технологий, чьё главное юридическое лицо зарегистрировано в Калининградской области Российской Федерации, владеющая одноимённой системой поиска в интернете и интернет-сервисами в нескольких странах. Это многопрофильная технологическая компания, которая охватывает широкий спектр областей: от поиска информации в интернете и навигации до электронной коммерции, развлечений и облачных технологий. Наиболее важное положение занимает на рынках России, Беларуси и Казахстана.",
+  "yandex":"«Я́ндекс» — российская транснациональная компания в отрасли информационных технологий, владеющая одноимённой системой поиска в интернете и интернет-сервисами в нескольких странах. Это многопрофильная технологическая компания, которая охватывает широкий спектр областей: от поиска информации в интернете и навигации до электронной коммерции, развлечений и облачных технологий. Наиболее важное положение занимает на рынках России, Беларуси и Казахстана.",
   "yandex images":[
    "yandex:ru",
    "ref"
@@ -11622,12 +11372,16 @@
    "стриминговый сервис компании «Яндекс»",
    "wikidata"
   ],
-  "youtube":"YouTube — интернет-видеоплатформа и социальная сеть. Основан в 2005 году. С октября 2006 года принадлежит компании Google. YouTube стал популярнейшим видеохостингом и вторым сайтом в мире по количеству посетителей. На 2020 год у него более 2,5 млрд ежемесячных пользователей, которые ежедневно просматривают более 1 млрд часов видео. По состоянию на май 2019 года на платформу загружалось более 500 часов видеоконтента в минуту. На 2021 год на сервисе насчитывалось, в общей сложности, около 14 млрд видеороликов, а по состоянию на середину 2024 года общее количество видеороликов составляло около 14,8 млрд."
+  "youtube":"YouTube — интернет-видеоплатформа и социальная сеть. Основанa 14 февраля 2005 года, запущена 23 апреля того же года. С 13 ноября 2006 года принадлежит компании Google. YouTube стал популярнейшим видеохостингом и вторым сайтом в мире по количеству посетителей. На 2020 год у него более 2,5 млрд ежемесячных пользователей, которые ежедневно просматривают более 1 млрд часов видео. По состоянию на май 2019 года на платформу загружалось более 500 часов видеоконтента в минуту. На 2021 год на сервисе насчитывалось, в общей сложности, около 14 млрд видеороликов, а по состоянию на середину 2024 года общее количество видеороликов составляло около 14,8 млрд."
  },
  "si":{
   "bing":[
    "Search with Microsoft Bing and use the power of AI to find information, explore webpages, images, videos, maps, and more. A smart search engine for the forever curious.",
    "https://www.bing.com"
+  ],
+  "bing images":[
+   "Search and explore high-quality, free photos and wallpapers on Bing Images. Inspire and elevate your visuals!",
+   "https://www.bing.com/images"
   ],
   "bing news":[
    "bing news:bn",
@@ -11661,14 +11415,7 @@
    "currency:si",
    "ref"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
-  "google images":[
-   "Google Images. වෙබයේ වඩාත්ම ව්‍යාප්ත අනුරූප සෙවීම.",
-   "https://images.google.com"
-  ],
+  "google images":"ගූගල් ඉමේජස් යනු 2001 ජූලි මාසයේදී හඳුන්වාදෙනු ලැබූ, ගූගල් සමාගමට අයත් සෙවුම් සේවාවකි. එමගින් පරිශීලකයන්ට අන්තර්ජාලය තුල අඩංගු ඡායාරූප පහසුවෙන් සොයාගත හැක.",
   "google play apps":[
    "නවතම Android යෙදුම්, ක්‍රීඩා, සංගීතය, චිත්‍රපට, TV, පොත් සහ තවත් දේවල් මිලියන ගණනක් රස විඳින්න. ඔබේ උපාංග හරහා ඕනෑම වේලාවක, ඕනෑම තැනකදී.",
    "https://play.google.com/"
@@ -11694,7 +11441,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "tmdb":[
@@ -11709,10 +11456,7 @@
    "විකිමීඩියා ප්රභේද පිටුව",
    "wikidata"
   ],
-  "youtube":[
-   "ඔබ ප්‍රිය කරන වීඩියෝ සහ සංගීතය රස විඳින්න, මුල් අන්තර්ගතය උඩුගත කරන්න සහ මිතුරන්, පවුලේ අය සහ YouTube මත ලෝකයා සමග ඒ සියල්ල බෙදා ගන්න.",
-   "https://www.youtube.com/"
-  ]
+  "youtube":"යූ ටියුබ් යනු 2005 පෙබරවාරි මස දී පේපෑල් සාමාජිකයන් තිදෙනෙක් විසින් නිමවන ලද වීඩියෝ හුවමාරු වෙබ් අඩවියකි..2006 න් පසු ගූගල් ආයතනයට හිමිව ඇති යූ ටියුබ් භාවිතයෙන් වීඩියෝ දර්ශණ පට උඩුගත කිරීම් නැරඹීම් සහ වීඩියෝපට හුවමරු කරගැනීම් සිදුකල හැක.කැලිෆෝනියාවේ සැන් බෲනෝ හි පවත්වගෙන යන මෙම ආයතනය සතුව ඇඩෝබි ෆ්ලෑශ් විඩියෝ සහ HTML5 තාක්ශණය භවිතයෙන් කරනලද ,රූපවහිනී දර්ශනපට සහ සංගීත වීඩියෝපට,කෙටි නව වීඩියෝපට,අධ්‍යාපනික වීඩියෝපට සහ ආධුනිකයන් විසින් ඉදිරි පත් කරනද නිර්මාණ ද ඇතුලත් වේ."
  },
  "sk":{
   "alpine linux packages":[
@@ -11720,7 +11464,7 @@
    "wikidata"
   ],
   "aol":[
-   "viacparadigmový programovací jazyk",
+   "internetová spoločnosť a poskytovateľ emailových služieb",
    "wikidata"
   ],
   "aol images":[
@@ -11735,6 +11479,10 @@
    "Vyhľadávajte pomocou Microsoft Bingu a využite silu umelej inteligencie na vyhľadanie informácií, preskúmanie webových lokalít, obrázkov, videí, máp a ďalších informácií. Inteligentný vyhľadávací nástroj pre večne zvedavých.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Vyhľadávajte a objavujte vysoko kvalitné bezplatné fotografie a tapety v službe Obrázky Bing. Inšpirujte a pozdvihnite svoje vizuály!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Správy zo sveta, z vašej krajiny a miestne správy. Usporiadané sú tak, aby ste získali podrobný prehľad o správach z oblastí športu, zábavy, obchodu, politiky, počasia a ďalších.",
    "https://www.bing.com/news"
@@ -11742,6 +11490,10 @@
   "bing videos":[
    "Bing Video vám pomáha objavovať a sledovať videá z viacerých zdrojov vrátane YouTube, Vimeo a ďalších, s okamžitými ukážkami, priamym prehrávaním a inteligentnými filtrami.",
    "https://www.bing.com/videos"
+  ],
+  "brave":[
+   "Vyhľadávajte na webe. Súkromne. Naozaj užitočné výsledky, odpovede podľa AI atď. Všetko z nezávislého indexu. Bez profilovania, predsudkov, veľkých tech firiem.",
+   "https://search.brave.com/"
   ],
   "currency":[
    "Spoločnosť na ochranu súkromia na internete, ktorá vám umožňuje bezproblémovo prevziať kontrolu nad svojimi osobnými údajmi online bez akýchkoľvek obmedzení.",
@@ -11779,14 +11531,7 @@
    "komunitná webová lokalita pre zdieľanie fotografií a videa",
    "wikidata"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
-  "google images":[
-   "vyhľadávacia služba",
-   "wikidata"
-  ],
+  "google images":"Google Image Search je vyhľadávacia služba, pomocou ktorej Google umožňuje užívateľom vyhľadávať na internete obrázky. Bola zverejnená v roku 2001 a existuje vo všetkých jazykových verziách, v ktorých je samotný vyhľadávač. Kľúčové slová pri hľadaní obrázkov sú založené na názve súboru, slovami, ktoré na daný obrázok odkazujú a textom, ktorý je na danej stránke pri obrázku. Pri vyhľadávaní sú zobrazené miniatúry obrázkov. Keď na niektorú kliknete, obrázok je zobrazený hore a nižšie je obsah stránky na ktorej sa obrázok nachádza. Je to jednoduchšie pretože takto môžete ľahšie zistiť z akej stránky daný obrázok pochádza.",
   "google news":[
    "Vyčerpávajúce a aktuálne spravodajstvo zozbierané službou Google News zo zdrojov správ z celého sveta.",
    "https://news.google.com"
@@ -11828,7 +11573,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -11843,6 +11588,7 @@
    "Objavte recepty, rady pre domácnosť, štýlové inšpirácie a ďalšie nápady, ktoré môžete vyskúšať.",
    "https://www.pinterest.com/"
   ],
+  "piratebay":"The Pirate Bay je webová stránka, ktorá patrí medzi najväčšie databázy torrentov na internete. Stránka je na 88. mieste najnavštevovanejších stránok na svete. Po skonfiškovaní serverov, ktoré sa 31. mája 2006 lokalizovali vo Švédsku, si TPB získala pozornosť švédskych a medzinárodných médií.",
   "reuters":[
    "spravodajská agentúra",
    "wikidata"
@@ -11923,10 +11669,7 @@
    "mnohojazyčný a otvorený webový projekt určený na vytvorenie slobodného úplného slovníka",
    "wikidata"
   ],
-  "youtube":[
-   "internetová databáza videí",
-   "wikidata"
-  ]
+  "youtube":"YouTube je internetová databáza videí, väčšinou krátkych. YouTube založil Chad Hurley v roku 2005 a v novembri 2006 ho odkúpila spoločnosť Google. V súčasnosti ide o najväčší svetový systém na zdieľanie video súborov na internete."
  },
  "sl":{
   "acfun":[
@@ -11936,18 +11679,6 @@
   "annas archive":[
    "agregator in iskalnik senčnih spletnih knjižničnih virov",
    "wikidata"
-  ],
-  "aol":[
-   "Programski jezik",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:sl",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:sl",
-   "ref"
   ],
   "arxiv":[
    "spletni repozitorij za prednatise znanstvenih objav",
@@ -11973,6 +11704,10 @@
    "Iščite s storitvijo Microsoft Bing in uporabite zmogljivost UI za iskanje informacij, raziskovanje spletnih strani, slik, videoposnetkov, zemljevidov in še več. Pametni mehanizem za iskanje za večne radovedneže.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Iščite in raziščite visokokakovostne, brezplačne fotografije in ozadja v storitvi Bing Images. Navdihnite in povzdignite svoje vizualne vsebine!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Svetovne novice ter nacionalni in lokalni viri novic, ki vam omogočajo pregled novic o športu, zabavi, poslovanju, politiki, vremenu in drugem.",
    "https://www.bing.com/news"
@@ -11985,7 +11720,7 @@
    "spletna gostiteljska storitev za projekte razvoja programske opreme",
    "wikidata"
   ],
-  "brave.images":[
+  "brave":[
    "Raziskujte splet. Zasebno. Res uporabni rezultati, pomoč AI in še več. Vse iz neodvisnega indeksa. Brez profiliranja, brez predsodkov, brez Velike tehnologije.",
    "https://search.brave.com/"
   ],
@@ -12040,10 +11775,6 @@
   "flickr":[
    "ameriško spletno mesto, ki gosti fotografije in videoposnetke",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "spletna storitev gostovanja za projekte razvoja programske opreme",
@@ -12142,7 +11873,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -12157,10 +11888,7 @@
    "discuss.python:sl",
    "ref"
   ],
-  "piratebay":[
-   "spletno mesto z datotekami torrent in magnetnimi povezavami",
-   "wikidata"
-  ],
+  "piratebay":"The Pirate Bay je spletni katalog digitalnih vsebin zabavnih medijev in programske opreme.. The Pirate Bay, ki ga je leta 2003 ustanovilo švedsko podjetje Piratbyrån, obiskovalcem omogoča iskanje, prenos in prispevanje magnetnih povezav in hudourniških datotek, kar olajša skupno rabo datotek med uporabniki protokola BitTorrent.",
   "pubmed":[
    "biomedicinska bibliografska podatkovna zbirka",
    "wikidata"
@@ -12225,27 +11953,12 @@
    "odprt spletni imenik vrst, ki ga lahko ureja vsakdo",
    "wikidata"
   ],
-  "youtube":[
-   "V YouTubu lahko uživate v videoposnetkih in glasbi, ki so vam všeč, nalagate izvirno vsebino ter delite vse s prijatelji, družino in svetom.",
-   "https://www.youtube.com/"
-  ]
+  "youtube":"YouTube je priljubljena spletna stran za izmenjavo videoposnetkov, kjer jih uporabniki lahko pregledujejo, komentirajo in ocenjujejo. Za komentiranje in ocenjevanje videoposnetkov je potrebna registracija, za pregledovanje pa ne. Izjema so posnetki, ki niso primerni za osebe, mlajše od 18 let. Uporabniki lahko nalagajo lastne posnetke ali tiste posnetke, za katere imajo dovoljenje avtorja, prepovedano pa je nalaganje posnetkov, ki vsebujejo pornografske vsebine, nasilje, kriminalna dejanja, psovke … YouTube si pridržuje pravico za brisanje, uporabo in spremembo naloženih vsebin."
  },
  "sr":{
   "1337x":[
    "веб страница која пружа директоријум торент датотека и магнетних веза",
    "wikidata"
-  ],
-  "aol":[
-   "објектно-оријентисан програмски језик",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:sr",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:sr",
-   "ref"
   ],
   "artic":[
    "музеј уметности и школа у Чикагу",
@@ -12259,6 +11972,10 @@
    "Претражујте уз Microsoft Bing и користите моћ вештачке интелигенције за проналажење информација, истраживање веб страница, слика, видео записа, мапа и још много тога. Паметан претраживач за вечно радознале.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Претражите и истражите високо квалитетне бесплатне фотографије и постере на Bing сликама. Инспиришите и побољшајте визуелне елементе!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Вести из светских, националних и локалних извора, организоване тако да добијате детаљне вести о спорту, забави, послу, политици, времену и о многим другим областима.",
    "https://www.bing.com/news"
@@ -12270,10 +11987,6 @@
   "dailymotion":[
    "сајт за видеостриминг",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "веб хостинг сервис за софтверске пројекте који користе Гит",
@@ -12320,7 +12033,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -12331,6 +12044,7 @@
    "веб-сајт за дељење и објављивање слика",
    "wikidata"
   ],
+  "piratebay":"najveći je svetski bittorent pretraživač. Osnovala ga je švedska antiautorska organizacija Piratbiron 2003. godine, ali već 2004. godine nastupaju kao odvojena organizacija. Istom trenutno rukovode Gotfrid Svartholm, Fredrik Nej i Peter Šunde. tragači na kojima mogu da se pronađu sadržaji poput muzike, kompjuterskih programa i sličnog su zaštićeni autorskim pravima pa su, s obzirom na to, ilegalni. Međutim, u Švedskoj se takvi tragači ne smatraju ilegalnim. Odatle je često na udarima organizacija za zaštitu autorskih prava.",
   "rottentomatoes":[
    "веб-сајт је која сакупља филмске критике, као и информације и вести о филмовима",
    "wikidata"
@@ -12411,10 +12125,7 @@
    "музички стриминг сервис Јандекса",
    "wikidata"
   ],
-  "youtube":[
-   "онлајн-платформа за дељење видео-снимака",
-   "wikidata"
-  ]
+  "youtube":"је амерички друштвени медиј за дељење видео-снимака чији је власник. Основан је 14. фебруара 2005. када су га покренула тројица бивших радника компаније. Седиште се налази у Сан Бруну. Данас је други најпосећенији веб-сајт, док је испред њега једино. Има скоро три милијарде активних корисника."
  },
  "sv":{
   "apple maps":[
@@ -12513,10 +12224,6 @@
    "pakethanterare som innehåller fri programvara samt open source för Android plattformen",
    "wikidata"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "github":[
    "webbhotell för programvaruutvecklingsprojekt",
    "wikidata"
@@ -12529,10 +12236,7 @@
    "internetsökmotor utvecklad av Google",
    "wikidata"
   ],
-  "google images":[
-   "Google Bilder. Den mest kompletta sökmotorn för bilder på nätet.",
-   "https://images.google.com"
-  ],
+  "google images":"Google Bilder är en söktjänst som tillåter användare att söka efter bilder på webben. Tjänsten ägs av Google och introducerades i juli 2001.",
   "google news":[
    "Omfattande uppdaterad nyhetsbevakning, som Google News har samlat från källor över hela världen.",
    "https://news.google.com"
@@ -12590,7 +12294,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -12605,9 +12309,22 @@
    "social nätverkstjänst",
    "wikidata"
   ],
-  "piratebay":[
-   "svensk trackersökmotor",
+  "piratebay":"The Pirate Bay, TPB, är en svensk trackersökmotor som grundades i Sverige 2003, vilken 2008 hade över 5 miljoner användare och indexerade över 10 miljoner torrent-filer. \"Trackern\" är en av världens största och en pionjär inom nätbaserad kopiering och spridning av digitalt material. The Pirate Bays logotyp föreställer ett piratskepp vars storsegel pryds av en variant av sjörövarflaggan Jolly Roger, i vilken dödskallen ersatts av ett kassettband. Symbolen kassettband och korsade ben användes under 1980-talet av musikindustrin i kampanjen Home Taping is Killing Music, och en variant används även av Piratbyrån. I december 2014 släcktes hemsidan ner efter en razzia av svenska polisen. Den 31 januari 2015 återkom sajten med en fågel Fenix som logga istället för ett piratskepp.",
+  "qwant":[
+   "söktjänst för webbläsare",
    "wikidata"
+  ],
+  "qwant images":[
+   "qwant:sv",
+   "ref"
+  ],
+  "qwant news":[
+   "qwant:sv",
+   "ref"
+  ],
+  "qwant videos":[
+   "qwant:sv",
+   "ref"
   ],
   "reddit":[
    "socialt nätverk och diskussionsportal",
@@ -12683,16 +12400,12 @@
   ]
  },
  "szl":{
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "nixos wiki":[
    "nixos wiki:bg",
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "wikipedia":[
@@ -12704,6 +12417,10 @@
   "bing":[
    "தகவல்களைக் கண்டறிய, வலைப்பக்கங்கள், படங்கள், வீடியோக்கள், வரைபடங்கள் மற்றும் பலவற்றை ஆராய, Microsoft Bing மூலம் தேடுங்கள் மற்றும் AI இன் சக்தியைப் பயன்படுத்துங்கள். எப்போதும் ஆர்வமுள்ளவர்களுக்கான ஒரு ஸ்மார்ட் தேடு பொறி.",
    "https://www.bing.com"
+  ],
+  "bing images":[
+   "Bing images-இல் உயர்தர, இலவச புகைப்படங்கள் மற்றும் வால்பேப்பர்களைத் தேடி ஆராயுங்கள். உங்கள் காட்சிகளை ஊக்குவித்து உயர்த்துங்கள்!",
+   "https://www.bing.com/images"
   ],
   "bing news":[
    "bing news:bn",
@@ -12727,10 +12444,6 @@
   ],
   "brave.videos":[
    "brave:ta",
-   "ref"
-  ],
-  "gentoo":[
-   "gentoo:en",
    "ref"
   ],
   "google":[
@@ -12762,7 +12475,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -12811,21 +12524,13 @@
   ]
  },
  "te":{
-  "aol":[
-   "ఒక ప్రోగ్రామింగ్ భాష",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:te",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:te",
-   "ref"
-  ],
   "bing":[
    "Microsoft Bing తో శోధించండి అలాగే సమాచారాన్ని వెతకడానికి, వెబ్ పేజీలు, చిత్రాలు, వీడియోలు, మ్యాప్‌లు ఇంకా మరెన్నో అంశాలను అన్వేషించడానికిగాను AI యొక్క శక్తిని ఉపయోగించండి. నిరంతర జిజ్ఞాసుల కోసం స్మార్ట్ శోధనా యంత్రం.",
    "https://www.bing.com"
+  ],
+  "bing images":[
+   "Bing చిత్రాలపై అధిక-నాణ్యత, ఉచిత ఫోటోలు మరియు వాల్పేపర్‌లను శోధించండి మరియు అన్వేషించండి. మీ విజువల్స్‌ను ప్రేరేపించండి మరియు ఎలివేట్ చేయండి!",
+   "https://www.bing.com/images"
   ],
   "bing news":[
    "bing news:bn",
@@ -12835,14 +12540,7 @@
    "తక్షణ ప్రివ్యూలు, ప్రత్యక్ష ప్లేబ్యాక్ మరియు స్మార్ట్ ఫిల్టర్ లతో YouTube, Vimeo మరియు మరిన్నింటితో సహా బహుళ వనరుల నుండి వీడియోలను కనుగొనడానికి మరియు చూడటానికి Bing వీడియో మీకు సహాయపడుతుంది.",
    "https://www.bing.com/videos"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
-  "google images":[
-   "Google Images. వెబ్లో విస్తృతమైన చిత్ర శోధన.",
-   "https://images.google.com"
-  ],
+  "google images":"గూగుల్ ఇమేజెస్ అనేది జి-సూట్ యాజమాన్యంలోని శోధన ఇంజిన్, ఇది వినియోగదారులు వరల్డ్ వైడ్ వెబ్లో చిత్రాల కోసం శోధించడానికి అనుమతిస్తుంది. ఫిబ్రవరి 2000లో ధరించిన జెన్నిఫర్ లోపెజ్ ఆకుపచ్చ వెర్సేస్ దుస్తుల చిత్రాలకు డిమాండ్ కారణంగా ఇది జూలై 12, 2001న ప్రవేశపెట్టబడింది. 2011లో, గ్సూట్ ఇమేజ్ సెర్చ్ కార్యాచరణ జోడించబడింది.",
   "google news":[
    "గూగుల్ ద్వారా అభివృద్ధి చేయబడిన వార్తల అగ్రిగేటర్ సేవ.",
    "wikidata"
@@ -12868,7 +12566,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -12929,6 +12627,10 @@
    "ค้นหาด้วย Microsoft Bing และใช้พลังของ AI เพื่อค้นหาข้อมูล สํารวจเว็บเพจ รูปภาพ วิดีโอ แผนที่ และอื่นๆ โปรแกรมค้นหาอัจฉริยะสําหรับความอยากรู้อยากเห็นตลอดไป",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "ค้นหาและสํารวจรูปถ่ายและรูปพื้นหลังคุณภาพสูงฟรีบน Bing Images สร้างแรงบันดาลใจและยกระดับวิชวลของคุณ!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "ข่าวสารจากแหล่งข่าวทั่วโลก ในประเทศและท้องถิ่น เพื่อนำข่าวเชิงลึกที่ครอบคลุมทั้งข่าวกีฬา บันเทิง ธุรกิจ การเมือง การพยากรณ์อากาศ และอื่นๆ อีกมากมายมาให้คุณ",
    "https://www.bing.com/news"
@@ -12937,13 +12639,9 @@
    "Bing Video ช่วยให้คุณค้นพบและดูวิดีโอจากหลายแหล่ง รวมถึง YouTube, Vimeo และอื่นๆ พร้อมด้วยการดูตัวอย่างทันที การเล่นโดยตรง และตัวกรองอัจฉริยะ",
    "https://www.bing.com/videos"
   ],
-  "brave.images":[
+  "brave":[
    "ค้นหาเว็บแบบเป็นส่วนตัว รับผลลัพธ์ที่ประโยชน์และขับเคลื่อนด้วย AI และอื่น ๆ มากมาย ทั้งหมดนี้มาจากดัชนีอิสระ ไม่วิเคราะห์ ไม่มีอคติ ไม่พึ่งเทคโนโลยียักษ์ใหญ่",
    "https://search.brave.com/"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "google images":[
    "Google Photos การค้นหารูปภาพที่ครอบคลุมที่สุดบนเว็บ",
@@ -12978,7 +12676,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -13038,18 +12736,6 @@
   "annas archive":[
    "saklı kütüphane arama motoru",
    "wikidata"
-  ],
-  "aol":[
-   "bir programlama dili",
-   "wikidata"
-  ],
-  "aol images":[
-   "aol:tr",
-   "ref"
-  ],
-  "aol videos":[
-   "aol:tr",
-   "ref"
   ],
   "apple app store":[
    "IOS işletim sistemine sahip cihazların yerleşik oyun ve uygulama mağazası",
@@ -13151,10 +12837,6 @@
    "Açık kaynak Kodlu Dijital Dağıtım Servisi",
    "wikidata"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "github":[
    "Git kullanan web servisi",
    "wikidata"
@@ -13171,10 +12853,7 @@
    "Larry Page ve Sergey Brin tarafından geliştirilen internet arama motoru",
    "wikidata"
   ],
-  "google images":[
-   "Görsel aramalarını kolaylaştıran bir arama motoru.",
-   "wikidata"
-  ],
+  "google images":"Google Görseller, Google'ın Aralık 2001'de hizmete aldığı, kullanıcıların her türlü ve boyda görsel aramalarını kolaylaştıran arama motoru. Bu hizmetin hazırlanmasında Jennifer Lopez'in 2000 Grammy Ödülleri'nde giydiği elbisenin de etkisi olmuştur.",
   "google news":[
    "Eylül 2002'de hizmete sunulmuş Google servisi",
    "wikidata"
@@ -13260,7 +12939,7 @@
    "ref"
   ],
   "openlibrary":[
-   "Open Library is an open, editable library catalog, building towards a web page for every book ever published. Read, borrow, and discover more than 3M books for free.",
+   "Open Library, yayımlanmış her kitap için bir web sayfası oluşturmayı hedefleyen açık ve düzenlenebilir bir kütüphane kataloğudur. 3 milyondan fazla kitabı ücretsiz okuyun, ödünç alın ve keşfedin.",
    "https://openlibrary.org"
   ],
   "openstreetmap":[
@@ -13389,6 +13068,10 @@
    "Microsoft Bing ярдәмендә эзләгез һәм мәгълүмат табу, веб-битләрне, рәсемнәрне, видеоларны, карталарны һәм башкаларны күзәтү өчен ЯИ мөмкинлекләрен кулланыгыз. Мәңге кызыксынучылар өчен акыллы эзләгеч.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Bing Images’да югары сыйфатлы, бушлай фоторәсемнәр һәм обойлар эзләгез һәм аларны күзәтегез. Илһамланыгыз һәм рәсемнәрегезне яхшыртыгыз!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Спорт, күңел ачу чаралары, эш, сәясәт, һава торышы һәм башкалар турында тулы белешмә бирү өчен оештырылган дөньякүләм, милли һәм урынлы чыганаклардан яңалыклар алыгыз.",
    "https://www.bing.com/news"
@@ -13396,10 +13079,6 @@
   "bing videos":[
    "Bing Видео YouTube, Vimeo һәм башка чыганаклардан тиз карап алу, туры эфир һәм акыллы фильтр мөмкинлекләре ярдәмендә видеоларны табарга һәм карарга ярдәм итә.",
    "https://www.bing.com/videos"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "IT-проектлар урнаштыру һәм бергә эшләү өчен иң зур веб-сервис",
@@ -13414,7 +13093,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -13484,7 +13163,7 @@
    "wikidata"
   ],
   "aol":[
-   "мова програмування загального призначення",
+   "Американський інтернет-портал",
    "wikidata"
   ],
   "aol images":[
@@ -13543,10 +13222,6 @@
    "На сторінці \"Відео\" в Bing можна шукати й дивитися відео з різних джерел, зокрема YouTube, Vimeo тощо. Тут також доступні розумні фільтри, миттєвий попередній перегляд і відтворення.",
    "https://www.bing.com/videos"
   ],
-  "brave.images":[
-   "Користуйтеся пошуком конфіденційно. Справді корисні результати, відповіді на базі ШІ та інше. Незалежний індекс: без профілювання, упередженості та корпорацій.",
-   "https://search.brave.com/"
-  ],
   "crossref":[
    "офіційне агентство, яке реєструє посилання DOI",
    "wikidata"
@@ -13590,10 +13265,6 @@
   "genius":[
    "американський вебсайт",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "один з найбільших вебсервісів для спільної розробки програмного забезпечення",
@@ -13825,6 +13496,10 @@
   ]
  },
  "vi":{
+  "annas archive":[
+   "máy truy tìm dữ liệu và thư viện bóng tối",
+   "wikidata"
+  ],
   "apple app store":[
    "nền tảng phân phối các nội dung số dành cho iOS",
    "wikidata"
@@ -13849,6 +13524,10 @@
    "Tìm kiếm bằng Microsoft Bing và sử dụng sức mạnh của AI để tìm thông tin, khám phá các trang web, hình ảnh, video, bản đồ, v.v. Một công cụ tìm kiếm thông minh dành cho những người luôn tò mò.",
    "https://www.bing.com"
   ],
+  "bing images":[
+   "Tìm kiếm và khám phá ảnh và hình nền miễn phí, chất lượng cao trên Bing Images. Truyền cảm hứng và nâng cao hình ảnh của bạn!",
+   "https://www.bing.com/images"
+  ],
   "bing news":[
    "Tin tức từ nguồn tin tức thế giới, quốc gia và địa phương, được tổ chức để cung cấp cho bạn tin tức chuyên sâu về thể thao, giải trí, kinh doanh, chính trị, thời tiết và nhiều nội dung khác.",
    "https://www.bing.com/news"
@@ -13856,10 +13535,6 @@
   "bing videos":[
    "Bing Video giúp bạn khám phá và xem video từ nhiều nguồn bao gồm YouTube, Vimeo, v.v., với tính năng xem trước tức thì, phát lại trực tiếp và bộ lọc thông minh.",
    "https://www.bing.com/videos"
-  ],
-  "brave.images":[
-   "Tìm kiếm web. Riêng tư. Kết quả hữu ích, câu trả lời do AI cung cấp, v.v. Tất cả từ chỉ mục độc lập. Không ghi dữ liệu cá nhân, không thiên vị, không Big Tech.",
-   "https://search.brave.com/"
   ],
   "etymonline":[
    "Từ điển từ nguyên tiếng Anh trực tuyến",
@@ -13872,10 +13547,6 @@
   "genius":[
    "công ty truyền thông kỹ thuật số của Mỹ",
    "wikidata"
-  ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
   ],
   "github":[
    "dịch vụ lưu trữ dành cho các dự án phần mềm sử dụng Git",
@@ -13900,6 +13571,10 @@
   "google play movies":[
    "google play apps:vi",
    "ref"
+  ],
+  "library genesis":[
+   "máy truy tìm dữ liệu bài báo khoa học và sách",
+   "wikidata"
   ],
   "mastodon hashtags":[
    "mastodon users:vi",
@@ -13934,7 +13609,7 @@
    "ref"
   ],
   "openlibrary":[
-   "openlibrary:tr",
+   "openlibrary:af",
    "ref"
   ],
   "openstreetmap":[
@@ -14031,6 +13706,7 @@
    "Android 平台上的自由开源软件的仓库",
    "wikidata"
   ],
+  "google images":"Google图片搜索是Google公司於2001年7月推出的图片搜索服務。Google Chrome及Firefox提供擴充功能搜索網絡圖像。",
   "imdb":[
    "收錄影片及電影從業人員 (演員、導演、編劇等) 的網路資料庫",
    "wikidata"
@@ -14040,6 +13716,10 @@
   "bing":[
    "使用 Microsoft Bing 搜尋，並使用 AI 的功能來尋找資訊、探索網頁、影像、影片、地圖等等。適合永遠感到好奇的人員的智慧型搜尋引擎。",
    "https://www.bing.com"
+  ],
+  "bing images":[
+   "在 Bing 影像上搜尋和探索高品質、免費的照片和桌布。激發靈感，並提升您的視覺效果!",
+   "https://www.bing.com/images"
   ],
   "bing videos":[
    "Bing 影片可立即預覽、直接播放和智慧篩選，説明您探索和觀看來自多個來源 (包括 YouTube、Vimeo 等) 的影片。",
@@ -14053,13 +13733,9 @@
    "fdroid:zh-HK",
    "ref"
   ],
-  "gentoo":[
-   "gentoo:en",
-   "ref"
-  ],
   "google images":[
-   "Google 圖片 - 網上最全面的圖片搜尋服務。",
-   "https://images.google.com"
+   "google images:zh-HK",
+   "ref"
   ],
   "google play apps":[
    "您可以随时随地在自己的各种设备上畅享数百万最新的 Android 应用、游戏、音乐、电影、电视节目、图书、杂志等精彩内容。",
@@ -14117,6 +13793,10 @@
   ],
   "fdroid":[
    "fdroid:zh-HK",
+   "ref"
+  ],
+  "google images":[
+   "google images:zh-HK",
    "ref"
   ],
   "imdb":[
